@@ -5,15 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class SceneHandler : MonoBehaviour {
 
+	public static SceneHandler SceneInstance; 
+
+	public Canvas mainMenuCanvas;
 	public Canvas quitSubMenu;
 	public Button PlayText;
 	public Button ExitText;
+	public Button YesText;
+	public Button NoText;
 	public PickKiller pickKiller;
 	//public GUIManager guiManager;
 	public int killerID;
 
 	public Button queCharactersText;
 	public Button evidenceText;
+	public Button backToGameText;
 	public Button quitGameText;
 	public Button backToInfoText;
 
@@ -33,16 +39,26 @@ public class SceneHandler : MonoBehaviour {
 	//public PickKiller pickKillerObj;
 	//public int killerID;
 
-	// Use this for initialization
-	void Start () {
 
+	void Awake(){
+		if(SceneInstance != null){
+			GameObject.Destroy(gameObject);
+		}
+		else{
+			GameObject.DontDestroyOnLoad(gameObject);
+			SceneInstance = this; 
+		}
+	}
+	void Start () {
+		mainMenuCanvas = mainMenuCanvas.GetComponent<Canvas> (); 
+		killerID = pickKiller.pickKillerRand();
 		quitSubMenu = quitSubMenu.GetComponent<Canvas> (); //drop the subMenuCanvas to Unity
 		PlayText = PlayText.GetComponent<Button>();
 		ExitText = ExitText.GetComponent<Button>();
-		quitSubMenu.enabled = false; //Exit button isn't pressed @ start of game
+		YesText = YesText.GetComponent<Button>();
+	 	NoText = NoText.GetComponent<Button>();
 		//initialize my pickKiller object
 		//pickKiller = pickKiller.GetComponent<PickKiller>();
-		killerID = pickKiller.pickKillerRand();
 
 		//initialize sceneHandler object
 		//sceneHandler = sceneHandler.GetComponent<SceneHandler>();
@@ -50,15 +66,17 @@ public class SceneHandler : MonoBehaviour {
 		charactersCanvas = charactersCanvas.GetComponent<Canvas> (); //drop the charactersCanvas to Unity
 		evidenceCanvas = evidenceCanvas.GetComponent<Canvas> (); //drop the evidenceCanvas to Unity
 		
-		infoMainMenuCavas.enabled = true; //this is true by default, but just incase
+
+		quitSubMenu.enabled = false; //Exit button isn't pressed @ start of game
+		infoMainMenuCavas.enabled = false; //this is true by default, but just incase
 		//initial sub menus are NOT enabled until clicked on
 		charactersCanvas.enabled = false; //Exit button isn't pressed @ start of game
 		evidenceCanvas.enabled = false;		
 		//sub menu buttons
 		queCharactersText = queCharactersText.GetComponent<Button>();
 		evidenceText = evidenceText.GetComponent<Button>();
+		backToGameText = backToGameText.GetComponent<Button>();
 		quitGameText = quitGameText.GetComponent<Button>();
-
 		backToInfoText = backToInfoText.GetComponent<Button>();
 
 		//pickKillerObj = GameObject.Find("PickKillerEmpty").gameObject.GetComponent<PickKiller>();
@@ -67,7 +85,14 @@ public class SceneHandler : MonoBehaviour {
 		//Debug.Log(killerID);
 	}
 	
-	
+	void Update () {
+		if(Input.GetKeyDown(KeyCode.Escape)){
+			backToPauseMenu();
+		}
+		Debug.Log("Escape Key Pressed!");
+		Debug.Log ("randomized Killer: ");
+		Debug.Log(killerID);
+	}
 	//=================Methods related to Main Pause Canvas ==============================//
 	
 	public void QuesCharactersTextButtPressed(){
@@ -90,22 +115,31 @@ public class SceneHandler : MonoBehaviour {
 		evidenceText.enabled = false;
 		quitGameText.enabled = false;
 	}
-	
-	public void quitGameTextButtPressed(){
-		//sceneHandler.ExitTextPressed();
-	}
-
 
 	//reroute users back to info GUI
-	public void backButtonPressed(){
+	public void backToPauseMenu(){
 		infoMainMenuCavas.enabled = true;
-
 		charactersCanvas.enabled = false;
 		evidenceCanvas.enabled = false;
 
 		queCharactersText.enabled = true;
 		evidenceText.enabled = true;
+		backToGameText.enabled = true;
 		quitGameText.enabled = true;
+	}
+	public void backToMainMenu(){
+		mainMenuCanvas.enabled = true;
+		PlayText.enabled = true;
+		ExitText.enabled = true; 
+
+		infoMainMenuCavas.enabled = false;
+		charactersCanvas.enabled = false;
+		evidenceCanvas.enabled = false;
+
+		queCharactersText.enabled = false;
+		evidenceText.enabled = false;
+		backToGameText.enabled = false;
+		quitGameText.enabled = false;
 	}
 	//=================Methods specifically related to Characters GUI ========================//
 	
@@ -115,21 +149,33 @@ public class SceneHandler : MonoBehaviour {
 
 	//=================Methods specifically related to Dialogue GUI ========================//
 
+	public void backToGameTextPressed(){
+		infoMainMenuCavas.enabled = false; 
+		infoMainMenuCavas.enabled = false;
+		charactersCanvas.enabled = false;
+		evidenceCanvas.enabled = false;
 
+		queCharactersText.enabled = false;
+		evidenceText.enabled = false;
+		quitGameText.enabled = false;
+	}
 	public void ExitTextPressed(){
 		//activate the quit sub menu
 		quitSubMenu.enabled = true;
+		YesText.enabled = true;
+		NoText.enabled = true;
+
 		//disable all main menu buttons when quit sub menu is enabled.
-		PlayText.enabled = false;
-		ExitText.enabled = false;
+		//PlayText.enabled = false;
+		//ExitText.enabled = false;
 	}
 
 	public void NoPressedOnQuitMenu(){
 		//deactivate the quit sub menu
 		quitSubMenu.enabled = false;
 		//reactivate all main menu buttons when quit sub menu is not enabled.
-		PlayText.enabled = true;
-		ExitText.enabled = true;	
+		//PlayText.enabled = true;
+		//ExitText.enabled = true;	
 	}
 	public void loadInitScene(string sceneIdentifier){
 		//call pickKiller function before loading any game play scene
@@ -139,7 +185,7 @@ public class SceneHandler : MonoBehaviour {
 		Debug.Log(killerID);	
 	}
 	public void optionsClicked(){
-		SceneManager.LoadScene("pauseMenuScene");
+
 	}
 	public void ExitGame(){
 		Application.Quit ();// actually exiting the game

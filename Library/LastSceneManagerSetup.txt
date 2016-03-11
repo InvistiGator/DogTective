@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scenes/pauseMenuScene.unity
+- path: Assets/scenes/mainMenuScene.unity
   isLoaded: 1
   isActive: 1

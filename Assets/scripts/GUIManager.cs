@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class GUIManager : MonoBehaviour {
 
 	//public GameObject sceneHandler;//so we can call & use methods from SceneHandler
+	static GUIManager Instance; 
 
 	public Button queCharactersText;
 	public Button evidenceText;
@@ -30,6 +31,13 @@ public class GUIManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+		if(Instance != null){
+			GameObject.Destroy(gameObject);
+		}
+		else{
+			GameObject.DontDestroyOnLoad(gameObject);
+			Instance = this; 
+		}
 		//initialize sceneHandler object
 		//sceneHandler = sceneHandler.GetComponent<SceneHandler>();
 		//sceneHandler= GameObject.Find("SceneHandler").gameObject.GetComponent<GameObject>();
@@ -55,7 +63,9 @@ public class GUIManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if(Input.GetKeyUp(KeyCode.Escape)){
+			backButtonPressed();
+		}
 	}
 	//=================Methods related to Main Pause Canvas ==============================//
 	

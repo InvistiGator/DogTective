@@ -4,8 +4,19 @@ using System.Collections;
 public class PickKiller : MonoBehaviour {
 
 	static public int randomizedKiller;
+	static PickKiller killerInstance; 
 
 
+	void Start(){
+		if(killerInstance != null){
+			GameObject.Destroy(gameObject);
+		}
+		else{
+			GameObject.DontDestroyOnLoad(gameObject);
+			killerInstance = this; 
+		}
+
+	}
 	//the actual meto to pick the killer
 	public int pickKillerRand(){
 	//Random rnd = new Random();
