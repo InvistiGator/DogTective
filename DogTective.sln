@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{A3A65D29-51B9-755E-FED5-752916AB36DF}") = "DogTective", "Assembly-CSharp.csproj", "{B9B2475E-D1CB-2CB1-2A32-4ACA6EBBEA23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9B2475E-D1CB-2CB1-2A32-4ACA6EBBEA23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B2475E-D1CB-2CB1-2A32-4ACA6EBBEA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B2475E-D1CB-2CB1-2A32-4ACA6EBBEA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B2475E-D1CB-2CB1-2A32-4ACA6EBBEA23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

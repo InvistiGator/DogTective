@@ -18,6 +18,7 @@ public class SceneHandler : MonoBehaviour {
 	public int killerID;
 
 	public Button queCharactersText;
+	public Text characterBio = null; //initial character bio is set to null if user didn't click on anything
 	public Button evidenceText;
 	public Button backToGameText;
 	public Button quitGameText;
@@ -29,7 +30,7 @@ public class SceneHandler : MonoBehaviour {
 
 	public Image [] CollectedEvidence;
 	public Button [] QuestionalbleCharacters;
-	public Text [] CharacterBio;
+	//public Text [] CharacterBio;
 
 	//Scene Selection GUI after scene 4
 	//Dialogue GUI related
@@ -142,7 +143,39 @@ public class SceneHandler : MonoBehaviour {
 		quitGameText.enabled = false;
 	}
 	//=================Methods specifically related to Characters GUI ========================//
-	
+	public void characterBio_Doug(){
+		characterBio.text = "This is the text field for Doug, insert random  hadfkadfjadjfajdf dfajdlfjadfjadfj  ajdfjaldfladjflajf; lkajdfjaldfjadjf;adjfjsdf; a lkjdfkajdfkasd fajdfladf asdf ahadfafjdfja ajfajfajkfajdfjadkfj adI wonder how this works, does it just over flow? can it next line?this is the beginning of the next line..." ;
+	}
+
+	public void characterBio_Norm(){
+		characterBio.text = "This is the text field for Norm, I wonder how this works, does it just over flow? can it next line?this is the beginning of the next line..." ;
+
+	}
+
+	public void characterBio_Jade(){
+		characterBio.text = "This is the text field for Jade, I wonder how this works, does it just over flow? can it next line?this is the beginning of the next line..." ;
+		
+	}
+
+	public void characterBio_Damina(){
+		characterBio.text = "This is the text field for Damina, I wonder how this works, does it just over flow? can it next line?this is the beginning of the next line.." ;
+
+	}
+
+	public void characterBio_Goldie(){
+		characterBio.text = "This is the text field for Goldie, I wonder how this works, does it just over flow? can it next line?this is the beginning of the next line..." ;
+
+	}
+
+	public void characterBio_Morgan(){
+		characterBio.text = "This is the text field for Morgan, I wonder how this works, does it just over flow? can it next line?this is the beginning of the next line..." ;
+		
+	}
+
+	public void characterBio_Tom(){
+		characterBio.text = "This is the text field for Tom, I wonder how this works, does it just over flow? can it next line?this is the beginning of the next line..." ;
+
+	}
 
 	//=================Methods specifically related to Evidence GUI ========================//
 
