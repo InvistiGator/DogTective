@@ -11,9 +11,9 @@ public class scene1Dialogue : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		dialogue = new string[3];
-		dialogue[0] = "this is the first convo";
-		dialogue[1] = "this is the second convo....";
-		dialogue[2] = "this is the third convo....";
+		dialogue[0] = "???: On that day - the day that would signal the start of my greatest case yet - I had been sitting in my dark office for a long while.";
+		dialogue[1] = "???: It’d been some time since I’d last gotten any sort of work, and even longer since I last caught a whiff of anything big.";
+		dialogue[2] = "???: All of that would soon change when that day brought me the biggest case of my career.";
 
 		displayedDialogue_Scene1.text = dialogue[0];
 		i = 1;
