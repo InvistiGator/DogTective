@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 public class SceneHandler : MonoBehaviour {
 
 	public static SceneHandler SceneInstance; 
+	public PickKiller pickKiller;
+	public int killerID;
+	public bool [] userVisited;
+
 
 	public Canvas mainMenuCanvas;
 	public Canvas quitSubMenu;
@@ -13,9 +17,7 @@ public class SceneHandler : MonoBehaviour {
 	public Button ExitText;
 	public Button YesText;
 	public Button NoText;
-	public PickKiller pickKiller;
-	//public GUIManager guiManager;
-	public int killerID;
+
 
 	public Button queCharactersText;
 	public Text characterBio = null; //initial character bio is set to null if user didn't click on anything
@@ -29,6 +31,10 @@ public class SceneHandler : MonoBehaviour {
 	public Canvas evidenceCanvas;
 
 	public Image [] CollectedEvidence;
+	public string [] CollectedEvidenceString;
+	public Sprite SpriteTemp;
+	//public int maxEvidenceNum;
+
 	public Button [] QuestionalbleCharacters;
 	//public Text [] CharacterBio;
 
@@ -49,10 +55,21 @@ public class SceneHandler : MonoBehaviour {
 			GameObject.DontDestroyOnLoad(gameObject);
 			SceneInstance = this; 
 		}
+
+		killerID = pickKiller.pickKillerRand();
+
 	}
 	void Start () {
+		userVisited = new bool [20]; 
+		//maxEvidenceNum = 10;
+		//CollectedEvidence = new Image [maxEvidenceNum];
+		for(int i = 0; i< CollectedEvidence.Length; i++){
+			CollectedEvidence[i] = CollectedEvidence[i].GetComponent<Image>();
+		}
+		CollectedEvidenceString = new string [CollectedEvidence.Length];
+		SpriteTemp =  GetComponent<Sprite>();
+		//initiate some GUI stuff
 		mainMenuCanvas = mainMenuCanvas.GetComponent<Canvas> (); 
-		killerID = pickKiller.pickKillerRand();
 		quitSubMenu = quitSubMenu.GetComponent<Canvas> (); //drop the subMenuCanvas to Unity
 		PlayText = PlayText.GetComponent<Button>();
 		ExitText = ExitText.GetComponent<Button>();
@@ -87,10 +104,14 @@ public class SceneHandler : MonoBehaviour {
 	}
 	
 	void Update () {
+		
 		if(Input.GetKeyDown(KeyCode.Escape)){
+			Debug.Log("Escape Key Pressed!");
 			backToPauseMenu();
 		}
-		Debug.Log("Escape Key Pressed!");
+		
+	}
+	public void printCurrentKillerID(){
 		Debug.Log ("randomized Killer: ");
 		Debug.Log(killerID);
 	}
@@ -142,6 +163,60 @@ public class SceneHandler : MonoBehaviour {
 		backToGameText.enabled = false;
 		quitGameText.enabled = false;
 	}
+
+	public void backToGameTextPressed(){
+		infoMainMenuCavas.enabled = false; 
+		infoMainMenuCavas.enabled = false;
+		charactersCanvas.enabled = false;
+		evidenceCanvas.enabled = false;
+
+		queCharactersText.enabled = false;
+		evidenceText.enabled = false;
+		quitGameText.enabled = false;
+	}
+	public void ExitTextPressed(){
+		//activate the quit sub menu
+		quitSubMenu.enabled = true;
+		YesText.enabled = true;
+		NoText.enabled = true;
+
+		//disable all main menu buttons when quit sub menu is enabled.
+		//PlayText.enabled = false;
+		//ExitText.enabled = false;
+	}
+
+	public void NoPressedOnQuitMenu(){
+		//deactivate the quit sub menu
+		quitSubMenu.enabled = false;
+		//reactivate all main menu buttons when quit sub menu is not enabled.
+		//PlayText.enabled = true;
+		//ExitText.enabled = true;	
+	}
+	public void loadInitScene(string sceneIdentifier){
+		//call pickKiller function before loading any game play scene
+		//killerID = pickKiller.pickKillerRand();
+		SceneManager.LoadScene(sceneIdentifier);
+		Debug.Log ("randomized Killer Init: ");
+		Debug.Log(killerID);	
+	}
+	public void optionsClicked(){
+
+	}
+	public void ExitGame(){
+		Application.Quit ();// actually exiting the game
+	}
+
+
+	//=========NONE GUI related stuff ========== //
+	public void setUserVisited(int sceneNum){
+		//int sceneNum = int.Parse(SceneManager.GetActiveScene().name);
+		userVisited[sceneNum] = true;
+		
+		Debug.Log("Current Scene Name: ");
+		Debug.Log(SceneManager.GetActiveScene().name);
+		Debug.Log(userVisited[sceneNum]);
+	}
+
 	//=================Methods specifically related to Characters GUI ========================//
 	public void characterBio_Doug(){
 		characterBio.text = "This is the text field for Doug, insert random  hadfkadfjadjfajdf dfajdlfjadfjadfj  ajdfjaldfladjflajf; lkajdfjaldfjadjf;adjfjsdf; a lkjdfkajdfkasd fajdfladf asdf ahadfafjdfja ajfajfajkfajdfjadkfj adI wonder how this works, does it just over flow? can it next line?this is the beginning of the next line..." ;
@@ -176,51 +251,23 @@ public class SceneHandler : MonoBehaviour {
 		characterBio.text = "This is the text field for Tom, I wonder how this works, does it just over flow? can it next line?this is the beginning of the next line..." ;
 
 	}
+//=================Methods specifically related to Evidence GUI ========================//
+	public void setEvidenceCollected(string name, int srcScene){
+		CollectedEvidenceString[srcScene-1] = name; 
+		//CollectedEvidence[srcScene-1].GetComponent<Image>().sprite =  Resources.Load<Sprite>("Evidence/" + name);
 
-	//=================Methods specifically related to Evidence GUI ========================//
+		SpriteTemp = Resources.Load <Sprite>("Evidence/" + name) as Sprite;
+		
 
+		CollectedEvidence[srcScene-1].GetComponent<Image>().sprite = SpriteTemp;
+		Debug.Log("CollectedEvidence string [] : ");
+		Debug.Log(CollectedEvidenceString[srcScene-1]);
 
-	//=================Methods specifically related to Dialogue GUI ========================//
-
-	public void backToGameTextPressed(){
-		infoMainMenuCavas.enabled = false; 
-		infoMainMenuCavas.enabled = false;
-		charactersCanvas.enabled = false;
-		evidenceCanvas.enabled = false;
-
-		queCharactersText.enabled = false;
-		evidenceText.enabled = false;
-		quitGameText.enabled = false;
-	}
-	public void ExitTextPressed(){
-		//activate the quit sub menu
-		quitSubMenu.enabled = true;
-		YesText.enabled = true;
-		NoText.enabled = true;
-
-		//disable all main menu buttons when quit sub menu is enabled.
-		//PlayText.enabled = false;
-		//ExitText.enabled = false;
+		Debug.Log("Evidence/" + name);
 	}
 
-	public void NoPressedOnQuitMenu(){
-		//deactivate the quit sub menu
-		quitSubMenu.enabled = false;
-		//reactivate all main menu buttons when quit sub menu is not enabled.
-		//PlayText.enabled = true;
-		//ExitText.enabled = true;	
-	}
-	public void loadInitScene(string sceneIdentifier){
-		//call pickKiller function before loading any game play scene
-		//killerID = pickKiller.pickKillerRand();
-		SceneManager.LoadScene(sceneIdentifier);
-		Debug.Log ("randomized Killer: ");
-		Debug.Log(killerID);	
-	}
-	public void optionsClicked(){
 
-	}
-	public void ExitGame(){
-		Application.Quit ();// actually exiting the game
-	}
+	
+
+
 }
