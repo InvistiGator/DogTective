@@ -256,7 +256,7 @@ public class SceneHandler : MonoBehaviour {
 		CollectedEvidenceString[srcScene-1] = name; 
 		//CollectedEvidence[srcScene-1].GetComponent<Image>().sprite =  Resources.Load<Sprite>("Evidence/" + name);
 
-		SpriteTemp = Resources.Load <Sprite>("Evidence/" + name) as Sprite;
+		SpriteTemp = Resources.Load <Sprite>("../Evidence/" + name) as Sprite;
 		
 
 		CollectedEvidence[srcScene-1].GetComponent<Image>().sprite = SpriteTemp;
@@ -265,9 +265,5 @@ public class SceneHandler : MonoBehaviour {
 
 		Debug.Log("Evidence/" + name);
 	}
-
-
-	
-
 
 }
