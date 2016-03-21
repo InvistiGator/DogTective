@@ -1,5 +1,9 @@
 using System;
 using UnityEngine;
+using UnityEditor; 
+using UnityEngine.UI;
+using System.Collections;
+using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 
 namespace UnityStandardAssets.Characters.ThirdPerson
@@ -13,7 +17,16 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_Move;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
 
+        public GameObject SceneHandlerObj;
+        public SceneHandler sceneManagerScript;
         
+    
+        void Awake(){
+            //finds the empty gameobject associated with sceneHandler
+            SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
+            //finds the script that is attached to the above gameobject
+            sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+        }
         private void Start()
         {
             // get the transform of the main camera
@@ -70,6 +83,14 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             // pass all parameters to the character control script
             m_Character.Move(m_Move, crouch, m_Jump);
             m_Jump = false;
+        }
+
+        void OnTriggerEnter(Collider evidence){
+            if(evidence.gameObject.CompareTag("Evidence")){
+                sceneManagerScript.setEvidenceCollected(evidence.gameObject.name,3);
+                evidence.gameObject.SetActive (false);
+                 //Destroy(evidence.gameObject);
+            }
         }
     }
 }
