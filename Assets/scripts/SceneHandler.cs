@@ -10,6 +10,8 @@ public class SceneHandler : MonoBehaviour {
 	public int killerID;
 	public bool [] userVisited;
 
+	//public Color color; 
+
 
 	public Canvas mainMenuCanvas;
 	public Canvas quitSubMenu;
@@ -33,7 +35,7 @@ public class SceneHandler : MonoBehaviour {
 
 	public Image [] CollectedEvidence;
 	public string [] CollectedEvidenceString;
-	public Sprite SpriteTemp;
+	//public Sprite SpriteTemp;
 	//public int maxEvidenceNum;
 
 	public Button [] QuestionalbleCharacters;
@@ -68,7 +70,7 @@ public class SceneHandler : MonoBehaviour {
 			CollectedEvidence[i] = CollectedEvidence[i].GetComponent<Image>();
 		}
 		CollectedEvidenceString = new string [CollectedEvidence.Length];
-		SpriteTemp =  GetComponent<Sprite>();
+		//SpriteTemp =  gameObject.GetComponent<"Sprite">;
 		//initiate some GUI stuff
 		mainMenuCanvas = mainMenuCanvas.GetComponent<Canvas> (); 
 		quitSubMenu = quitSubMenu.GetComponent<Canvas> (); //drop the subMenuCanvas to Unity
@@ -266,17 +268,22 @@ public class SceneHandler : MonoBehaviour {
 
 //=================Methods specifically related to Evidence GUI ========================//
 	public void setEvidenceCollected(string name, int srcScene){
-		CollectedEvidenceString[srcScene-1] = name; 
-		//CollectedEvidence[srcScene-1].GetComponent<Image>().sprite =  Resources.Load<Sprite>("Evidence/" + name);
-
-		SpriteTemp = Resources.Load <Sprite>("../Evidence/" + name) as Sprite;
 		
+		//CollectedEvidence[srcScene-1].GetComponent<Image>().sprite =  Resources.Load<Sprite>("Evidence/" + name);
+		//SpriteTemp = Resources.Load <Sprite>(name) as Sprite;
+		//CollectedEvidence[srcScene-1].GetComponent<Image>().sprite = SpriteTemp;
 
-		CollectedEvidence[srcScene-1].GetComponent<Image>().sprite = SpriteTemp;
+
+		CollectedEvidenceString[srcScene-1] = name; 
+		Color temp = CollectedEvidence[srcScene-1].color;
+		temp.a = 1.0f;
+		CollectedEvidence[srcScene-1].color = temp;
+
 		Debug.Log("CollectedEvidence string [] : ");
 		Debug.Log(CollectedEvidenceString[srcScene-1]);
-
 		Debug.Log("Evidence/" + name);
+
+		//Debug.Log(SpriteTemp.ToString());
 	}
 
 }
