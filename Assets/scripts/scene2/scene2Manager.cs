@@ -25,7 +25,7 @@ public class scene2Manager : MonoBehaviour {
 		scene2ManagerScript.printCurrentKillerID();
 		iwithEvidence = 0;
 		dialogue = new string[maxDialogueLength];
-		dialogue[0] = "this is the first convo";
+		dialogue[0] = "this is the first convo of scene2";
 		dialogue[1] = "Please Add BLOOD to Evidence!";
 		dialogue[2] = "this is the third convo....";
 

@@ -119,6 +119,10 @@ public class SceneHandler : MonoBehaviour {
 		Debug.Log ("randomized Killer: ");
 		Debug.Log(killerID);
 	}
+
+	public void loadSceneSelectionScene(){
+		
+	}
 	//=================Methods related to Main Pause Canvas ==============================//
 	
 	public void QuesCharactersTextButtPressed(){
@@ -285,5 +289,6 @@ public class SceneHandler : MonoBehaviour {
 
 		//Debug.Log(SpriteTemp.ToString());
 	}
+
 
 }
