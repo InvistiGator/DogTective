@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class scene4Manager : MonoBehaviour {
+public class scene4Manager1 : MonoBehaviour {
 //private scene2Manager: SceneHandler;
 	public GameObject SceneHandlerObj;
 	public SceneHandler scene4ManagerScript;

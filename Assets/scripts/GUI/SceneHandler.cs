@@ -111,7 +111,7 @@ public class SceneHandler : MonoBehaviour {
 		//Debug.Log(killerID);
 
 		//Make all character images initially invisible.
-		for (int i = 0; i < 7; i++){
+		for (int i = 0; i < CharacterImages.Length; i++){
 			CharacterImages[i].enabled = false;
 		}
 	}
@@ -259,7 +259,7 @@ public class SceneHandler : MonoBehaviour {
 	public void characterBio_Norm(){
 		characterName.text = "Norm Previse \nThe Hapless Deceased";
 		characterBio.text = "Norm attended high school with Doug and Jade, and they hadn’t heard from him since graduation. \nWell, until he died, that is. \nHe was known to be subdued and kind, helping out any who asked, but ultimately failing to make a name for himself. Despite being an exceptionally hardworking cat, Norm always failed to do well in his classes, earning him occasional ridicule from other students. As is pretty evident by this point, he was a very sad sack, which makes his current situation all the more surprising. \nIn the five years between high school and his demise, Norm had somehow accumulated a fair bit of money, a large home, and a prominent position at a law firm. Unfortunately, the police found him lying in a pool of blood in his own home and are at a loss as to who might have committed the deed." ;
-		for (int i = 0; i < 7; i++){
+		for (int i = 0; i < CharacterImages.Length; i++){
 			CharacterImages[i].enabled = false;
 		}
 		CharacterImages[2].enabled = true;
