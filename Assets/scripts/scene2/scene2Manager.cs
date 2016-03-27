@@ -7,6 +7,7 @@ public class scene2Manager : MonoBehaviour {
 //private scene2Manager: SceneHandler;
 	public GameObject SceneHandlerObj;
 	public SceneHandler scene2ManagerScript;
+	public audio2Script audioManager;
 
 	public GameObject bodyObject;
 	public bool [] stageInThisScene;
@@ -53,6 +54,7 @@ public class scene2Manager : MonoBehaviour {
 		//finds the script that is attached to the above gameobject
 		scene2ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 
+		audioManager = audioManager.GetComponent<audio2Script>();
 		//bodyObject = GameObject.FindGameObject("Body").gameObject.GetComponent<GameObject> as GameObject;
 
 	}
@@ -177,7 +179,7 @@ public class scene2Manager : MonoBehaviour {
 				i = 0; 
 				//displayGUI=false;
 				//displayeddialogue_Scene2.enabled = false;
-				displayeddialogue_Scene2.text = "*Sniff*  Sniff*"; 
+				//displayeddialogue_Scene2.text = "*Sniff*  Sniff*"; 
 				stageInThisScene[0] = true;
 				Debug.Log("I'm inside of the !stageInThisScene[0]'s else statement");
 			}
@@ -218,14 +220,12 @@ public class scene2Manager : MonoBehaviour {
 				Debug.Log("I'm inside of the !stageInThisScene[2]'s else statement");
 			}
 		}
-		else if(!stageInThisScene[3]){
-
-			bloodCanvasObj.enabled = false;
-			touchBloodButt.enabled = false;
-			noTouchBloodButt.enabled = false;
-			
+		else if(!stageInThisScene[3]){			
 			if(i<maxBloodDialogueLength){
 				//i++;
+				bloodCanvasObj.enabled = false;
+				touchBloodButt.enabled = false;
+				noTouchBloodButt.enabled = false;
 				displaydialogueBlood();
 			}
 			else{
@@ -430,30 +430,25 @@ public class scene2Manager : MonoBehaviour {
 	}
 	public void displaydialogueEnd(){
 		if(i<maxEndDialogueLength){
+			if(i==2){ //keyframe to cue phone vibration
+				audioManager.playPhoneVibration();
+			}
 			displayeddialogue_Scene2.text = dialogueEnd[i];
 			i++;
 		}
 	}
-
-/*
-	public void bloodGUI(){
-		displayGUI=true;
-		if(i<maxInitBloodLength){
-			displayInitBlood();
-		}
-		//pop up decision GUI
-		decideToTouchBlood();
-		//turn off GUI when stuff is done
-		displayGUI=false;
-	}
-*/
 	public void decideToTouchBlood(){
 		//enable Blood GUI stuff;
+		audioManager.playDecisionPrompt();	
 		bloodCanvasObj.enabled = true;
 		touchBloodButt.enabled = true;
 		noTouchBloodButt.enabled = true;
 	}
 	public void touchBlood(){
+		audioManager.playDecisionRes();
+		bloodCanvasObj.enabled = false;
+		touchBloodButt.enabled = false;
+		noTouchBloodButt.enabled = false;
 		//the button associated with touching blood
 		//set up everything
 		//person decided to touch blood. Add this to their evidence inventory. 
@@ -511,6 +506,12 @@ public class scene2Manager : MonoBehaviour {
 	}
 	public void notToTouchBlood(){
 		//button associated with NOT touching blood
+		audioManager.playDecisionRes();
+
+		bloodCanvasObj.enabled = false;
+		touchBloodButt.enabled = false;
+		noTouchBloodButt.enabled = false;
+
 		maxBloodDialogueLength = 3;
 		dialogue3_2 = new string[maxBloodDialogueLength];
 		dialogue3_2[0] = "Doug: (Yeah. It’s better not to touch it.)";

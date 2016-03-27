@@ -38,13 +38,15 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Users/Nicola/Downloads/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Users/Nicola/Downloads/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\audio2Script.cs" />
+     <Compile Include="Assets\bloodCanvasAudioScript.cs" />
      <Compile Include="Assets\scripts\Evidence.cs" />
      <Compile Include="Assets\scripts\GUI\AudioScript.cs" />
      <Compile Include="Assets\scripts\GUI\GUIManager.cs" />
@@ -53,6 +55,7 @@
      <Compile Include="Assets\scripts\GUI\sceneSelection.cs" />
      <Compile Include="Assets\scripts\Scene1\scene1Dialogue.cs" />
      <Compile Include="Assets\scripts\scene2\AICharacterControl.cs" />
+     <Compile Include="Assets\scripts\scene2\Scene2AudioScript.cs" />
      <Compile Include="Assets\scripts\scene2\ThirdPersonCharacter.cs" />
      <Compile Include="Assets\scripts\scene2\ThirdPersonUserControl.cs" />
      <Compile Include="Assets\scripts\scene2\scene2Manager.cs" />
@@ -65,10 +68,10 @@
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Nicola/Downloads/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Users/Nicola/Downloads/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
