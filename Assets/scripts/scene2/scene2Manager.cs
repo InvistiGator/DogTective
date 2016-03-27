@@ -86,6 +86,11 @@ public class scene2Manager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		displayGUIorNah();
+
+		if (bloodCanvasObj.enabled == true){
+			Time.timeScale = 0;
+		}
+
 		//if counter reached the max dialogueInit length, move onto next scene
 		
 		if(stageInThisScene[5] && lookForEvidence("blood")){
@@ -102,10 +107,12 @@ public class scene2Manager : MonoBehaviour {
 	public void displayGUIorNah(){
 		if(displayGUI){
 			scene2CanvasObj.enabled = true;
+			Time.timeScale = 0;
 			//displayeddialogue_Scene2.enabled = true;
 		}
 		else{
 			scene2CanvasObj.enabled = false;
+			Time.timeScale = 1;
 			//displayeddialogue_Scene2.enabled = false;
 		}
 	}
@@ -325,7 +332,7 @@ public class scene2Manager : MonoBehaviour {
 		dialogue3_1[3] = "Doug: (Oh! I know!)";
 		dialogue3_1[4] = "Doug: (In some of those classic murder mysteries, the detective will take a little blood and rub it in between their fingers.)";
 		dialogue3_1[5] = "Doug: (Then, through sheer ingenuity, they will learn something about how the victim died.)";
-		dialogue3_1[6] = "Doug: (Hm… I don’t know if I should do that, though.";
+		dialogue3_1[6] = "Doug: (Hm… I don’t know if I should do that, though.)";
 		dialogue3_1[7] = "Doug: (The police have a bunch of new ways of analyzing blood these days, so the chief might get mad at me for ‘contaminating the evidence’ and whatnot.)";
 		dialogue3_1[8] = "(Doug: It would be really cool if I could actually learn something from touching the blood like that, though…)";
 
