@@ -57,6 +57,7 @@
      <Compile Include="Assets\scripts\scene2\ThirdPersonUserControl.cs" />
      <Compile Include="Assets\scripts\scene2\scene2Manager.cs" />
      <Compile Include="Assets\scripts\scene3\scene3Manager.cs" />
+     <Compile Include="Assets\scripts\scene4(changed)\scene4Manager.cs" />
      <Compile Include="Assets\scripts\scene4\scene4Manager.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\zombie_control\zombiecontrol.txt" />
