@@ -19,13 +19,14 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         public GameObject SceneHandlerObj;
         public SceneHandler sceneManagerScript;
-        
+        public scene2Manager scene2ManagerObj;
     
         void Awake(){
             //finds the empty gameobject associated with sceneHandler
             SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
             //finds the script that is attached to the above gameobject
             sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+            scene2ManagerObj = scene2ManagerObj.GetComponent<scene2Manager>();
         }
         private void Start()
         {
@@ -88,7 +89,16 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         void OnTriggerEnter(Collider evidence){
             if(evidence.gameObject.CompareTag("Evidence")){
                 sceneManagerScript.setEvidenceCollected(evidence.gameObject.name,3);
+                scene2ManagerObj.walkedUpToCount++;
                 evidence.gameObject.SetActive (false);
+                if(evidence.gameObject.name == "blood"){
+                    //pull up GUI for blood
+                    scene2ManagerObj.displayGUI = true; 
+                    scene2ManagerObj.displayDialogue();
+                }
+                if(scene2ManagerObj.allEvidenceCollectd()){
+                    scene2ManagerObj.displayDialogue();
+                }
                  //Destroy(evidence.gameObject);
             }
         }

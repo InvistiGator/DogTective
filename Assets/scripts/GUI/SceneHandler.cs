@@ -64,6 +64,9 @@ public class SceneHandler : MonoBehaviour {
 	}
 	void Start () {
 		userVisited = new bool [20]; 
+		for(int i = 0; i< userVisited.Length; i++){
+			userVisited[i] = false;
+		}
 		//maxEvidenceNum = 10;
 		//CollectedEvidence = new Image [maxEvidenceNum];
 		for(int i = 0; i< CollectedEvidence.Length; i++){
