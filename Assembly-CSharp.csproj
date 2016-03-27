@@ -53,7 +53,7 @@
      <Compile Include="Assets\scripts\GUI\PickKiller.cs" />
      <Compile Include="Assets\scripts\GUI\SceneHandler.cs" />
      <Compile Include="Assets\scripts\GUI\sceneSelection.cs" />
-     <Compile Include="Assets\scripts\Scene1\scene1Dialogue.cs" />
+     <Compile Include="Assets\scripts\scene1Manager.cs" />
      <Compile Include="Assets\scripts\scene2\AICharacterControl.cs" />
      <Compile Include="Assets\scripts\scene2\Scene2AudioScript.cs" />
      <Compile Include="Assets\scripts\scene2\ThirdPersonCharacter.cs" />
