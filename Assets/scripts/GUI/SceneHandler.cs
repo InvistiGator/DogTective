@@ -2,6 +2,8 @@
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using System.Text;
+using System.IO; 
 
 public class SceneHandler : MonoBehaviour {
 
@@ -460,6 +462,36 @@ public class SceneHandler : MonoBehaviour {
 		Debug.Log("Evidence/" + name);
 
 		//Debug.Log(SpriteTemp.ToString());
+	}
+
+	public string[] readFile(string fileName){
+		//try{
+			string currentLine;
+
+			int lineCount = File.ReadAllLines(fileName).Length;
+
+			string[] allLines = new string[lineCount];
+			StreamReader reader = new StreamReader(fileName, Encoding.Default);
+			int i = 0;
+
+			using (reader){
+				do{
+					currentLine = reader.ReadLine();
+
+					if (currentLine != null){
+						allLines[i] = currentLine;
+						i++;
+					}
+				}
+				while (currentLine != null);
+				reader.Close();
+			}
+		/*}
+		catch (Exception e){
+			Debug.Log("Failed to read file.");
+		}*/
+
+		return allLines;
 	}
 
 
