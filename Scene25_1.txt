@@ -1,34 +1,34 @@
-Setting: Goldie’s Mansion
-Jade: “You spoke to Goldie earlier, right Doug?”
-Doug: “Yeah, why?”
-Jade: “You must have been surprised at how little she seems like a business mogul.”
-Doug: “Yeah. She’s just a spoiled brat who probably has everyone else do everything for her.”
-Doug: “Listen, Jade, if you become rich and famous someday for being a genius rocket heart scientist surgeon, don’t let it go to your head.”
-Jade: “Ha ha, you should have more faith in me than that.”
-Jade: “I’ll try my best not to let things get to my head while performing surgery on the heart of a rocket.”
-Doug: “You better not.”
-*You knock on Goldie’s door.*
-Goldie: “*MEOW*”
-Doug: “Not again…”
-Jade: “Wait, what? Again??”
+ï»¿Setting: Goldieâ€™s Mansion
+Jade: â€œYou spoke to Goldie earlier, right Doug?â€
+Doug: â€œYeah, why?â€
+Jade: â€œYou must have been surprised at how little she seems like a business mogul.â€
+Doug: â€œYeah. Sheâ€™s just a spoiled brat who probably has everyone else do everything for her.â€
+Doug: â€œListen, Jade, if you become rich and famous someday for being a genius rocket heart scientist surgeon, donâ€™t let it go to your head.â€
+Jade: â€œHa ha, you should have more faith in me than that.â€
+Jade: â€œIâ€™ll try my best not to let things get to my head while performing surgery on the heart of a rocket.â€
+Doug: â€œYou better not.â€
+*You knock on Goldieâ€™s door.*
+Goldie: â€œ*MEOW*â€
+Doug: â€œNot againâ€¦â€
+Jade: â€œWait, what? Again??â€
 *The door flies open.*
-Goldie: “I was finally settling into a comfortable nap when--”
-Goldie: “Not you again!”
-Doug: “Yes, me again. I brought a friend, too.”
-Jade: “I’m Jade. You look… lovely today, Ms. Weal.”
-Goldie: “Ugh…”
-Goldie: “Uggggghhhhh…”
+Goldie: â€œI was finally settling into a comfortable nap when--â€
+Goldie: â€œNot you again!â€
+Doug: â€œYes, me again. I brought a friend, too.â€
+Jade: â€œIâ€™m Jade. You lookâ€¦ lovely today, Ms. Weal.â€
+Goldie: â€œUghâ€¦â€
+Goldie: â€œUggggghhhhhâ€¦â€
 *Her annoyance slowly turns into a low, rumbling growl.*
-Goldie: “Why won’t you just let me get my beauty sleep?!”
-Doug: “Norm Previse is dead, and we must find out who killed him.”
-Doug: “So if you know absolutely anything about what happened to him, you have to tell us right now!”
-Goldie: “Norm… Norm is… dead?”
-Jade: “Um… Are you al--”
-Goldie: “Waaahhhh!!”
-*Goldie starts crying… profusely.*
+Goldie: â€œWhy wonâ€™t you just let me get my beauty sleep?!â€
+Doug: â€œNorm Previse is dead, and we must find out who killed him.â€
+Doug: â€œSo if you know absolutely anything about what happened to him, you have to tell us right now!â€
+Goldie: â€œNormâ€¦ Norm isâ€¦ dead?â€
+Jade: â€œUmâ€¦ Are you al--â€
+Goldie: â€œWaaahhhh!!â€
+*Goldie starts cryingâ€¦ profusely.*
 *Goldie slams the door shut in front of you.*
-Jade: “Well, that was quite the surprise.”
-Doug: “I guess we can assume that they knew each other.”
-Doug: “She seems very distraught about his murder… I don’t know if she could have killed him, but she may have more to tell us.”
-Jade: “Once she stops crying, that is.”
-Jade: “Let’s come back later.”
+Jade: â€œWell, that was quite the surprise.â€
+Doug: â€œI guess we can assume that they knew each other.â€
+Doug: â€œShe seems very distraught about his murderâ€¦ I donâ€™t know if she could have killed him, but she may have more to tell us.â€
+Jade: â€œOnce she stops crying, that is.â€
+Jade: â€œLetâ€™s come back later.â€

@@ -1,47 +1,47 @@
-Setting: Outside Norm’s House
-Doug: Oh look, it’s Jade!
+ï»¿Setting: Outside Normâ€™s House
+Doug: Oh look, itâ€™s Jade!
 Doug: The Watson to my Sherlock has finally made their entrance.
-Doug: “Jade! You’re finally here!”
-Doug: “I’m so glad to have you by my side while solving this epic case because it’s a murder and I’ve never gotten a case this big and you’re super smart and I’m awesome and I’ve met all these people and--”
-Jade: “Woah, calm down, boy. Deep breaths.” 
-Doug: “Whew… I just got really excited.”
-Jade: “I’m excited to be here too. I surely hope that I can lend my abilities to help in solving this incident.” 
-Doug: “Yes, right… Speaking of lending your abilities, there’s something I’ve been meaning to ask you.”
-Jade: “We haven’t even spoken about the murder yet. What could be troubling you already?”
-Doug: “Well… you see… I’m kind of embarrassed asking this, but, do you remember Norm from high school?”
-Jade: “Yes, of course…” 
-Jade: “Oh, I see where this is going… You don’t remember Norm, do you?” 
-Jade: “Have you been pretending that you remembered his name this whole time?”
-Doug: “Maybe…”
-Doug: “I… er… Hey, I mean, the name sounded kinda familiar… um… after I started saying it enough and all…”
-Jade: “Smooth talking right there, Doug. I hope you’ve been doing a better job at chatting with the suspects in this investigation.”
-Doug: “I’ve been the smoothest talker, thank you very much. You just flustered me.”
-Jade: “Anyway, some of this information should be bundled in with what I sent you, but let’s go over it so that we’re all on the same page.” 
-Jade: “I , for one, remember Norm very well, and he was something of an oddity at our school.” 
-Jade: “He was quite a kind fellow and worked very hard, but none of that ever payed off for him. Norm was a terrible student.” 
-Jade: “He would consistently fail out of classes, and struggled even with the remedial coursework that had been thrust upon him.” 
-Jade: “I believe the only subject he passed regularly was physical education.”
-Doug: “Wait a second… A bulky cat who was nice, but a terrible student? I do know him.”
-Doug: “He was in a few of my classes!”
-Jade: “Good to see that a little bit of blood is still pumping somewhere inside that thick skull of yours.”
-Doug: Ouch… Don’t be so cruel. I think I need something to heal that burn…
-Doug: “Come on, Jade. Anyway, that creates more questions than it answers.”
-Doug: “If Norm was that bad a student, then how did he get a job at a big time law firm?”
-Jade: “I’ve been asking myself that very question. I’ve looked into the matter and have discovered a couple of surprising pieces of information about that.” 
-Jade: “Norm was hired right out of high school, and by the head honcho himself, Morgan Evetta.”
-Doug: “I don’t care if he was offering me all the dog treats in the world. There’s no way I’d take a job from that ice cold rat.”
-Doug: “Was Norm really that desperate?”
-Jade: “Even if he wasn’t, look at his assets.” 
-Doug: Oh, so you’re into the muscular type, Jade.
-Jade: “This is a pretty nice place for someone who’s only been working a few years.”
+Doug: â€œJade! Youâ€™re finally here!â€
+Doug: â€œIâ€™m so glad to have you by my side while solving this epic case because itâ€™s a murder and Iâ€™ve never gotten a case this big and youâ€™re super smart and Iâ€™m awesome and Iâ€™ve met all these people and--â€
+Jade: â€œWoah, calm down, boy. Deep breaths.â€ 
+Doug: â€œWhewâ€¦ I just got really excited.â€
+Jade: â€œIâ€™m excited to be here too. I surely hope that I can lend my abilities to help in solving this incident.â€ 
+Doug: â€œYes, rightâ€¦ Speaking of lending your abilities, thereâ€™s something Iâ€™ve been meaning to ask you.â€
+Jade: â€œWe havenâ€™t even spoken about the murder yet. What could be troubling you already?â€
+Doug: â€œWellâ€¦ you seeâ€¦ Iâ€™m kind of embarrassed asking this, but, do you remember Norm from high school?â€
+Jade: â€œYes, of courseâ€¦â€ 
+Jade: â€œOh, I see where this is goingâ€¦ You donâ€™t remember Norm, do you?â€ 
+Jade: â€œHave you been pretending that you remembered his name this whole time?â€
+Doug: â€œMaybeâ€¦â€
+Doug: â€œIâ€¦ erâ€¦ Hey, I mean, the name sounded kinda familiarâ€¦ umâ€¦ after I started saying it enough and allâ€¦â€
+Jade: â€œSmooth talking right there, Doug. I hope youâ€™ve been doing a better job at chatting with the suspects in this investigation.â€
+Doug: â€œIâ€™ve been the smoothest talker, thank you very much. You just flustered me.â€
+Jade: â€œAnyway, some of this information should be bundled in with what I sent you, but letâ€™s go over it so that weâ€™re all on the same page.â€ 
+Jade: â€œI , for one, remember Norm very well, and he was something of an oddity at our school.â€ 
+Jade: â€œHe was quite a kind fellow and worked very hard, but none of that ever payed off for him. Norm was a terrible student.â€ 
+Jade: â€œHe would consistently fail out of classes, and struggled even with the remedial coursework that had been thrust upon him.â€ 
+Jade: â€œI believe the only subject he passed regularly was physical education.â€
+Doug: â€œWait a secondâ€¦ A bulky cat who was nice, but a terrible student? I do know him.â€
+Doug: â€œHe was in a few of my classes!â€
+Jade: â€œGood to see that a little bit of blood is still pumping somewhere inside that thick skull of yours.â€
+Doug: Ouchâ€¦ Donâ€™t be so cruel. I think I need something to heal that burnâ€¦
+Doug: â€œCome on, Jade. Anyway, that creates more questions than it answers.â€
+Doug: â€œIf Norm was that bad a student, then how did he get a job at a big time law firm?â€
+Jade: â€œIâ€™ve been asking myself that very question. Iâ€™ve looked into the matter and have discovered a couple of surprising pieces of information about that.â€ 
+Jade: â€œNorm was hired right out of high school, and by the head honcho himself, Morgan Evetta.â€
+Doug: â€œI donâ€™t care if he was offering me all the dog treats in the world. Thereâ€™s no way Iâ€™d take a job from that ice cold rat.â€
+Doug: â€œWas Norm really that desperate?â€
+Jade: â€œEven if he wasnâ€™t, look at his assets.â€ 
+Doug: Oh, so youâ€™re into the muscular type, Jade.
+Jade: â€œThis is a pretty nice place for someone whoâ€™s only been working a few years.â€
 Doug: Oh, right, those kinds of assets.
-Jade: “It’s possible Norm wanted the money, regardless of the working conditions.”
-Doug: “Very true…”
-Doug: “That’s enough discussion for now. We should probably get to the crime scene while things are still fresh.”
-Doug: “With our minds put together, we might notice something that both the police and I missed before.”
-Jade: “Aw, how sweet. You think I’m a better detective than you, and you just don't want to admit it.”
-Jade: “It’s okay, Doug. You know you can tell me.”
-Doug: “Well would you look at that. You’ve let everything get to your head so much, there isn't any room left for your brain.
+Jade: â€œItâ€™s possible Norm wanted the money, regardless of the working conditions.â€
+Doug: â€œVery trueâ€¦â€
+Doug: â€œThatâ€™s enough discussion for now. We should probably get to the crime scene while things are still fresh.â€
+Doug: â€œWith our minds put together, we might notice something that both the police and I missed before.â€
+Jade: â€œAw, how sweet. You think Iâ€™m a better detective than you, and you just don't want to admit it.â€
+Jade: â€œItâ€™s okay, Doug. You know you can tell me.â€
+Doug: â€œWell would you look at that. Youâ€™ve let everything get to your head so much, there isn't any room left for your brain.
 Doug: Take that, Jade. I am the master of burns today!
-Jade: “Ha ha, very funny. You know I was just kidding.”
-Jade: “Let’s actually get to the scene of the crime, shall we?”
+Jade: â€œHa ha, very funny. You know I was just kidding.â€
+Jade: â€œLetâ€™s actually get to the scene of the crime, shall we?â€

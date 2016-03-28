@@ -1,36 +1,36 @@
-Setting: Weal Law Associates Offices
+ï»¿Setting: Weal Law Associates Offices
 Doug: So this is where Norm worked, huh?
-Doug: These are some pretty fancy offices. Along with his nice house, it’s pretty clear that Norm was doing quite well for himself.
+Doug: These are some pretty fancy offices. Along with his nice house, itâ€™s pretty clear that Norm was doing quite well for himself.
 Doug: Anyway, time to talk to the boss.
-Doug: “Excuse me, who’s in charge around here?”
-Morgan: “Good day to you, sir. My name is Morgan Evetta, and I am, as you say, ‘in charge’ of Weal Law Associates.”
-Morgan: “If you require our services, you need not speak with me.”
-Morgan: “Had you done even the slightest bit of research, you would know that our law firm is reserved for members of the KT Corporation.”
-Morgan: “I have never seen you before, and thus doubt that you work for the company.”
-Morgan: “With that, I must request you leave the premises.”
-Doug: “Wait just a second there, Mr. Fancy Pants.”
-Doug: “My name is Doug Ventose, and I am investigating a possible murder case. A murder you should be very interested in.” 
-Doug: “One of your employees, Norm Previse, seems to have been killed earlier today, and so I must ask you some questions.”
-Morgan: “Indeed, I am well aware of the current status of Mr. Previse, and the situation is very regrettable.”
-Morgan: “Your deplorable outfit indicates that you do not work for the police, however.”
-Morgan: “As such, I must once again request that you leave. We already have our own private investigators looking into the case.”
-Doug: “You must really want me gone, don't you?”
-Doug: “I’ll have you know that Police Chief Damina Punctum herself asked me to help with this case.”
-Doug: “So whether you like it or not, I’m here to stay.” 
-Morgan: “How bothersome.”
-Morgan: “Very well. It’s best not to hinder an investigation on behalf of the police. Tell me, Mr. Ventose, what can I do for you at the moment?”
-Doug: “How well did you know Norm?”
-Morgan: “Well, he worked for me, not I for him, so I would say that I payed very little attention to his character.”
-Morgan: “He did what he was told, and so his work at this firm continued, unfettered yet unpromoted, until his presumed demise.”
-Doug: “Alright. And do you know anything about how Norm died?”
-Morgan: “No.”
-Doug: Wow, that’s probably the shortest sentence he’s ever said in his life.
-Doug: “No suspicious activity or anything…?”
-Morgan: “Not to my knowledge.”
-Morgan: “Now, if we are done here Mr. Ventose, I have a great deal of more imperative business to attend to. Farewell.”
-Doug: “Uh… Yes, that is it for now. I may be back later…”
-Doug: “Aaand he’s gone already…”
-Doug: Morgan was definitely not the most pleasant person to talk to, but I’m sure he knows way more than he’s letting on.
-Doug: He’s apparently an adept and intelligent lawyer, so I’ll have to be careful whenever I speak to him again.
-Doug: I’m not looking forward to it…
+Doug: â€œExcuse me, whoâ€™s in charge around here?â€
+Morgan: â€œGood day to you, sir. My name is Morgan Evetta, and I am, as you say, â€˜in chargeâ€™ of Weal Law Associates.â€
+Morgan: â€œIf you require our services, you need not speak with me.â€
+Morgan: â€œHad you done even the slightest bit of research, you would know that our law firm is reserved for members of the KT Corporation.â€
+Morgan: â€œI have never seen you before, and thus doubt that you work for the company.â€
+Morgan: â€œWith that, I must request you leave the premises.â€
+Doug: â€œWait just a second there, Mr. Fancy Pants.â€
+Doug: â€œMy name is Doug Ventose, and I am investigating a possible murder case. A murder you should be very interested in.â€ 
+Doug: â€œOne of your employees, Norm Previse, seems to have been killed earlier today, and so I must ask you some questions.â€
+Morgan: â€œIndeed, I am well aware of the current status of Mr. Previse, and the situation is very regrettable.â€
+Morgan: â€œYour deplorable outfit indicates that you do not work for the police, however.â€
+Morgan: â€œAs such, I must once again request that you leave. We already have our own private investigators looking into the case.â€
+Doug: â€œYou must really want me gone, don't you?â€
+Doug: â€œIâ€™ll have you know that Police Chief Damina Punctum herself asked me to help with this case.â€
+Doug: â€œSo whether you like it or not, Iâ€™m here to stay.â€ 
+Morgan: â€œHow bothersome.â€
+Morgan: â€œVery well. Itâ€™s best not to hinder an investigation on behalf of the police. Tell me, Mr. Ventose, what can I do for you at the moment?â€
+Doug: â€œHow well did you know Norm?â€
+Morgan: â€œWell, he worked for me, not I for him, so I would say that I payed very little attention to his character.â€
+Morgan: â€œHe did what he was told, and so his work at this firm continued, unfettered yet unpromoted, until his presumed demise.â€
+Doug: â€œAlright. And do you know anything about how Norm died?â€
+Morgan: â€œNo.â€
+Doug: Wow, thatâ€™s probably the shortest sentence heâ€™s ever said in his life.
+Doug: â€œNo suspicious activity or anythingâ€¦?â€
+Morgan: â€œNot to my knowledge.â€
+Morgan: â€œNow, if we are done here Mr. Ventose, I have a great deal of more imperative business to attend to. Farewell.â€
+Doug: â€œUhâ€¦ Yes, that is it for now. I may be back laterâ€¦â€
+Doug: â€œAaand heâ€™s gone alreadyâ€¦â€
+Doug: Morgan was definitely not the most pleasant person to talk to, but Iâ€™m sure he knows way more than heâ€™s letting on.
+Doug: Heâ€™s apparently an adept and intelligent lawyer, so Iâ€™ll have to be careful whenever I speak to him again.
+Doug: Iâ€™m not looking forward to itâ€¦
 Doug: For now, let me just move onto the next task for the day.

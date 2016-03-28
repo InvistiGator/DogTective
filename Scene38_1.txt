@@ -1,27 +1,27 @@
-Setting: Doug’s Office
-Doug: “You seem like you remember a few things about Norm. Let’s see what you can remember.”
-Jade: “Alright. I didn’t know him all that well, but well enough that I immediately recognized his name when he died.”
-Jade: “Unlike some other people I know…”
-Doug: “Yeah, yeah, I didn’t remember.”
-Doug: “It’s funny. I get it. Get on with what you have to say.”
-Jade: “Okay, okay.”
-Jade: “Anyway, the main reason that I knew Norm was because he was in a lot of different clubs.”
-Jade: “He might not have been the smartest person ever, but he was diligent and wanted to work hard at his extracurricular activities.”
-Jade: “Maybe since he couldn’t do well in school, he wanted to have something else in which he could excel.”
-Jade: “In any case, he was in the Science Competition Team in high school, which I was in as well.”
-Jade: “Norm would never compete with us, but he would always be there to support us at competitions.”
-Jade: “He was also so curious about everything, even if he couldn’t remember that much.”
-Jade: “It felt like most of the people in the club ignored him. Since he wouldn’t compete, everyone else in the club thought he wasn’t worth their time and that he was just a distraction.”
-Jade: “I was one of the few people who actually spoke to him. We only spoke every once in a while, though. I was so busy that I could only spend a little time with friends.”
-Doug: “Yeah, I remember how you would disappear for days on end for some project or other.”
-Jade: “Exactly.”
-Jade: “Anyway, at first I enjoyed my conversations with him, but eventually things got pretty… rough.”
-Doug: “What do you mean?”
-Jade: “He used to talk to me whenever we both had the chance at club meetings, but he became more and more distant, and it got to the point where it felt like he was ignoring me and everyone else around him.”
-Jade: “Now that I know he has had issues with chocolate addiction, maybe that was what made him start acting differently…”
-Jade: “Or maybe it was just him becoming fed up with how most people treated him.”
-Jade: “In any case, I grew progressively more annoyed and disappointed with the way he had started acting.”
-Jade: “However, I never did anything about it, and my time in high school eventually came to a close.”
-Jade: “I’ve regretted my choices in the matter ever since.”
-Doug: “Wow. I had no idea you knew him so well. I’m sorry.”
-Jade: “No need to apologize to me. It’s just an unfortunate circumstance.”
+ï»¿Setting: Dougâ€™s Office
+Doug: â€œYou seem like you remember a few things about Norm. Letâ€™s see what you can remember.â€
+Jade: â€œAlright. I didnâ€™t know him all that well, but well enough that I immediately recognized his name when he died.â€
+Jade: â€œUnlike some other people I knowâ€¦â€
+Doug: â€œYeah, yeah, I didnâ€™t remember.â€
+Doug: â€œItâ€™s funny. I get it. Get on with what you have to say.â€
+Jade: â€œOkay, okay.â€
+Jade: â€œAnyway, the main reason that I knew Norm was because he was in a lot of different clubs.â€
+Jade: â€œHe might not have been the smartest person ever, but he was diligent and wanted to work hard at his extracurricular activities.â€
+Jade: â€œMaybe since he couldnâ€™t do well in school, he wanted to have something else in which he could excel.â€
+Jade: â€œIn any case, he was in the Science Competition Team in high school, which I was in as well.â€
+Jade: â€œNorm would never compete with us, but he would always be there to support us at competitions.â€
+Jade: â€œHe was also so curious about everything, even if he couldnâ€™t remember that much.â€
+Jade: â€œIt felt like most of the people in the club ignored him. Since he wouldnâ€™t compete, everyone else in the club thought he wasnâ€™t worth their time and that he was just a distraction.â€
+Jade: â€œI was one of the few people who actually spoke to him. We only spoke every once in a while, though. I was so busy that I could only spend a little time with friends.â€
+Doug: â€œYeah, I remember how you would disappear for days on end for some project or other.â€
+Jade: â€œExactly.â€
+Jade: â€œAnyway, at first I enjoyed my conversations with him, but eventually things got prettyâ€¦ rough.â€
+Doug: â€œWhat do you mean?â€
+Jade: â€œHe used to talk to me whenever we both had the chance at club meetings, but he became more and more distant, and it got to the point where it felt like he was ignoring me and everyone else around him.â€
+Jade: â€œNow that I know he has had issues with chocolate addiction, maybe that was what made him start acting differentlyâ€¦â€
+Jade: â€œOr maybe it was just him becoming fed up with how most people treated him.â€
+Jade: â€œIn any case, I grew progressively more annoyed and disappointed with the way he had started acting.â€
+Jade: â€œHowever, I never did anything about it, and my time in high school eventually came to a close.â€
+Jade: â€œIâ€™ve regretted my choices in the matter ever since.â€
+Doug: â€œWow. I had no idea you knew him so well. Iâ€™m sorry.â€
+Jade: â€œNo need to apologize to me. Itâ€™s just an unfortunate circumstance.â€

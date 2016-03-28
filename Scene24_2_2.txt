@@ -1,19 +1,19 @@
-Doug: “So… Tom… I found this tie near where Norm died…”
-Tom: “Yes…?”
-Doug: “Oh, uh… I know it isn’t yours. Your ties look so much nicer.”
-Doug: “But I was wondering if you happened to have any friends with similar tastes in ties?”
-Doug: “Maybe they’d know more about what happened to Norm?”
-Tom: “Well that’s an awfully strange question you’re asking me, buddy.”
-Tom: “I’ve got many different types of ties that I wear, and I know a many people who wear many of the same ties too.”
-Tom: “So I’m sorry to say that I don’t know anything about that tie or who might have worn it.”
-Jade: “Yes, that makes perfect sense, Mr. Confetto.”
-Tom: “Please, call me Tom.”
-Doug: “Alrighty! I think that’s about it. Thanks again for your time.”
-Tom: “No problem, buddy.”
+ï»¿Doug: â€œSoâ€¦ Tomâ€¦ I found this tie near where Norm diedâ€¦â€
+Tom: â€œYesâ€¦?â€
+Doug: â€œOh, uhâ€¦ I know it isnâ€™t yours. Your ties look so much nicer.â€
+Doug: â€œBut I was wondering if you happened to have any friends with similar tastes in ties?â€
+Doug: â€œMaybe theyâ€™d know more about what happened to Norm?â€
+Tom: â€œWell thatâ€™s an awfully strange question youâ€™re asking me, buddy.â€
+Tom: â€œIâ€™ve got many different types of ties that I wear, and I know a many people who wear many of the same ties too.â€
+Tom: â€œSo Iâ€™m sorry to say that I donâ€™t know anything about that tie or who might have worn it.â€
+Jade: â€œYes, that makes perfect sense, Mr. Confetto.â€
+Tom: â€œPlease, call me Tom.â€
+Doug: â€œAlrighty! I think thatâ€™s about it. Thanks again for your time.â€
+Tom: â€œNo problem, buddy.â€
 *You leave the saloon.*
-Jade: “So, do you think that tie was just a piece of fake evidence that Morgan made?”
-Doug: “We can’t know for sure, but I think so.”
-Doug: “If it actually was Tom’s, he might have had us killed in there.”
-Jade: “Please don’t tell me you just gambled with our lives like that…”
-Doug: “Nah, I was totally in control the whole time.”
-Doug: Totally…
+Jade: â€œSo, do you think that tie was just a piece of fake evidence that Morgan made?â€
+Doug: â€œWe canâ€™t know for sure, but I think so.â€
+Doug: â€œIf it actually was Tomâ€™s, he might have had us killed in there.â€
+Jade: â€œPlease donâ€™t tell me you just gambled with our lives like thatâ€¦â€
+Doug: â€œNah, I was totally in control the whole time.â€
+Doug: Totallyâ€¦

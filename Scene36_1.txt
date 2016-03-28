@@ -1,6 +1,6 @@
-Setting: Doug’s Office
-Doug: “Conducting a murder investigation isn't as easy as I thought it would be.”
-Jade: “You thought it was going to be easy?”
-Doug: “Maybe not easy, but at least a little more obvious, you know?”
-Doug: “In murder mysteries, it always seems like the next step is the only logical one, but, in reality, there are so many options.”
-Jade: “That’s just how things are, Doug.”
+ï»¿Setting: Dougâ€™s Office
+Doug: â€œConducting a murder investigation isn't as easy as I thought it would be.â€
+Jade: â€œYou thought it was going to be easy?â€
+Doug: â€œMaybe not easy, but at least a little more obvious, you know?â€
+Doug: â€œIn murder mysteries, it always seems like the next step is the only logical one, but, in reality, there are so many options.â€
+Jade: â€œThatâ€™s just how things are, Doug.â€

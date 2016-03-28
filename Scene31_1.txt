@@ -1,9 +1,9 @@
-Setting: The Police Station
-Doug: “Chief! Chief! Something really weird is going on at the scene of the crime!”
-Chief Punctum: “Woah, slow down a little, Ace.”
-Doug: “Okay, so, we’ve been investigating Morgan and Goldie lately, and things have been getting more and more suspicious.”
-Jade: “When we went to Norm’s house just now, we could see that Goldie was inside and that the body had disappeared.”
-Doug: “I have no clue why or how they were able to do it, but something’s definitely wrong.”
-Chief Punctum: “I agree, Ace. It seems pretty reasonable to assume that the fine folks over at KT Corp had something to do with Norm’s murder.”
-Chief Punctum: “I’ll send some good officers over to the scene now to apprehend whoever is there, but before I do, I’ve got one more thing to ask you.”
-Chief Punctum: “Who do you believe is responsible for the murder of Norm Previse?”
+ï»¿Setting: The Police Station
+Doug: â€œChief! Chief! Something really weird is going on at the scene of the crime!â€
+Chief Punctum: â€œWoah, slow down a little, Ace.â€
+Doug: â€œOkay, so, weâ€™ve been investigating Morgan and Goldie lately, and things have been getting more and more suspicious.â€
+Jade: â€œWhen we went to Normâ€™s house just now, we could see that Goldie was inside and that the body had disappeared.â€
+Doug: â€œI have no clue why or how they were able to do it, but somethingâ€™s definitely wrong.â€
+Chief Punctum: â€œI agree, Ace. It seems pretty reasonable to assume that the fine folks over at KT Corp had something to do with Normâ€™s murder.â€
+Chief Punctum: â€œIâ€™ll send some good officers over to the scene now to apprehend whoever is there, but before I do, Iâ€™ve got one more thing to ask you.â€
+Chief Punctum: â€œWho do you believe is responsible for the murder of Norm Previse?â€
