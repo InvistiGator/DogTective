@@ -1,0 +1,22 @@
+Setting: The Police Station
+Doug: “Well, we’ve accumulated quite a bit of information about Norm, but it still isn’t really pointing us anywhere.”
+Doug: “We should talk to the chief and see if she can help us out with anything.”
+Jade: “Sure. Perhaps she’ll be able to make something of all this.”
+Chief Punctum: “Well hello there, Ace. How are you? You look like you made a beeline to this feline, so I’m thinking you’ve got something you want to talk about.”
+Doug: “Yeah, chief.”
+Doug: “We’ve thought back on our past experiences with Norm and have collected a good deal of information on him, but it still isn’t really pointing us anywhere.”
+Doug: “Do you have a any advice for us on that chief?”
+Chief Punctum: “Well, as far as I can tell, there are two different things you can do when you’ve gotten to this point in an investigation.”
+Doug: “And what are they?”
+Chief Punctum: “First, make sure you have spoken to everyone you want to talk to. There could always be some more important information that you just haven’t found out yet.”
+Chief Punctum: “Second, once think you have everything you need, head back to base and regroup. There may be information that is just staring you in the face that you haven’t noticed yet.”
+Doug: “That all sounds like perfect stuff for a detective dog like me to be doing.”
+Chief Punctum: “Ha ha, it definitely does. Don’t expect me to be throwing you bones like this all of the time, Ace.”
+Jade: “Don’t worry, chief, I’ve been throwing him bones this whole time.”
+Chief Punctum: “Ha ha ha! Maybe we should let him do something on his own once he’s grown up a little.”
+Doug: “I’m right here, you two.”
+Jade: “We’re just messing with you, Doug.”
+Chief Punctum: “Yeah, Ace. No need to worry.”
+Doug: “Right, right.”
+Doug: Probably…?  
+Doug: “Thanks for everything, chief.”
