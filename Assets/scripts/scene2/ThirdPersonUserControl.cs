@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using UnityEditor; 
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
@@ -88,27 +87,29 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         void OnTriggerEnter(Collider evidence){
             if(evidence.gameObject.CompareTag("Evidence")){
-                sceneManagerScript.setEvidenceCollected(evidence.gameObject.name,3);
+                sceneManagerScript.setEvidenceCollected3D(evidence.gameObject.name,2);
 
                 
 
                 evidence.gameObject.SetActive (false);
                 //(scene2ManagerObj.scene2CanvasObj == true)
-                //
                 
+                scene2ManagerObj.walkedUpToCount++;
+                /*
                 if(evidence.gameObject.name == "blood" && scene2ManagerObj.allEvidenceCollectd() ){
                     scene2ManagerObj.turnOffCongratsGUI();
                     scene2ManagerObj.displayGUI = true; 
                     scene2ManagerObj.displayDialogue();
                 }
+
                 else if(evidence.gameObject.name == "blood"){
                     //pull up GUI for blood
                     scene2ManagerObj.turnOffCongratsGUI();
                     scene2ManagerObj.displayGUI = true; 
                     scene2ManagerObj.displayDialogue();
                 }
-                
-                else if(scene2ManagerObj.allEvidenceCollectd()){
+                */
+                if(scene2ManagerObj.allEvidenceCollectd()){
                     scene2ManagerObj.turnOffCongratsGUI();
                     scene2ManagerObj.displayDialogue();
                     scene2ManagerObj.displayGUI = true; 
@@ -120,7 +121,6 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                     scene2ManagerObj.displayGUI = false; 
                 }
                 
-                scene2ManagerObj.walkedUpToCount++;
                  //Destroy(evidence.gameObject);
             }
         }

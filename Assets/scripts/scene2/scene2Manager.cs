@@ -9,7 +9,20 @@ public class scene2Manager : MonoBehaviour {
 	public SceneHandler scene2ManagerScript;
 	public audio2Script audioManager;
 
+	//various Evidence GameObjects in scene, will load base on killer
 	public GameObject bodyObject;
+	//public GameObject blood;
+	public GameObject redPen;
+	public GameObject candyWrapper;
+	//public GameObject noBody;
+	public GameObject shortWhiteFur;
+	public GameObject longWhiteFur;
+	public GameObject money;
+	public GameObject papersFromWork;
+	public GameObject lightBrownFur;
+
+
+
 	public bool [] stageInThisScene;
 	public int walkedUpToCount = 0;
 	//script for script GUI stuff
@@ -137,39 +150,69 @@ public class scene2Manager : MonoBehaviour {
 	}
 	public void loadEvidencesBaseOnKiller(){
 		showBodyOrNah();
+		//these evidences are enabled no matter what
 		//load basic evidences (red pen and candy wrapper)
+		//
+		//
+		//blood.SetActive(true);
+		redPen.SetActive(true);
+		candyWrapper.SetActive(true);
+
+		
+		//noBody.SetActive(false);
+		shortWhiteFur.SetActive(false);
+		longWhiteFur.SetActive(false);
+		money.SetActive(false);
+		papersFromWork.SetActive(false);
+		lightBrownFur.SetActive(false);
+
 		if(scene2ManagerScript.killerID == 0){//if Doug is killer
 			//light brown hair
-			maxEvidenceNum = 4;//Blood = inclusive, Body is exclusive in the calculation of maxEvidenceNum per scene
+			lightBrownFur.SetActive(true); 
+			//maxEvidenceNum = 4;//Blood = inclusive, Body is exclusive in the calculation of maxEvidenceNum per scene
+			maxEvidenceNum = 3;
 		}
 		else if(scene2ManagerScript.killerID == 1){//if Jade is killer
 			//enable money
-			maxEvidenceNum = 4;
+			money.SetActive(true);
+			maxEvidenceNum = 3;
+			//maxEvidenceNum = 4;
 		}
 		else if(scene2ManagerScript.killerID == 2){//if Norm is killer
 			//no additional other than the body
-			maxEvidenceNum = 3;
+			maxEvidenceNum = 2;
+			//maxEvidenceNum = 3;
 		}
 		else if(scene2ManagerScript.killerID == 3){//if Damina is killer
 			//no body and long white fur
-			maxEvidenceNum = 4;
+			longWhiteFur.SetActive(true);
+			maxEvidenceNum = 3;
+			//maxEvidenceNum = 4;
 		}
 		else if(scene2ManagerScript.killerID == 4){//if Tom is killer
 			//enable white fur
-			maxEvidenceNum = 4;
+			shortWhiteFur.SetActive(true);
+			maxEvidenceNum = 3;
+			//maxEvidenceNum = 4;
 		}
 		else if(scene2ManagerScript.killerID == 5){//if Goldie is killer
 			//enable money
-			maxEvidenceNum = 4;
+			money.SetActive(true);
+			maxEvidenceNum = 3;
+			//maxEvidenceNum = 4;
 		}
 		else if(scene2ManagerScript.killerID == 6){//if Morgan is killer
 			//enable papers from work
-			maxEvidenceNum = 4;
+			papersFromWork.SetActive(true);
+			maxEvidenceNum = 3;
+			//maxEvidenceNum = 4;
 		}
 	}
 	public void showBodyOrNah(){
 		if(scene2ManagerScript.killerID == 2 || scene2ManagerScript.killerID == 3 ){
 			bodyObject.SetActive(false);
+			//No body, set no body as an evidence
+			scene2ManagerScript.setEvidenceCollected3D("noBody", 2);
 		}
 		else{
 			bodyObject.SetActive(true);
@@ -210,8 +253,9 @@ public class scene2Manager : MonoBehaviour {
 			}
 			else{
 				//reset temp stuff//
-				i = 0; 
-				displayGUI=false;
+				i = 0;
+				displayGUI = true; //sending users straight to blood convo
+				//displayGUI=false;
 				//displayeddialogue_Scene2.enabled = false;
 				stageInThisScene[1] = true;
 				Debug.Log("I'm inside of the !stageInThisScene[1]'s else statement");
@@ -490,7 +534,7 @@ public class scene2Manager : MonoBehaviour {
 		//the button associated with touching blood
 		//set up everything
 		//person decided to touch blood. Add this to their evidence inventory. 
-		scene2ManagerScript.setEvidenceCollected("blood",2);
+		scene2ManagerScript.setEvidenceCollected3D("blood",2);
 		//[Audio: Blood's event sound]
 	/*			
 	//Randomization: If Norm or Damina is the culprit:

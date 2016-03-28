@@ -462,6 +462,94 @@ public class SceneHandler : MonoBehaviour {
 
 		//Debug.Log(SpriteTemp.ToString());
 	}
+	//the setEvidenceCollected method for scene2 and scene4
+	public void setEvidenceCollected3D(string name, int srcScene1){
+		int tempInt = 0;
+		if(srcScene1 == 2){
+			//Debug.Log(SpriteTemp.ToString());
+			if(name=="blood"){
+				tempInt = 0;
+			}
+			if(name=="redPen"){
+				tempInt = 1;
+			}
+			if(name=="candyWrapper"){
+				tempInt = 2;
+			}
+			if(name=="noBody"){
+				tempInt = 6;
+			}
+			if(name=="shortWhiteFur"){
+				tempInt = 3;
+			}
+			if(name=="longWhiteFur"){
+				tempInt = 7;
+			}
+			if(name=="money"){
+				tempInt = 10;
+			}
+			if(name=="papersFromWork"){
+				tempInt = 13;
+			}
+			if(name=="lightBrownFur"){
+				tempInt = 20;
+			}
+		}
+
+		else if(srcScene1 == 7){
+
+			if(name=="blood"){
+				tempInt = 0;
+			}
+			if(name=="scuffMarks"){
+				tempInt = 4;
+			}
+			if(name=="paperCoveredWithRedInk"){
+				tempInt = 5;
+			}
+			if(name=="reBody"){
+				tempInt = 8;
+			}
+			if(name=="paperSmearedWithChocolate"){
+				tempInt = 9;
+			}
+			if(name=="veryCleanDesk"){
+				tempInt = 11;
+			}
+			if(name=="grayFur"){
+				tempInt = 12;
+			}
+			if(name=="blackFur"){
+				tempInt = 14;
+			}
+			if(name=="pinkSlip"){
+				tempInt = 15;
+			}
+			if(name=="newspaperClipping"){
+				tempInt = 16;
+			}
+			if(name=="letterOpener"){
+				tempInt = 17;
+			}
+			if(name=="schoolYearbook"){
+				tempInt = 18;
+			}
+			if(name=="whiteFur"){
+				tempInt = 19;
+			}
+			if(name=="pipe"){
+				tempInt = 21;
+			}
+		}
+		CollectedEvidenceString[tempInt] = name; 
+		Color temp = CollectedEvidence[tempInt].color;
+		temp.a = 1.0f;
+		CollectedEvidence[tempInt].color = temp;
+
+		Debug.Log("CollectedEvidence string [] : ");
+		Debug.Log(CollectedEvidenceString[tempInt]);
+		Debug.Log("Evidence/" + name);
+	}
 
 	public string[] readFile(string fileName){
 		//try{
