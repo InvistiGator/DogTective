@@ -62,9 +62,13 @@
      <Compile Include="Assets\scripts\scene3\scene3Manager.cs" />
      <Compile Include="Assets\scripts\scene4(changed)\scene4Manager.cs" />
      <Compile Include="Assets\scripts\scene4\scene4Manager.cs" />
+     <None Include="Assets\Dialogue\Scene3\Scene3_1.txt" />
+     <None Include="Assets\Dialogue\Scene3\Scene3_2_1.txt" />
+     <None Include="Assets\Dialogue\Scene1.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\zombie_control\zombiecontrol.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Dialogue\Scene3\Scene3_2_2.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
  <Reference Include="UnityEngine.UI">

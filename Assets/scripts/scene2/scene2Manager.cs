@@ -17,6 +17,10 @@ public class scene2Manager : MonoBehaviour {
 	public Canvas scene2CanvasObj;
 	public Text displayeddialogue_Scene2;
 
+	public Canvas congratsEvidenceCanvas; 
+	public Button okFromCongrats;
+	//public Text congratsText;
+
 	public Canvas bloodCanvasObj;
 	public Button touchBloodButt;
 	public Button noTouchBloodButt;
@@ -74,6 +78,10 @@ public class scene2Manager : MonoBehaviour {
 		//noTouchBloodButt = noTouchBloodButt.GetComponent<Button();
 		bloodCanvasObj = bloodCanvasObj.GetComponent<Canvas>();
 
+		congratsEvidenceCanvas = congratsEvidenceCanvas.GetComponent<Canvas>();
+
+		congratsEvidenceCanvas.enabled = false;
+		okFromCongrats.enabled = false;
 		bloodCanvasObj.enabled = false;
 		touchBloodButt.enabled = false;
 		noTouchBloodButt.enabled = false;
@@ -92,7 +100,16 @@ public class scene2Manager : MonoBehaviour {
 		if (bloodCanvasObj.enabled == true){
 			Time.timeScale = 0;
 		}
-
+		if(congratsEvidenceCanvas.enabled == true){
+			Time.timeScale = 0;
+		}
+	/*
+		if(allEvidenceCollectd() && stageInThisScene[3]){
+            displayDialogue();
+            displayGUI=true;
+            Debug.Log("I'm inside of allEvidenceCollectd() if statment in Updat");
+		}
+	*/
 		//if counter reached the max dialogueInit length, move onto next scene
 		
 		if(stageInThisScene[5] && lookForEvidence("blood")){
@@ -168,7 +185,8 @@ public class scene2Manager : MonoBehaviour {
 
 		return false;
 	}
-		public void displayDialogue(){
+
+	public void displayDialogue(){
 		if(!stageInThisScene[0]){
 			if(i<maxdialogueInitLength){
 				//i++;
@@ -220,28 +238,35 @@ public class scene2Manager : MonoBehaviour {
 				Debug.Log("I'm inside of the !stageInThisScene[2]'s else statement");
 			}
 		}
-		else if(!stageInThisScene[3]){			
-			if(i<maxBloodDialogueLength){
-				//i++;
+		else if(!stageInThisScene[3]){	
 				bloodCanvasObj.enabled = false;
 				touchBloodButt.enabled = false;
 				noTouchBloodButt.enabled = false;
+
+			if(i<maxBloodDialogueLength){
+				//i++;
+			
 				displaydialogueBlood();
 			}
 			else{
 				//reset temp stuff//
-				bloodCanvasObj.enabled = false;
-				touchBloodButt.enabled = false;
-				noTouchBloodButt.enabled = false;
+		
 				i = 0; 
-				displayGUI=false;
 				//displayeddialogue_Scene2.enabled = false;
 				stageInThisScene[3] = true;
+				if(allEvidenceCollectd()){
+					Debug.Log("allEvidenceCollectd: " + allEvidenceCollectd());
+					displayGUI=true;
+					//displayDialogue();
+				}
+				else{
+					displayGUI=false;
+				}
 				Debug.Log("I'm inside of the !stageInThisScene[3]'s else statement");
 			}
 		}
 		else if(!stageInThisScene[4]){
-			displayGUI = true;
+			//displayGUI = true;
 			setUpEvidenceScript();
 			//inside of you've collected all the evidence
 			if(i<maxEvidenceDialogue){
@@ -282,15 +307,28 @@ public class scene2Manager : MonoBehaviour {
 		return false;
 	}
 
+	public void displayCongratsGUI(){
+		congratsEvidenceCanvas.enabled = true;
+		okFromCongrats.enabled = true;    
+	}
+
+	public void onClickOk(){
+		congratsEvidenceCanvas.enabled = false;
+		okFromCongrats.enabled = false;
+	}
+
+	public void turnOffCongratsGUI(){
+		congratsEvidenceCanvas.enabled = false;
+	}
 	///===============Set Up different variations of GUI ========================///
 
 	public void setUpInitScript(){
 		dialogueInit = new string[maxdialogueInitLength];
-		dialogueInit[0] = "Doug: (Ah, the first murder scene I’ve actually been invited to investigate. It feels good to rise the ranks of the ace detective world.)";
+		dialogueInit[0] = "Doug: Ah, the first murder scene I’ve actually been invited to investigate. It feels good to rise the ranks of the ace detective world.)";
 		dialogueInit[1] = "Chief Punctum: Look who finally made it. Good to have you here, Ace. As is plain to see, things… got pretty hairy." ;
 		dialogueInit[2] = "Doug: Is now really the time for jokes, chief? ";
 		dialogueInit[3] = "Chief Punctum: Aw, come now. Don’t be a grumpy greyhound. It’s always best to catch villains while in high spirits.";
-		dialogueInit[4] = "(Doug: She really is as far from being a noir detective as you can get. Sometimes I wish I had a more dramatic role model...)";
+		dialogueInit[4] = "Doug: She really is as far from being a noir detective as you can get. Sometimes I wish I had a more dramatic role model...";
 		dialogueInit[5] = "Doug: Whatever you say, chief.";
 		dialogueInit[6] = "Doug: Anyway, thanks for letting me be a part of this investigation. Time to start investigating!";
 

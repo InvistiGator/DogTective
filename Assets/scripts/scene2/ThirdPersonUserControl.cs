@@ -89,16 +89,38 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         void OnTriggerEnter(Collider evidence){
             if(evidence.gameObject.CompareTag("Evidence")){
                 sceneManagerScript.setEvidenceCollected(evidence.gameObject.name,3);
-                scene2ManagerObj.walkedUpToCount++;
+
+                
+
                 evidence.gameObject.SetActive (false);
-                if(evidence.gameObject.name == "blood"){
-                    //pull up GUI for blood
+                //(scene2ManagerObj.scene2CanvasObj == true)
+                //
+                
+                if(evidence.gameObject.name == "blood" && scene2ManagerObj.allEvidenceCollectd() ){
+                    scene2ManagerObj.turnOffCongratsGUI();
                     scene2ManagerObj.displayGUI = true; 
                     scene2ManagerObj.displayDialogue();
                 }
-                if(scene2ManagerObj.allEvidenceCollectd()){
+                else if(evidence.gameObject.name == "blood"){
+                    //pull up GUI for blood
+                    scene2ManagerObj.turnOffCongratsGUI();
+                    scene2ManagerObj.displayGUI = true; 
                     scene2ManagerObj.displayDialogue();
                 }
+                
+                else if(scene2ManagerObj.allEvidenceCollectd()){
+                    scene2ManagerObj.turnOffCongratsGUI();
+                    scene2ManagerObj.displayDialogue();
+                    scene2ManagerObj.displayGUI = true; 
+                }
+                
+              
+                else{
+                    scene2ManagerObj.displayCongratsGUI();
+                    scene2ManagerObj.displayGUI = false; 
+                }
+                
+                scene2ManagerObj.walkedUpToCount++;
                  //Destroy(evidence.gameObject);
             }
         }

@@ -451,7 +451,6 @@ public class SceneHandler : MonoBehaviour {
 		//SpriteTemp = Resources.Load <Sprite>(name) as Sprite;
 		//CollectedEvidence[srcScene-1].GetComponent<Image>().sprite = SpriteTemp;
 
-
 		CollectedEvidenceString[srcScene-1] = name; 
 		Color temp = CollectedEvidence[srcScene-1].color;
 		temp.a = 1.0f;
