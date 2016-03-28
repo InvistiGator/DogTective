@@ -1,41 +1,41 @@
-Setting: The Sultry Saloon
-[Audio: Tom’s theme]
+ï»¿Setting: The Sultry Saloon
+[Audio: Tomâ€™s theme]
 
-Jade: “So this is where that ‘Sweet Tooth’ guy works out of?”
-Jade: “It’s amazing that someone could be selling the most unhealthy and addictive drug known to animalkind from a sleazy pub.”
-Doug: “It’ll become slightly less amazing once you meet Tom, trust me.”
-Doug: “That hound may be sleazy, but he’s a really sweet talker. I can’t even begin to imagine how many people he’s gotten to consume his confectionary narcotic.”
-Jade: “That’s what I’ve heard… Well, this ought to be interesting.”
-Doug: “Hey, Tom, how are you doing?”
-Tom: “We-heh-ell if it isn’t my old friend Doug.”
-Tom: “And you’ve brought a friend with you too. How nice.”
-Jade: “The name’s Jade. It’s a… unique pleasure to make your acquaintance.”
-Tom: “You certainly got a polite friend there.”
-Tom: “So, what seems to be troubling you now, Doug?”
-Doug: “My friend Jade was a really good friend of Norm’s too, so--”
-Tom: “That’s so nice to hear. I’m really sorry again about his passing.”
-Tom: “I’ve known Norm ever since he was just a kitten in high school…”
-Doug: They knew each other for that long? Now that’s a serious addiction… 
-Tom: “But any friend of Norm’s is a friend of mine. Is there anything at all I can do to help out?”
-Doug: “Well, um… It’s pretty much the same question as last time, Tom.”
-Doug: “I’d really like to find out what did Norm in. Since you knew him so well, I was wondering if you had heard anything more about how he might have died.”
-Jade: “It would really mean a great deal to us, Mr. Confetto.”
-Tom: “Please, just call me Tom.”
-Tom: “And like I told Doug here before, I have no idea what could have happened to the poor guy.”
-Tom: “It’s so sad to see someone like him bite the dust.”
-Doug: “Uh-huh… Well, thank you again for your time, Tom.”
-Tom: “The pleasure’s all mine, buddy.”
-Tom: “Now, as much as I miss Norm, could you please stop asking me about what might’a gotten him killed? It makes me uncomfortable.”
-Tom: “If I find anything out, I’ll be sure to let the two of you know, okay?”
-Doug: “Okay. Thanks again, Tom.”
+Jade: â€œSo this is where that â€˜Sweet Toothâ€™ guy works out of?â€
+Jade: â€œItâ€™s amazing that someone could be selling the most unhealthy and addictive drug known to animalkind from a sleazy pub.â€
+Doug: â€œItâ€™ll become slightly less amazing once you meet Tom, trust me.â€
+Doug: â€œThat hound may be sleazy, but heâ€™s a really sweet talker. I canâ€™t even begin to imagine how many people heâ€™s gotten to consume his confectionary narcotic.â€
+Jade: â€œThatâ€™s what Iâ€™ve heardâ€¦ Well, this ought to be interesting.â€
+Doug: â€œHey, Tom, how are you doing?â€
+Tom: â€œWe-heh-ell if it isnâ€™t my old friend Doug.â€
+Tom: â€œAnd youâ€™ve brought a friend with you too. How nice.â€
+Jade: â€œThe nameâ€™s Jade. Itâ€™s aâ€¦ unique pleasure to make your acquaintance.â€
+Tom: â€œYou certainly got a polite friend there.â€
+Tom: â€œSo, what seems to be troubling you now, Doug?â€
+Doug: â€œMy friend Jade was a really good friend of Normâ€™s too, so--â€
+Tom: â€œThatâ€™s so nice to hear. Iâ€™m really sorry again about his passing.â€
+Tom: â€œIâ€™ve known Norm ever since he was just a kitten in high schoolâ€¦â€
+Doug: They knew each other for that long? Now thatâ€™s a serious addictionâ€¦ 
+Tom: â€œBut any friend of Normâ€™s is a friend of mine. Is there anything at all I can do to help out?â€
+Doug: â€œWell, umâ€¦ Itâ€™s pretty much the same question as last time, Tom.â€
+Doug: â€œIâ€™d really like to find out what did Norm in. Since you knew him so well, I was wondering if you had heard anything more about how he might have died.â€
+Jade: â€œIt would really mean a great deal to us, Mr. Confetto.â€
+Tom: â€œPlease, just call me Tom.â€
+Tom: â€œAnd like I told Doug here before, I have no idea what could have happened to the poor guy.â€
+Tom: â€œItâ€™s so sad to see someone like him bite the dust.â€
+Doug: â€œUh-huhâ€¦ Well, thank you again for your time, Tom.â€
+Tom: â€œThe pleasureâ€™s all mine, buddy.â€
+Tom: â€œNow, as much as I miss Norm, could you please stop asking me about what mightâ€™a gotten him killed? It makes me uncomfortable.â€
+Tom: â€œIf I find anything out, Iâ€™ll be sure to let the two of you know, okay?â€
+Doug: â€œOkay. Thanks again, Tom.â€
 *You leave the saloon.*
-Jade: “Um… is it really okay to just leave like that? We didn’t get a single thing out of him…”
-Doug: “Don’t worry about it, Jade. I have a plan.”
-Doug: “You see, for a private eye, I feel like I haven’t been doing nearly enough sneaking around.”
-Jade: “Oh no…”
-Doug: “So, I was thinking I should sneak around, try and eavesdrop… you know, stealthy detective things.”
-Doug: “Without some snooping, I don’t think we’ll ever learn a thing about what role Tom might have had in all this.”
-Jade: “I agree that Tom’s a tough nut to crack. I mean, he has been in the chocolate business longer than we’ve been alive and he’s never been caught.”
-Jade: “However, snooping around in a place such as this is incredibly dangerous.”
-Jade: “At the very least, you shouldn’t be going at it alone.”
-Doug: “Hm…”
+Jade: â€œUmâ€¦ is it really okay to just leave like that? We didnâ€™t get a single thing out of himâ€¦â€
+Doug: â€œDonâ€™t worry about it, Jade. I have a plan.â€
+Doug: â€œYou see, for a private eye, I feel like I havenâ€™t been doing nearly enough sneaking around.â€
+Jade: â€œOh noâ€¦â€
+Doug: â€œSo, I was thinking I should sneak around, try and eavesdropâ€¦ you know, stealthy detective things.â€
+Doug: â€œWithout some snooping, I donâ€™t think weâ€™ll ever learn a thing about what role Tom might have had in all this.â€
+Jade: â€œI agree that Tomâ€™s a tough nut to crack. I mean, he has been in the chocolate business longer than weâ€™ve been alive and heâ€™s never been caught.â€
+Jade: â€œHowever, snooping around in a place such as this is incredibly dangerous.â€
+Jade: â€œAt the very least, you shouldnâ€™t be going at it alone.â€
+Doug: â€œHmâ€¦â€

@@ -1,15 +1,15 @@
-Chief Punctum: “Well hello, my ace detectives. You’ve returned already?”
-Chief Punctum: “Aw, I know you must have missed me, but you don’t have to worry. I am purr-fectly fine.”
-Doug: “Well, actually… We’re still pretty stumped chief."
-Jade: “We have a great deal of evidence, but none of it points to one culprit conclusively.”
-Chief Punctum: “Same thing goes for us on the force. This is a very cat-ankerous case we’ve got here.”
-Doug: “Well… since we’re really grasping at straws at this point, is there absolutely anything you could tell us that might help?”
-Chief Punctum: “Hm… Let me think…”
-Chief Punctum: “Since we’ve already linked Norm to that *meow* dog Tom, maybe giving you a piece of information about him could help lead you to the killer.”
-Doug: “Sure. What have you got, chief?”
-Chief Punctum: “Okay, so, don’t be disappointed with what I’m about to tell you. Anything information about Tom is very hard to come by.”
-Chief Punctum: “I’ve heard from a few reliable sources that a password Tom often uses is two, one, three.”
-Doug: “A password, huh?”
-Chief Punctum: “I’m not sure how useful that will be, especially since it might have nothing to do with Norm.”
-Jade: “It’s alright. Thank you for your time and knowledge.”
-Doug: “Yeah. Thanks, chief.”
+ï»¿Chief Punctum: â€œWell hello, my ace detectives. Youâ€™ve returned already?â€
+Chief Punctum: â€œAw, I know you must have missed me, but you donâ€™t have to worry. I am purr-fectly fine.â€
+Doug: â€œWell, actuallyâ€¦ Weâ€™re still pretty stumped chief."
+Jade: â€œWe have a great deal of evidence, but none of it points to one culprit conclusively.â€
+Chief Punctum: â€œSame thing goes for us on the force. This is a very cat-ankerous case weâ€™ve got here.â€
+Doug: â€œWellâ€¦ since weâ€™re really grasping at straws at this point, is there absolutely anything you could tell us that might help?â€
+Chief Punctum: â€œHmâ€¦ Let me thinkâ€¦â€
+Chief Punctum: â€œSince weâ€™ve already linked Norm to that *meow* dog Tom, maybe giving you a piece of information about him could help lead you to the killer.â€
+Doug: â€œSure. What have you got, chief?â€
+Chief Punctum: â€œOkay, so, donâ€™t be disappointed with what Iâ€™m about to tell you. Anything information about Tom is very hard to come by.â€
+Chief Punctum: â€œIâ€™ve heard from a few reliable sources that a password Tom often uses is two, one, three.â€
+Doug: â€œA password, huh?â€
+Chief Punctum: â€œIâ€™m not sure how useful that will be, especially since it might have nothing to do with Norm.â€
+Jade: â€œItâ€™s alright. Thank you for your time and knowledge.â€
+Doug: â€œYeah. Thanks, chief.â€

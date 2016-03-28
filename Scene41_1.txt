@@ -1,27 +1,27 @@
-Setting: Weal Law Associates Offices
-Doug: “Oh, Mr. Fancy Pants!”
-Doug: “We’ve got a few questions for you!”
-Morgan: “You insufferable canine. What are you doing here again?”
-Jade: “Insufferable canine and company, thank you very much.”
-Morgan: “I have vision enough to see that, fox.”
-Morgan: “What is it that you need of me this time? I have already told you that I am unaware of the circumstances surrounding Mr. Previse’s current situation.”
-Doug: “That may be true, but you knew a lot about Norm when he was around at the very least.”
-Jade: “You hired him before he even had the chance to complete high school. It would appear as though you had a profound connection with that feline.”
-Morgan: “The hiring practices of Weal Law Associates are not disclosed to the public. I am afraid that I shall be of little use in answering questions which I am not allowed to disclose.”
-Morgan: “And besides, is it not yet obvious to you who the killer is?”
-Morgan: “I am already staring them right in the face…”
-Morgan: “Jade Heimdall.”
-Doug: “What did you just say?!”
-Jade: “You’re actually accusing someone you just met of murder?”
-Jade: “That lacks a certain amount of tact, does it not?”
+ï»¿Setting: Weal Law Associates Offices
+Doug: â€œOh, Mr. Fancy Pants!â€
+Doug: â€œWeâ€™ve got a few questions for you!â€
+Morgan: â€œYou insufferable canine. What are you doing here again?â€
+Jade: â€œInsufferable canine and company, thank you very much.â€
+Morgan: â€œI have vision enough to see that, fox.â€
+Morgan: â€œWhat is it that you need of me this time? I have already told you that I am unaware of the circumstances surrounding Mr. Previseâ€™s current situation.â€
+Doug: â€œThat may be true, but you knew a lot about Norm when he was around at the very least.â€
+Jade: â€œYou hired him before he even had the chance to complete high school. It would appear as though you had a profound connection with that feline.â€
+Morgan: â€œThe hiring practices of Weal Law Associates are not disclosed to the public. I am afraid that I shall be of little use in answering questions which I am not allowed to disclose.â€
+Morgan: â€œAnd besides, is it not yet obvious to you who the killer is?â€
+Morgan: â€œI am already staring them right in the faceâ€¦â€
+Morgan: â€œJade Heimdall.â€
+Doug: â€œWhat did you just say?!â€
+Jade: â€œYouâ€™re actually accusing someone you just met of murder?â€
+Jade: â€œThat lacks a certain amount of tact, does it not?â€
 Doug: Wow, Jade really is amazing under pressure. They barely look annoyed right now.
-Morgan: “Pardon me, but I find myself being less polite while in the presence of someone who has taken a life.”
-Jade: “My, my, it seems you are quite the preposterous man, Mr. Evetta. Doug did not warn me of this.”
-Jade: “Do tell, what evidence is there that prove I am murderer?”
-Morgan: “Well, I ought not tell such things to you, but rather to your friend, the actual sleuth.”
-Morgan: “Mr. Ventose, where was Heimdall when you visited me last?”
-Doug: “Does it matter? They said they were busy, and that’s that!”
-Morgan: “If you choose to believe them, then you are even more of a fool than I had first believed.”
-Morgan: Then what of this, Mr. Ventose? Mr. Previse spoke a number of times during his time here about Heimdall.”
-Morgan: “The things he had to say were less than pleasant.”
-Doug: “Come on, Morgan. Is that all you got.”
+Morgan: â€œPardon me, but I find myself being less polite while in the presence of someone who has taken a life.â€
+Jade: â€œMy, my, it seems you are quite the preposterous man, Mr. Evetta. Doug did not warn me of this.â€
+Jade: â€œDo tell, what evidence is there that prove I am murderer?â€
+Morgan: â€œWell, I ought not tell such things to you, but rather to your friend, the actual sleuth.â€
+Morgan: â€œMr. Ventose, where was Heimdall when you visited me last?â€
+Doug: â€œDoes it matter? They said they were busy, and thatâ€™s that!â€
+Morgan: â€œIf you choose to believe them, then you are even more of a fool than I had first believed.â€
+Morgan: Then what of this, Mr. Ventose? Mr. Previse spoke a number of times during his time here about Heimdall.â€
+Morgan: â€œThe things he had to say were less than pleasant.â€
+Doug: â€œCome on, Morgan. Is that all you got.â€

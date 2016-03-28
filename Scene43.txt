@@ -1,34 +1,34 @@
-Setting: Doug’s Office
-Doug: “I can’t believe we haven’t caught the killer yet.”
-Doug: “It feels like I could just stretch my paw out and reach them with how hot on their trail we are.”
-Jade: “Doug… You’re my best friend…”
-Jade: “You know that, right?”
-Doug: “Of course, Jade. You don’t have to remind me of that in the middle of a murder investigation, though.”
-Doug: “You’ll always be my best friend!”
-Jade: “...”
-Jade: “There’s something that I have to tell you.”
-Doug: “Jade… I’m not stupid.”
-Jade: “What…? That’s not what I was--”
-Doug: “I know. I know it was you who killed Norm.”
-Jade: “Wha… How long have you known?”
-Doug: “I realized a little while ago, but the exact time doesn’t matter.”
-Doug: “I’ve just been waiting patiently until you told me.”
-Doug: “That’s what friends do, right? Patiently await their friends’ confessions of having killed someone? It must happen all the time.”
-Jade: “Doug… Ha ha… Ha ha ha ha ha…”
-Jade: “You try to be funny to the very end.”
-Jade: “Well, I owe you an explanation, at least.”
-Doug: “I would appreciate it, if you don’t mind.”
-Jade: “Recently, I had thought back to our time in high school and remembered a lot about Norm.”
-Jade: “I mostly recalled just how sad he was, and so I decided to go talk to him and see what had become of him.”
-Jade: “He spoke to me quite candidly about his time being put down by Tom and Morgan.”
-Jade: “It was like high school had never ended for him. The bullies just became drug dealers and prosecutors.”
-Jade: “It.. enraged me to see him so resigned to his fate.”
-Jade: “So I started yelling and yelling and…”
-Jade: “We got into a fight. Norm could have easily beaten me, but he held back while I, a newbie to fighting, did not know how.”
-Jade: “With pure adrenaline in my veins, I picked up one of the pens on his desk and… blindly thrust it forward as hard as I could…”
-Jade: “And he died… *sniff*”
-Jade: “He died smiling at me, *sniff* as though he had forgiven me for killing him before he had even died.”
-Doug: “Jade… I’m so sorry…”
-Doug: “That’s terrible, but it wasn’t your fault. You didn’t want to kill him.”
-Jade: “Yeah, but… I still did.”
-Jade: “What do I do, Doug…? What do I do?”
+ï»¿Setting: Dougâ€™s Office
+Doug: â€œI canâ€™t believe we havenâ€™t caught the killer yet.â€
+Doug: â€œIt feels like I could just stretch my paw out and reach them with how hot on their trail we are.â€
+Jade: â€œDougâ€¦ Youâ€™re my best friendâ€¦â€
+Jade: â€œYou know that, right?â€
+Doug: â€œOf course, Jade. You donâ€™t have to remind me of that in the middle of a murder investigation, though.â€
+Doug: â€œYouâ€™ll always be my best friend!â€
+Jade: â€œ...â€
+Jade: â€œThereâ€™s something that I have to tell you.â€
+Doug: â€œJadeâ€¦ Iâ€™m not stupid.â€
+Jade: â€œWhatâ€¦? Thatâ€™s not what I was--â€
+Doug: â€œI know. I know it was you who killed Norm.â€
+Jade: â€œWhaâ€¦ How long have you known?â€
+Doug: â€œI realized a little while ago, but the exact time doesnâ€™t matter.â€
+Doug: â€œIâ€™ve just been waiting patiently until you told me.â€
+Doug: â€œThatâ€™s what friends do, right? Patiently await their friendsâ€™ confessions of having killed someone? It must happen all the time.â€
+Jade: â€œDougâ€¦ Ha haâ€¦ Ha ha ha ha haâ€¦â€
+Jade: â€œYou try to be funny to the very end.â€
+Jade: â€œWell, I owe you an explanation, at least.â€
+Doug: â€œI would appreciate it, if you donâ€™t mind.â€
+Jade: â€œRecently, I had thought back to our time in high school and remembered a lot about Norm.â€
+Jade: â€œI mostly recalled just how sad he was, and so I decided to go talk to him and see what had become of him.â€
+Jade: â€œHe spoke to me quite candidly about his time being put down by Tom and Morgan.â€
+Jade: â€œIt was like high school had never ended for him. The bullies just became drug dealers and prosecutors.â€
+Jade: â€œIt.. enraged me to see him so resigned to his fate.â€
+Jade: â€œSo I started yelling and yelling andâ€¦â€
+Jade: â€œWe got into a fight. Norm could have easily beaten me, but he held back while I, a newbie to fighting, did not know how.â€
+Jade: â€œWith pure adrenaline in my veins, I picked up one of the pens on his desk andâ€¦ blindly thrust it forward as hard as I couldâ€¦â€
+Jade: â€œAnd he diedâ€¦ *sniff*â€
+Jade: â€œHe died smiling at me, *sniff* as though he had forgiven me for killing him before he had even died.â€
+Doug: â€œJadeâ€¦ Iâ€™m so sorryâ€¦â€
+Doug: â€œThatâ€™s terrible, but it wasnâ€™t your fault. You didnâ€™t want to kill him.â€
+Jade: â€œYeah, butâ€¦ I still did.â€
+Jade: â€œWhat do I do, Dougâ€¦? What do I do?â€

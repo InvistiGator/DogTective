@@ -1,10 +1,10 @@
-Jade: “It’s amazing that someone could be selling the most unhealthy and addictive drug known to animalkind from a sleazy pub.”
-Doug: “It’ll become slightly less amazing once you speak with Tom more, trust me.”
-Doug: “That hound may be sleazy, but he’s a really sweet talker. I can’t even begin to imagine how many people he’s gotten to consume his confectionary narcotic.”
-Jade: “That’s what I’ve heard… Well, this ought to be interesting.”
-Doug: “Hey, Tom, how are you doing?”
-Tom: “We-heh-ell if it isn’t my old friend Doug.”
-Tom: “And you’ve brought your friend with you too. How nice.”
-Jade: “The name’s Jade. It’s a… unique pleasure to have made your acquaintance.”
-Tom: “You certainly got a polite friend there.”
-Tom: “So, what seems to be troubling you now, Doug?”
+ï»¿Jade: â€œItâ€™s amazing that someone could be selling the most unhealthy and addictive drug known to animalkind from a sleazy pub.â€
+Doug: â€œItâ€™ll become slightly less amazing once you speak with Tom more, trust me.â€
+Doug: â€œThat hound may be sleazy, but heâ€™s a really sweet talker. I canâ€™t even begin to imagine how many people heâ€™s gotten to consume his confectionary narcotic.â€
+Jade: â€œThatâ€™s what Iâ€™ve heardâ€¦ Well, this ought to be interesting.â€
+Doug: â€œHey, Tom, how are you doing?â€
+Tom: â€œWe-heh-ell if it isnâ€™t my old friend Doug.â€
+Tom: â€œAnd youâ€™ve brought your friend with you too. How nice.â€
+Jade: â€œThe nameâ€™s Jade. Itâ€™s aâ€¦ unique pleasure to have made your acquaintance.â€
+Tom: â€œYou certainly got a polite friend there.â€
+Tom: â€œSo, what seems to be troubling you now, Doug?â€

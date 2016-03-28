@@ -1,9 +1,9 @@
-Setting: The Sultry Saloon
-Jade: “Alright, If you’re sure you want to talk to him again. I hope you know what you’re doing.”
-Tom: “We-heh-ell, if it isn’t my favorite new friends.”
-Tom: “I hope this time you’ve just come by for a visit, or maybe for a nice refreshment from this fine establishment.”
-Doug: “Sorry, Tom, but I’m not here for either of those reasons.”
-Doug: “There is something of much greater importance which we must discuss.”
-Tom: “Oh? I do hope this doesn’t have to do with all of that Norm business again.” 
-Tom: “That would be… awfully unfortunate to hear about again.”
-Doug: “Well, then I’m sorry to disappoint, but it’s about time I told you…”
+ï»¿Setting: The Sultry Saloon
+Jade: â€œAlright, If youâ€™re sure you want to talk to him again. I hope you know what youâ€™re doing.â€
+Tom: â€œWe-heh-ell, if it isnâ€™t my favorite new friends.â€
+Tom: â€œI hope this time youâ€™ve just come by for a visit, or maybe for a nice refreshment from this fine establishment.â€
+Doug: â€œSorry, Tom, but Iâ€™m not here for either of those reasons.â€
+Doug: â€œThere is something of much greater importance which we must discuss.â€
+Tom: â€œOh? I do hope this doesnâ€™t have to do with all of that Norm business again.â€ 
+Tom: â€œThat would beâ€¦ awfully unfortunate to hear about again.â€
+Doug: â€œWell, then Iâ€™m sorry to disappoint, but itâ€™s about time I told youâ€¦â€

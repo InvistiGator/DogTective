@@ -1,11 +1,11 @@
-Chief Punctum: “Well, Ace… I can see that you’ve been doing a terrific job of not making enemies.”
-Doug: “This wasn’t my fault, chief!”
-Doug: “We went over to Goldie’s to ask her more about the murder, but, when I brought up Norm’s name, she just started crying.”
-Doug: “Then Morgan and some of his goons showed up, said we were trespassing, and brought us here.”
-Jade: “Doug is absolutely correct, chief. I doubt we could have seen this coming.”
-Chief Punctum: “Listen, I really don’t like these KT Corp people either, but you have to be really careful.”
-Chief Punctum: “Luckily for you two, Morgan doesn’t have any evidence to convict you of wrongdoing, but if you annoy him enough, he will make you pay. 
-Chief Punctum: “Or worse - you’ll never get any information out of him, not that he’s been very helpful thus far.”
-Chief Punctum: “And with that, you’re free to go. Now that you are, please be more careful with your actions in the future.”
-Doug: “Thanks, chief.”
-Jade: “Yes. Thank you very much.”
+ï»¿Chief Punctum: â€œWell, Aceâ€¦ I can see that youâ€™ve been doing a terrific job of not making enemies.â€
+Doug: â€œThis wasnâ€™t my fault, chief!â€
+Doug: â€œWe went over to Goldieâ€™s to ask her more about the murder, but, when I brought up Normâ€™s name, she just started crying.â€
+Doug: â€œThen Morgan and some of his goons showed up, said we were trespassing, and brought us here.â€
+Jade: â€œDoug is absolutely correct, chief. I doubt we could have seen this coming.â€
+Chief Punctum: â€œListen, I really donâ€™t like these KT Corp people either, but you have to be really careful.â€
+Chief Punctum: â€œLuckily for you two, Morgan doesnâ€™t have any evidence to convict you of wrongdoing, but if you annoy him enough, he will make you pay. 
+Chief Punctum: â€œOr worse - youâ€™ll never get any information out of him, not that heâ€™s been very helpful thus far.â€
+Chief Punctum: â€œAnd with that, youâ€™re free to go. Now that you are, please be more careful with your actions in the future.â€
+Doug: â€œThanks, chief.â€
+Jade: â€œYes. Thank you very much.â€
