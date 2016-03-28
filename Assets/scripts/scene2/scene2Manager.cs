@@ -21,8 +21,6 @@ public class scene2Manager : MonoBehaviour {
 	public GameObject papersFromWork;
 	public GameObject lightBrownFur;
 
-
-
 	public bool [] stageInThisScene;
 	public int walkedUpToCount = 0;
 	//script for script GUI stuff

@@ -463,9 +463,8 @@ public class SceneHandler : MonoBehaviour {
 		//Debug.Log(SpriteTemp.ToString());
 	}
 	//the setEvidenceCollected method for scene2 and scene4
-	public void setEvidenceCollected3D(string name, int srcScene1){
+	public void setEvidenceCollected3D(string name){
 		int tempInt = 0;
-		if(srcScene1 == 2){
 			//Debug.Log(SpriteTemp.ToString());
 			if(name=="blood"){
 				tempInt = 0;
@@ -494,13 +493,7 @@ public class SceneHandler : MonoBehaviour {
 			if(name=="lightBrownFur"){
 				tempInt = 20;
 			}
-		}
 
-		else if(srcScene1 == 7){
-
-			if(name=="blood"){
-				tempInt = 0;
-			}
 			if(name=="scuffMarks"){
 				tempInt = 4;
 			}
@@ -540,7 +533,7 @@ public class SceneHandler : MonoBehaviour {
 			if(name=="pipe"){
 				tempInt = 21;
 			}
-		}
+
 		CollectedEvidenceString[tempInt] = name; 
 		Color temp = CollectedEvidence[tempInt].color;
 		temp.a = 1.0f;
@@ -549,6 +542,16 @@ public class SceneHandler : MonoBehaviour {
 		Debug.Log("CollectedEvidence string [] : ");
 		Debug.Log(CollectedEvidenceString[tempInt]);
 		Debug.Log("Evidence/" + name);
+	}
+
+	public bool lookForEvidence(string evidence_){
+		for(int i=0; i<CollectedEvidenceString.Length; i++){
+			if(CollectedEvidenceString[i] == evidence_){
+				return true;
+			}
+		}
+
+		return false;
 	}
 
 	public string[] readFile(string fileName){

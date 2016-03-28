@@ -3,10 +3,10 @@ using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class scene6Manager : MonoBehaviour {
+public class scene10Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
-	public SceneHandler scene6ManagerScript;
-	public Text displayedDialogue_Scene6 =  null;
+	public SceneHandler scene10ManagerScript;
+	public Text displayedDialogue_Scene10 =  null;
 	private string [] dialogue; 
 	private int i= 0; // a counter to iterater thru conversations, and set important convo indexes
 	private int iwithEvidence;
@@ -17,12 +17,12 @@ public class scene6Manager : MonoBehaviour {
 		//finds the empty gameobject associated with sceneHandler
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
-		scene6ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		scene10ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 	}
 	void Start () {
-		scene6ManagerScript.setUserVisited(6);
-		scene6ManagerScript.printCurrentKillerID();
-		dialogue = scene6ManagerScript.readFile("Scene6.txt");
+		scene10ManagerScript.setUserVisited(10);
+		scene10ManagerScript.printCurrentKillerID();
+		dialogue = scene10ManagerScript.readFile("Scene10.txt");
 		maxDialogueLength = dialogue.Length;
 
 		displayDialogue();
@@ -39,7 +39,7 @@ public class scene6Manager : MonoBehaviour {
 	
 	public void displayDialogue(){
 		if(i<maxDialogueLength){
-			displayedDialogue_Scene6.text = dialogue[i];
+			displayedDialogue_Scene10.text = dialogue[i];
 			i++;
 		}
 		else{
