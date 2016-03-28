@@ -87,7 +87,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         void OnTriggerEnter(Collider evidence){
             if(evidence.gameObject.CompareTag("Evidence")){
-                sceneManagerScript.setEvidenceCollected3D(evidence.gameObject.name,2);
+                sceneManagerScript.setEvidenceCollected3D(evidence.gameObject.name);
 
                 
 
