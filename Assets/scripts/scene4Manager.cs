@@ -31,7 +31,12 @@ public class scene4Manager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(i==maxDialogueLength+1){
-			SceneManager.LoadScene(2);
+			if (scene4ManagerScript.userVisited[3] && !scene4ManagerScript.userVisited[5]){
+			    SceneManager.LoadScene(5);
+			}
+			else if (scene4ManagerScript.userVisited[3] && scene4ManagerScript.userVisited[5]){
+				SceneManager.LoadScene(6);
+			}
 		}
 
 	}

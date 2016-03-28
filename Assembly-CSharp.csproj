@@ -38,10 +38,10 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>C:/Users/Nicola/Downloads/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Users/Nicola/Downloads/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -54,12 +54,24 @@
      <Compile Include="Assets\scripts\GUI\SceneHandler.cs" />
      <Compile Include="Assets\scripts\GUI\sceneSelection.cs" />
      <Compile Include="Assets\scripts\scene10Manager.cs" />
+     <Compile Include="Assets\scripts\scene11Manager.cs" />
+     <Compile Include="Assets\scripts\scene12Manager.cs" />
+     <Compile Include="Assets\scripts\scene13Manager.cs" />
+     <Compile Include="Assets\scripts\scene14Manager.cs" />
+     <Compile Include="Assets\scripts\scene15Manager.cs" />
+     <Compile Include="Assets\scripts\scene16Manager.cs" />
+     <Compile Include="Assets\scripts\scene17Manager.cs" />
+     <Compile Include="Assets\scripts\scene18Manager.cs" />
+     <Compile Include="Assets\scripts\scene19Manager.cs" />
      <Compile Include="Assets\scripts\scene1Manager.cs" />
      <Compile Include="Assets\scripts\scene2\AICharacterControl.cs" />
      <Compile Include="Assets\scripts\scene2\Scene2AudioScript.cs" />
      <Compile Include="Assets\scripts\scene2\ThirdPersonCharacter.cs" />
      <Compile Include="Assets\scripts\scene2\ThirdPersonUserControl.cs" />
      <Compile Include="Assets\scripts\scene2\scene2Manager.cs" />
+     <Compile Include="Assets\scripts\scene20Manager.cs" />
+     <Compile Include="Assets\scripts\scene21Manager.cs" />
+     <Compile Include="Assets\scripts\scene22Manager.cs" />
      <Compile Include="Assets\scripts\scene23Manager.cs" />
      <Compile Include="Assets\scripts\scene24Manager.cs" />
      <Compile Include="Assets\scripts\scene25Manager.cs" />
@@ -109,10 +121,10 @@
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Dialogue\Scene7\Scene7_1_1.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Nicola/Downloads/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Users/Nicola/Downloads/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -10,10 +10,15 @@ public class scene3Manager : MonoBehaviour {
 	public Text displayedDialogue_Scene3 =  null;
 	public Canvas scene3Canvas;
 	//different dialogue versions in this scenes based on the random killerID generated in sceneHandler
-	private string [] dialogue;
+	private string [] dialogue_1;
+	private string [] dialogue_2_1;
+	private string [] dialogue_2_2;
 
 	private int i= 0; // a counter to iterater thru conversations, and set important convo indexes
 	private int iwithEvidence;
+	private int dialogue_1Length;
+	private int dialogue_2_1Length;
+	private int dialogue_2_2Length;
 	private int maxDialogueLength = 3;  // defines the length of the dialogue in this scene
 	// Use this for initialization
 	// 
@@ -28,7 +33,16 @@ public class scene3Manager : MonoBehaviour {
 		scene3ManagerScript.printCurrentKillerID();
 		iwithEvidence = 0;		
 		//set up dialogue needed for this scene
-		setUpDialogue();
+		
+		dialogue_1 = scene3ManagerScript.readFile("Scene3_1.txt");
+		dialogue_1Length = dialogue_1.Length;
+
+		dialogue_2_1 = scene3ManagerScript.readFile("Scene3_2_1.txt");
+		dialogue_2_1Length = dialogue_2_1.Length;
+
+		dialogue_2_2 = scene3ManagerScript.readFile("Scene3_2_2.txt");
+		dialogue_2_2Length = dialogue_2_2.Length;
+
 		displayDialogue();
 		
 		//disable GUI at beginning 
@@ -50,14 +64,6 @@ public class scene3Manager : MonoBehaviour {
 		}
 	}
 
-	public void setUpDialogue() {
-		dialogue = new string[maxDialogueLength];
-		dialogue[0] = "this is the first convo from scene 3";
-		dialogue[1] = "dfdfafdde!";
-		dialogue[2] = "this is the third convo....";
-		//change dialogue base on random variables
-		changeDialogue(); 
-	}
 	public void changeDialogue(){
 		//write switch or if/else statements to decide what portion of dialogue need to be changed. 
 		//if(scene3ManagerScript.killerID == 0 )
@@ -68,7 +74,7 @@ public class scene3Manager : MonoBehaviour {
 			scene3ManagerScript.setEvidenceCollected("evidence",3);
 		}
 		if(i<maxDialogueLength){
-			displayedDialogue_Scene3.text = dialogue[i];
+			displayedDialogue_Scene3.text = dialogue_1[i];
 			i++;
 		}
 				
