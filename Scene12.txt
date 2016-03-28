@@ -1,0 +1,43 @@
+Setting: A Secret Passage
+Jade: “Doug, what are we doing in here?! Do you have any idea how dangerous this is?”
+Doug: “Calm down you scaredy-ca-- I mean scaredy-fox.”
+Doug: “We went with your whole silent, boring stakeout thing for a long time. Now it’s time to have fun and explore this awesome secret passage for a while.”
+Jade: “Oh, alright, but it’s pretty obvious that we have to remain vigilant and careful. We don’t know who else could be down here.”
+Doug: “Aye aye, Captain Jade.”
+Jade: “Hm… I guess this must be how Tom can distribute his product so secretively.”
+Doug: “I wonder how many tunnels like this there are? Are they only in this city? I have so many questions…”
+Jade: “As do I, but, for now, we ought to focus on the task at hand.”
+Doug: “Right! Let’s see if there’s anything in here that can link Tom to Norm’s murder, or any other nefarious schemes.”
+Jade: “Don’t get too excited, though. We shouldn’t stray too far from the entrance, as I have no idea where this tunnel might lead to.”
+Doug: “Aw, I guess you’re right…”
+*You and Jade look around for any clues.”
+Doug: “Hey, I think I found something.”
+Jade: “What is it?”
+Doug: “Hm… There’s a paper that’s been nailed to the wall. It seems to be some sort of list.”
+Doug: “At the top it reads, ‘Tom’s Naughty List.’ I wonder why…” 
+Jade: “It’s probably a list of people who have crossed Tom in some way.”
+Doug: “There are also a whole bunch of names on here, a few of which have been crossed-out.” 
+Doug: “Wait a sec… I recognize some of these crossed-out names.”
+Jade: “That’s because they’ve been in the news. All of these crossed-out names are of people who have either died or gone missing recently.”
+Jade: “Look! One of the names listed here is…”
+Doug & Jade: “Norm Previse!” 
+Doug: “That’s odd… Normally this would be pretty good evidence, but Norm’s name hasn’t been crossed out.” 
+Jade: “Maybe the list hasn’t been updated yet?”
+Doug: “Not only that, his name even has an extra little note next to it that says ‘Beware the chief.’ Does that mean Chief Punctum?” 
+Jade: “Could the chief know something about all of this? She has been chasing Tom’s tail for many years now…”
+Doug: “I don’t know. Maybe?”
+Doug: “It’s definitely something we’ll have to look into more.”
+Jade: “Yes it is. I’ll just take a photo of this list for future reference.”
+Doug: “Good, now let’s keep on--” 
+Jade: “Shh!”
+*Jade’s ears perk up.*
+*Footsteps and voices echo in the distance.*
+Jade: “We have to go. Now!”
+Doug: “Yeah, I know!”
+*You leave the secret passage in a hurry and run a short distance away.”
+Doug: “*pant* *pant* Whew, that was close.” 
+Jade: “No arguments here, but I don’t think we can go back in there any more.”
+Jade: “We’re lucky we managed to escape unharmed, so we really shouldn’t go back.”
+Doug: “Yeah… As much as I’d like to keep on exploring, I have to agree.”
+Doug: “Let’s continue the investigation someplace else.” 
+Jade: “Yes. We still have a number of people we can talk to, and perhaps the password we found could be used somewhere else…”

@@ -1,0 +1,43 @@
+Setting: The Police Department
+Jade: “So, how’s the chief been doing lately?”
+Doug: “You know her. Still making all of her silly jokes.”
+Doug: “There is one thing that has been bothering me, though…”
+Jade: “What is it?”
+Doug: “Well, it’s still really amazing that the chief chose me to help on this investigation.” 
+Jade: “Yes, I know. You’re really happy and excited and--”
+Doug: “No, that’s not it.”
+Doug: “I just don’t know why she would give a case like this to someone like me.”
+Doug: “I know she likes me and I sorta knew Norm and all, but it still seems weird to me that she would give such an important case to someone who’s only been a detective for a few months.”
+Jade: “It is a bit odd, but remember that the chief is an odd person.”
+Jade: “Maybe she really just sees something in you, or maybe all of her good detectives are busy with other cases.”
+Doug: “Maybe… I am pretty awesome…”
+Doug: “Anyway, I know it’s probably nothing. I just wanted to see what you had to say.”
+Doug: Now that I think about it… I also wonder what Jade was up to for so long earlier…
+Doug: Eh, I’ll just ask later.
+*Damina Enters*
+Chief Punctum: “Well, look what the cat dragged in!”
+Chief Punctum: “With the cat obviously being me, and the dragging being an intense murder mystery that requires the cat’s assistance.”
+Chief Punctum: “It’s good to see the detective duo together again. I presume Jade will be helping you out with the case, Ace?”
+Doug: “They certainly will be. Even an ace detective needs help from friends every once in a while.”
+Jade: “And Doug here really needs the help.”
+Doug: “Hey!”
+Chief Punctum: “No need to get scrappy, pups.”
+Chief Punctum: “So, is there something you needed my help with?”
+Doug: “Well, Jade and I have looked over the crime scene pretty well, so I just wanted to ask you if there was anything more you had to tell us before we continue the investigation.”
+Chief Punctum: “I’m afraid that there isn’t very much to say, Ace.”
+Chief Punctum: “We’ve been looking into the usual suspects you think of when a person dies…”
+Chief Punctum: “Ties to shady businesses, problems at work, old friends…”
+Chief Punctum: “But we haven’t been able to find anything that points to someone in particular.” 
+Jade: “Are you saying that even the police don’t  have a top suspect?”
+Chief Punctum: “That’s exactly right, Jade. I’m hoping that the two of you will be able to see this case from an angle that we haven’t yet.”
+Chief Punctum: “Maybe you’ll be able to crack a case that even we can’t.”
+Doug: “Ah… That would be awesome…”
+Jade:  “We’ll do our best to figure things out, chief?”
+Chief Punctum: “That’s the spirit, you two.”
+Chief Punctum: “So, what’s your next move?”
+Doug: “I was thinking that we could go talk to the suspects some more. I wasn’t able to get very much from them the first time around…”
+Doug: “Now that I’m armed with more evidence and a new companion, things should go much more smoothly, and we can start narrowing down suspects.”
+Chief Punctum: “That sounds like a plan, Ace. Now, if you’ll excuse me, I’ve got paws-itively tons of work to do.”
+*Damina Leaves*
+Jade: “Alright! Are you ready to head out and solve this thing, Ace Detective?”
+Doug: “Let’s do this.”
