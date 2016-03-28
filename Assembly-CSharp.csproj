@@ -38,10 +38,10 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Users/Nicola/Downloads/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Users/Nicola/Downloads/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -60,8 +60,36 @@
      <Compile Include="Assets\scripts\scene2\ThirdPersonCharacter.cs" />
      <Compile Include="Assets\scripts\scene2\ThirdPersonUserControl.cs" />
      <Compile Include="Assets\scripts\scene2\scene2Manager.cs" />
+     <Compile Include="Assets\scripts\scene23Manager.cs" />
+     <Compile Include="Assets\scripts\scene24Manager.cs" />
+     <Compile Include="Assets\scripts\scene25Manager.cs" />
+     <Compile Include="Assets\scripts\scene26Manager.cs" />
+     <Compile Include="Assets\scripts\scene27Manager.cs" />
+     <Compile Include="Assets\scripts\scene28Manager.cs" />
+     <Compile Include="Assets\scripts\scene29Manager.cs" />
      <Compile Include="Assets\scripts\scene3\scene3Manager.cs" />
+     <Compile Include="Assets\scripts\scene30Manager.cs" />
+     <Compile Include="Assets\scripts\scene31Manager.cs" />
+     <Compile Include="Assets\scripts\scene32Manager.cs" />
+     <Compile Include="Assets\scripts\scene33Manager.cs" />
+     <Compile Include="Assets\scripts\scene34Manager.cs" />
+     <Compile Include="Assets\scripts\scene35Manager.cs" />
+     <Compile Include="Assets\scripts\scene36Manager.cs" />
+     <Compile Include="Assets\scripts\scene37Manager.cs" />
+     <Compile Include="Assets\scripts\scene38Manager.cs" />
+     <Compile Include="Assets\scripts\scene39Manager.cs" />
+     <Compile Include="Assets\scripts\scene40Manager.cs" />
+     <Compile Include="Assets\scripts\scene41Manager.cs" />
+     <Compile Include="Assets\scripts\scene42Manager.cs" />
+     <Compile Include="Assets\scripts\scene43Manager.cs" />
+     <Compile Include="Assets\scripts\scene44Manager.cs" />
+     <Compile Include="Assets\scripts\scene45Manager.cs" />
+     <Compile Include="Assets\scripts\scene46Manager.cs" />
+     <Compile Include="Assets\scripts\scene47Manager.cs" />
+     <Compile Include="Assets\scripts\scene48Manager.cs" />
+     <Compile Include="Assets\scripts\scene49Manager.cs" />
      <Compile Include="Assets\scripts\scene4Manager.cs" />
+     <Compile Include="Assets\scripts\scene50Manager.cs" />
      <Compile Include="Assets\scripts\scene5Manager.cs" />
      <Compile Include="Assets\scripts\scene6Manager.cs" />
      <Compile Include="Assets\scripts\scene7Manager.cs" />
@@ -81,10 +109,10 @@
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Dialogue\Scene7\Scene7_1_1.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Nicola/Downloads/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Users/Nicola/Downloads/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

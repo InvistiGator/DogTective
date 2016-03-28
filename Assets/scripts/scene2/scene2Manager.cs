@@ -210,7 +210,7 @@ public class scene2Manager : MonoBehaviour {
 		if(scene2ManagerScript.killerID == 2 || scene2ManagerScript.killerID == 3 ){
 			bodyObject.SetActive(false);
 			//No body, set no body as an evidence
-			scene2ManagerScript.setEvidenceCollected3D("noBody", 2);
+			scene2ManagerScript.setEvidenceCollected3D("noBody");
 		}
 		else{
 			bodyObject.SetActive(true);
@@ -532,7 +532,7 @@ public class scene2Manager : MonoBehaviour {
 		//the button associated with touching blood
 		//set up everything
 		//person decided to touch blood. Add this to their evidence inventory. 
-		scene2ManagerScript.setEvidenceCollected3D("blood",2);
+		scene2ManagerScript.setEvidenceCollected3D("blood");
 		//[Audio: Blood's event sound]
 	/*			
 	//Randomization: If Norm or Damina is the culprit:

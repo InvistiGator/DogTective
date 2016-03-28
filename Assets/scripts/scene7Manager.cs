@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class scene7Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
@@ -27,8 +29,8 @@ public class scene7Manager : MonoBehaviour {
 	public int walkedUpToCount = 0;
 	//script for script GUI stuff
 	public bool displayGUI;
-	public Canvas scene2CanvasObj;
-	public Text displayeddialogue_Scene2;
+	public Canvas scene7CanvasObj;
+	public Text displayeddialogue_Scene7;
 
 	public Canvas congratsEvidenceCanvas; 
 	public Button okFromCongrats;
