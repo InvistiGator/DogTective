@@ -3,15 +3,14 @@ using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class scene4Manager1 : MonoBehaviour {
-//private scene2Manager: SceneHandler;
+public class scene4Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
 	public SceneHandler scene4ManagerScript;
 	public Text displayedDialogue_Scene4 =  null;
 	private string [] dialogue; 
 	private int i= 0; // a counter to iterater thru conversations, and set important convo indexes
 	private int iwithEvidence;
-	private int maxDialogueLength = 3;  // defines the length of the dialogue in this scene
+	private int maxDialogueLength;  // defines the length of the dialogue in this scene
 	// Use this for initialization
 	// 
 	void Awake(){
@@ -21,40 +20,32 @@ public class scene4Manager1 : MonoBehaviour {
 		scene4ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 	}
 	void Start () {
-		scene4ManagerScript.setUserVisited(2);
+		scene4ManagerScript.setUserVisited(5);
 		scene4ManagerScript.printCurrentKillerID();
-		iwithEvidence = 0;
-		dialogue = new string[maxDialogueLength];
-		dialogue[0] = "this is the first convo";
-		dialogue[1] = "Please Add BLOOD to Evidence!";
-		dialogue[2] = "this is the third convo....";
+		dialogue = scene4ManagerScript.readFile("Scene4.txt");
+		maxDialogueLength = dialogue.Length;
 
 		displayDialogue();
-		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		//if counter reached the max dialogue length, move onto next scene
-		if(i==maxDialogueLength){
-			if(scene4ManagerScript.userVisited[1]){
-				SceneManager.LoadScene("sceneSelection");
-				Debug.Log("Current SceneInstance.userVisited[1]:  ");
-				Debug.Log(scene4ManagerScript.userVisited[1]);
-
-			}
+		if(i==maxDialogueLength+1){
+			SceneManager.LoadScene(2);
 		}
+
 	}
 
 	
 	public void displayDialogue(){
-		if(i==iwithEvidence){
-			scene4ManagerScript.setEvidenceCollected("blood",2);
-		}
 		if(i<maxDialogueLength){
 			displayedDialogue_Scene4.text = dialogue[i];
 			i++;
 		}
+		else{
+			i++;
+		}
 				
 	}
+
 }
