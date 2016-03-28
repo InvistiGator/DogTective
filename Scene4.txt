@@ -1,44 +1,44 @@
-Setting: The Sultry Saloon
-Doug: Wow, I know that this place is a secret front for a chocolate business, but it’s even more shady than I had imagined.
-Doug: And now that I’ve walked in, everyone’s staring at me…
+ï»¿Setting: The Sultry Saloon
+Doug: Wow, I know that this place is a secret front for a chocolate business, but itâ€™s even more shady than I had imagined.
+Doug: And now that Iâ€™ve walked in, everyoneâ€™s staring at meâ€¦
 Doug: Oh no! How will I know which one is the infamous Sweet Tooth?
-Doug: I’ve never seen him before...
-???: “We-heh-ell looks like we got a new customer here, folks.”
-???: “You probably already know who I am, don’tcha?”
-???: “Aw, but I shouldn’t be rude to our new guest, right fellas?”
-Tom: “The name’s Thomas Ridgewell Confetto, but you can call me Tom.”
-Tom: “It’s a pleasure to make ya acquaintance, buddy. What’s your name?”
-Doug: I’m not sure if I should be relaxed or really freaked out…
-Doug: Calm down, Doug. Just act cool…
-Doug: “We-heh-heh-heh-ell my name is Doug, and that’s what you can call me, fella.”
-Doug: “It’s my first time here, but it’s nice to see that you are all so inviting.”
-Tom: “Ha ha, you’re a funny one aren’tcha? Ain’t he just the funniest?” 
-Tom: “So Doug, most people who come into this establishment they… well…” 
-Tom: “...they know what they’re looking for.” 
-Tom: “So what are you looking for today?”
-Doug: “I’m looking for some answers, Tom.”
-Doug: “An old buddy of mine, Norm... He was found dead earlier.”
-Doug: “I’d really like to know what happened to the poor guy, and I know he used to come around here sometimes.”
-Doug: “Did you happen to know him?”
-Tom: “Hm…” 
-Tom: “Well of course I knew him! Norm was a good buddy of mine too, you know?”  
-Tom: “It’s too bad he never introduced us to one another. I’m sure we could have all been great friends.”
-Tom: “I am really sorry to hear about his passing, though. It’s such a shame when you lose good people like that.”
-Doug: “It really is, huh? Would you happen to know what it was that did him in?” 
-Tom: “Me? Oh no, I’d never EVER get myself involved in any funny business like that. I have no idea what could have killed the poor guy.”
-Tom: “If I hear anything, though, I’ll be sure to letcha know all about it.”
-Doug: “Thank you very much for that.” 
-Tom: “Oh, and one last thing there, Doug.”
-Doug: “What is it, Tom?”
-Tom: “I know you’re a private eye - I know all the private eyes in this city - so if I catch you snooping around and invading my personal privacy, well…”  
-Tom: “It ain’t gonna be pretty.”  
-Tom: “Especially if I see that rude police chief with you.”  
-Tom: “You got that?”
-Doug: “Oh, yes sir. I don’t want to bother you or anything.” 
-Tom: “Good, good. You seem like a nice kid, Doug. I’ll see you around.”
-Doug: “See you around.”
+Doug: Iâ€™ve never seen him before...
+???: â€œWe-heh-ell looks like we got a new customer here, folks.â€
+???: â€œYou probably already know who I am, donâ€™tcha?â€
+???: â€œAw, but I shouldnâ€™t be rude to our new guest, right fellas?â€
+Tom: â€œThe nameâ€™s Thomas Ridgewell Confetto, but you can call me Tom.â€
+Tom: â€œItâ€™s a pleasure to make ya acquaintance, buddy. Whatâ€™s your name?â€
+Doug: Iâ€™m not sure if I should be relaxed or really freaked outâ€¦
+Doug: Calm down, Doug. Just act coolâ€¦
+Doug: â€œWe-heh-heh-heh-ell my name is Doug, and thatâ€™s what you can call me, fella.â€
+Doug: â€œItâ€™s my first time here, but itâ€™s nice to see that you are all so inviting.â€
+Tom: â€œHa ha, youâ€™re a funny one arenâ€™tcha? Ainâ€™t he just the funniest?â€ 
+Tom: â€œSo Doug, most people who come into this establishment theyâ€¦ wellâ€¦â€ 
+Tom: â€œ...they know what theyâ€™re looking for.â€ 
+Tom: â€œSo what are you looking for today?â€
+Doug: â€œIâ€™m looking for some answers, Tom.â€
+Doug: â€œAn old buddy of mine, Norm... He was found dead earlier.â€
+Doug: â€œIâ€™d really like to know what happened to the poor guy, and I know he used to come around here sometimes.â€
+Doug: â€œDid you happen to know him?â€
+Tom: â€œHmâ€¦â€ 
+Tom: â€œWell of course I knew him! Norm was a good buddy of mine too, you know?â€  
+Tom: â€œItâ€™s too bad he never introduced us to one another. Iâ€™m sure we could have all been great friends.â€
+Tom: â€œI am really sorry to hear about his passing, though. Itâ€™s such a shame when you lose good people like that.â€
+Doug: â€œIt really is, huh? Would you happen to know what it was that did him in?â€ 
+Tom: â€œMe? Oh no, Iâ€™d never EVER get myself involved in any funny business like that. I have no idea what could have killed the poor guy.â€
+Tom: â€œIf I hear anything, though, Iâ€™ll be sure to letcha know all about it.â€
+Doug: â€œThank you very much for that.â€ 
+Tom: â€œOh, and one last thing there, Doug.â€
+Doug: â€œWhat is it, Tom?â€
+Tom: â€œI know youâ€™re a private eye - I know all the private eyes in this city - so if I catch you snooping around and invading my personal privacy, wellâ€¦â€  
+Tom: â€œIt ainâ€™t gonna be pretty.â€  
+Tom: â€œEspecially if I see that rude police chief with you.â€  
+Tom: â€œYou got that?â€
+Doug: â€œOh, yes sir. I donâ€™t want to bother you or anything.â€ 
+Tom: â€œGood, good. You seem like a nice kid, Doug. Iâ€™ll see you around.â€
+Doug: â€œSee you around.â€
 Doug: Wow, that got pretty scary towards the end there.
-Doug: He was so nice at first, I almost forgot that he’s a crime lord.
-Doug: And I don’t think I got answers to any real questions.
+Doug: He was so nice at first, I almost forgot that heâ€™s a crime lord.
+Doug: And I donâ€™t think I got answers to any real questions.
 Doug: Anyway, that dog is definitely suspicious, and I have to be careful around him.
 Doug: Time to move on with this investigation.
