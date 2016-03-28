@@ -20,7 +20,7 @@ public class scene8Manager : MonoBehaviour {
 		scene8ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 	}
 	void Start () {
-		scene8ManagerScript.setUserVisited(5);
+		scene8ManagerScript.setUserVisited(8);
 		scene8ManagerScript.printCurrentKillerID();
 		dialogue = scene8ManagerScript.readFile("Scene8.txt");
 		maxDialogueLength = dialogue.Length;
