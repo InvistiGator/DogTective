@@ -1,0 +1,28 @@
+Setting: Doug’s Office
+Jade: “We have already spoken about Norm briefly, but perhaps we should look back and try to remember more about his past and our experiences with him.”
+Jade: “It may indeed help us in figuring out how he could have gotten mixed up in all of… whatever he got mixed up in.”
+Doug: “Hm… Well, I barely remember him, myself…”
+Doug: “I’m trying to think back to what classes I had with him in high school.”
+Jade: “Norm was never very good at school, so it was probably a class you were both bad at.”
+Doug: “Remember that summer I had to take classes to catch up on some of my subjects? Maybe it was then…?”
+Doug: “Hm…”
+Doug: “Oh yeah! It was! I can remember clearly because he brought the class a whole batch of cookies the day he left.”
+Doug: “They weren’t the best cookies in the world, mind you, but they were still--”
+Jade: “Wait, wait, wait. He left the class? Why?”
+Doug: “Hm… I think that his parents were having him tutored at a private academy or something.”
+Jade: “A private academy? Wait, that’s it!”
+Doug: “What is?”
+Jade: “The biggest private school in town is mostly owned by KT Corp.”
+Doug: “Oh! Could Norm and Goldie have actually met each other there?”
+Jade: “That’s what I’m thinking. Goldie isn’t that much older than us…”
+Doug: “Is there any way of checking if they were there at the same time?”
+Jade: “Yes. Enrollment is a matter of public record, so it should… be… pretty easy to…”
+Jade: “Found it! They were both enrolled there at the same time.”
+Jade: “It seems that Norm continued taking classes there even after we graduated from high school, but he didn’t finish his classes there because…”
+Jade: “He had been offered a position at Weal Law Associates!”
+Doug: “I knew there was no way a mean smarty pants like Morgan would hire a kind soul like Norm.”
+Doug: “Goldie probably got Norm the job. It all makes sense.”
+Jade: “It does make sense, but…”
+Jade: “A. We have no way of proving it, and B. that doesn’t solve anything regarding the case.”
+Doug: “It’s something to go on, at least.”
+Doug: “Come on, let’s go out and do some more investigating.”

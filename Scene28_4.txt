@@ -1,0 +1,13 @@
+Morgan: “Ah, if it isn’t my dear Ventose and Heimdall. Did the piece of evidence I provide manage to serve a function?”
+Doug: “Uhh… Yeah, definitely. It was the most useful tie ever. Thanks, Morgan.”
+Morgan: “The pleasure was all mine. I am honored that I might have helped to apprehend a vile criminal.”
+Jade: “We were curious to know if you have discovered any new information about Norm since our last meeting.”
+Morgan: “Unfortunately, I have been unable to ascertain anything new.”
+Doug: Ugh, I really don’t like this guy, but I’ll have to be nice if I want to get anything out of him.
+Doug: “That’s too bad to hear. I feel like we’re really close to catching the culprit…”
+Morgan: “I have divulged all the information to you that I can, but perhaps there is another individual who could come to your aid.”
+Morgan: “My dear, dear lady Goldie knew Norm herself, and has been grieving his death ever since she had gotten word of it.”
+Morgan: “I am certain she knows nothing of the killer, but it might do her good to have a discussion with those looking into the case.”
+Morgan: “I would greatly appreciate it if you could go speak with her.”
+Doug: Great, now he thinks so little of us that we have just turned into shoulders for Goldie to cry on.
+Jade: “It would indeed be lovely to speak with her. Thank you kindly, Mr. Evetta.”

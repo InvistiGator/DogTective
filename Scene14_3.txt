@@ -1,0 +1,15 @@
+Chief Punctum: “Well hello, my ace detectives. You’ve returned already?”
+Chief Punctum: “Aw, I know you must have missed me, but you don’t have to worry. I am purr-fectly fine.”
+Doug: “Well, actually… We’re still pretty stumped chief."
+Jade: “We have a great deal of evidence, but none of it points to one culprit conclusively.”
+Chief Punctum: “Same thing goes for us on the force. This is a very cat-ankerous case we’ve got here.”
+Doug: “Well… since we’re really grasping at straws at this point, is there absolutely anything you could tell us that might help?”
+Chief Punctum: “Hm… Let me think…”
+Chief Punctum: “Since we’ve already linked Norm to that *meow* dog Tom, maybe giving you a piece of information about him could help lead you to the killer.”
+Doug: “Sure. What have you got, chief?”
+Chief Punctum: “Okay, so, don’t be disappointed with what I’m about to tell you. Anything information about Tom is very hard to come by.”
+Chief Punctum: “I’ve heard from a few reliable sources that a password Tom often uses is two, one, three.”
+Doug: “A password, huh?”
+Chief Punctum: “I’m not sure how useful that will be, especially since it might have nothing to do with Norm.”
+Jade: “It’s alright. Thank you for your time and knowledge.”
+Doug: “Yeah. Thanks, chief.”
