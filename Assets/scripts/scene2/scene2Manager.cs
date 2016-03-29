@@ -124,11 +124,11 @@ public class scene2Manager : MonoBehaviour {
 		//if counter reached the max dialogueInit length, move onto next scene
 		
 		if(stageInThisScene[5] && lookForEvidence("blood")){
-			SceneManager.LoadScene(3);
+			SceneManager.LoadScene(7);
 			Debug.Log("loading scene3 bc blood touched");
 		}
 		if(stageInThisScene[5]){
-			SceneManager.LoadScene(4);
+			SceneManager.LoadScene(7);
 			Debug.Log("loading scene4 bc blood not Touched");
 		}
 		

@@ -18,14 +18,21 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         public GameObject SceneHandlerObj;
         public SceneHandler sceneManagerScript;
+
         public scene2Manager scene2ManagerObj;
+        public scene7Manager scene7ManagerObj;
     
         void Awake(){
             //finds the empty gameobject associated with sceneHandler
             SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
             //finds the script that is attached to the above gameobject
             sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
-            scene2ManagerObj = scene2ManagerObj.GetComponent<scene2Manager>();
+            if(SceneManager.GetActiveScene().name == "2"){
+                scene2ManagerObj = scene2ManagerObj.GetComponent<scene2Manager>();
+            }
+            else if(SceneManager.GetActiveScene().name == "4"){
+                scene7ManagerObj = scene7ManagerObj.GetComponent<scene7Manager>();
+            }
         }
         private void Start()
         {
@@ -86,43 +93,47 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         }
 
         void OnTriggerEnter(Collider evidence){
-            if(evidence.gameObject.CompareTag("Evidence")){
-                sceneManagerScript.setEvidenceCollected3D(evidence.gameObject.name);
+            if(SceneManager.GetActiveScene().name == "2"){
+                if(evidence.gameObject.CompareTag("Evidence")){
+                    sceneManagerScript.setEvidenceCollected3D(evidence.gameObject.name);
 
-                
+                    evidence.gameObject.SetActive (false);
+                    //(scene2ManagerObj.scene2CanvasObj == true)
+                    
+                    scene2ManagerObj.walkedUpToCount++;
+                    /*
+                    if(evidence.gameObject.name == "blood" && scene2ManagerObj.allEvidenceCollectd() ){
+                        scene2ManagerObj.turnOffCongratsGUI();
+                        scene2ManagerObj.displayGUI = true; 
+                        scene2ManagerObj.displayDialogue();
+                    }
 
-                evidence.gameObject.SetActive (false);
-                //(scene2ManagerObj.scene2CanvasObj == true)
-                
-                scene2ManagerObj.walkedUpToCount++;
-                /*
-                if(evidence.gameObject.name == "blood" && scene2ManagerObj.allEvidenceCollectd() ){
-                    scene2ManagerObj.turnOffCongratsGUI();
-                    scene2ManagerObj.displayGUI = true; 
-                    scene2ManagerObj.displayDialogue();
+                    else if(evidence.gameObject.name == "blood"){
+                        //pull up GUI for blood
+                        scene2ManagerObj.turnOffCongratsGUI();
+                        scene2ManagerObj.displayGUI = true; 
+                        scene2ManagerObj.displayDialogue();
+                    }
+                    */
+                    if(scene2ManagerObj.allEvidenceCollectd()){
+                        scene2ManagerObj.turnOffCongratsGUI();
+                        scene2ManagerObj.displayDialogue();
+                        scene2ManagerObj.displayGUI = true; 
+                    }
+                    
+                  
+                    else{
+                        scene2ManagerObj.displayCongratsGUI();
+                        scene2ManagerObj.displayGUI = false; 
+                    }
+                    
+                     //Destroy(evidence.gameObject);
                 }
-
-                else if(evidence.gameObject.name == "blood"){
-                    //pull up GUI for blood
-                    scene2ManagerObj.turnOffCongratsGUI();
-                    scene2ManagerObj.displayGUI = true; 
-                    scene2ManagerObj.displayDialogue();
-                }
-                */
-                if(scene2ManagerObj.allEvidenceCollectd()){
-                    scene2ManagerObj.turnOffCongratsGUI();
-                    scene2ManagerObj.displayDialogue();
-                    scene2ManagerObj.displayGUI = true; 
-                }
-                
-              
-                else{
-                    scene2ManagerObj.displayCongratsGUI();
-                    scene2ManagerObj.displayGUI = false; 
-                }
-                
-                 //Destroy(evidence.gameObject);
             }
+            if(SceneManager.GetActiveScene().name == "7"){
+
+            }
+
         }
     }
 }
