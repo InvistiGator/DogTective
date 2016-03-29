@@ -3,10 +3,10 @@ using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class scene4Manager : MonoBehaviour {
+public class scene15Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
-	public SceneHandler scene4ManagerScript;
-	public Text displayedDialogue_Scene4 =  null;
+	public SceneHandler scene15ManagerScript;
+	public Text displayedDialogue_Scene15 =  null;
 	private string [] dialogue; 
 	private int i= 0; // a counter to iterater thru conversations, and set important convo indexes
 	private int iwithEvidence;
@@ -17,12 +17,12 @@ public class scene4Manager : MonoBehaviour {
 		//finds the empty gameobject associated with sceneHandler
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
-		scene4ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		scene15ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 	}
 	void Start () {
-		scene4ManagerScript.setUserVisited(4);
-		scene4ManagerScript.printCurrentKillerID();
-		dialogue = scene4ManagerScript.readFile("Scene4.txt");
+		scene15ManagerScript.setUserVisited(15);
+		scene15ManagerScript.printCurrentKillerID();
+		dialogue = scene15ManagerScript.readFile("Scene15.txt");
 		maxDialogueLength = dialogue.Length;
 
 		displayDialogue();
@@ -31,12 +31,7 @@ public class scene4Manager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(i==maxDialogueLength+1){
-			if (scene4ManagerScript.userVisited[3] && !scene4ManagerScript.userVisited[5]){
-			    SceneManager.LoadScene(5);
-			}
-			else if (scene4ManagerScript.userVisited[3] && scene4ManagerScript.userVisited[5]){
-				SceneManager.LoadScene(6);
-			}
+			SceneManager.LoadScene(7);
 		}
 
 	}
@@ -44,7 +39,7 @@ public class scene4Manager : MonoBehaviour {
 	
 	public void displayDialogue(){
 		if(i<maxDialogueLength){
-			displayedDialogue_Scene4.text = dialogue[i];
+			displayedDialogue_Scene15.text = dialogue[i];
 			i++;
 		}
 		else{
