@@ -30,9 +30,10 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             if(SceneManager.GetActiveScene().name == "2"){
                 scene2ManagerObj = scene2ManagerObj.GetComponent<scene2Manager>();
             }
-            else if(SceneManager.GetActiveScene().name == "4"){
+            else if(SceneManager.GetActiveScene().name == "7"){
                 scene7ManagerObj = scene7ManagerObj.GetComponent<scene7Manager>();
             }
+         
         }
         private void Start()
         {
@@ -130,10 +131,29 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                      //Destroy(evidence.gameObject);
                 }
             }
+
             if(SceneManager.GetActiveScene().name == "7"){
+                if(evidence.gameObject.CompareTag("Evidence")){
+                    sceneManagerScript.setEvidenceCollected3D(evidence.gameObject.name);
 
+                    evidence.gameObject.SetActive (false);
+                    //(scene2ManagerObj.scene2CanvasObj == true)
+                    
+                    scene7ManagerObj.walkedUpToCount++;
+                    
+                    if(scene7ManagerObj.allEvidenceCollectd()){
+                        scene7ManagerObj.turnOffCongratsGUI();
+                        scene7ManagerObj.displayDialogue();
+                        scene7ManagerObj.displayGUI = true; 
+                    }
+                    
+                  
+                    else{
+                        scene7ManagerObj.displayCongratsGUI();
+                        scene7ManagerObj.displayGUI = false; 
+                    }
+                }   
             }
-
         }
     }
 }
