@@ -167,9 +167,9 @@ public class SceneHandler : MonoBehaviour {
 		charactersCanvas.enabled = false;
 		evidenceCanvas.enabled = false;
         
-        if (userVisited[3]){
+        //if (userVisited[2]){
 		    queCharactersText.enabled = true;
-		}
+		//}
 
 		evidenceText.enabled = true;
 
