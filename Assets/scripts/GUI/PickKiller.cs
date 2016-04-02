@@ -21,8 +21,8 @@ public class PickKiller : MonoBehaviour {
 	public int pickKillerRand(){
 	//Random rnd = new Random();
 		//generate a random number from 0 to 6
-		randomizedKiller = Random.Range(0,7);
-		//randomizedKiller = 
+		//randomizedKiller = Random.Range(0,7);
+		randomizedKiller = 4;
 		return randomizedKiller;
 	}
 

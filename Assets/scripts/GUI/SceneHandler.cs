@@ -167,9 +167,9 @@ public class SceneHandler : MonoBehaviour {
 		charactersCanvas.enabled = false;
 		evidenceCanvas.enabled = false;
         
-        //if (userVisited[2]){
+        if (userVisited[2]){
 		    queCharactersText.enabled = true;
-		//}
+		}
 
 		evidenceText.enabled = true;
 
@@ -555,7 +555,6 @@ public class SceneHandler : MonoBehaviour {
 	}
 
 	public string[] readFile(string fileName){
-		//try{
 			string currentLine;
 
 			int lineCount = File.ReadAllLines(fileName).Length;
@@ -576,10 +575,6 @@ public class SceneHandler : MonoBehaviour {
 				while (currentLine != null);
 				reader.Close();
 			}
-		/*}
-		catch (Exception e){
-			Debug.Log("Failed to read file.");
-		}*/
 
 		return allLines;
 	}

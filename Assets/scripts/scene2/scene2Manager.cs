@@ -241,6 +241,7 @@ public class scene2Manager : MonoBehaviour {
 				//displayeddialogue_Scene2.text = "*Sniff*  Sniff*"; 
 				stageInThisScene[0] = true;
 				Debug.Log("I'm inside of the !stageInThisScene[0]'s else statement");
+				displaydialogueMid();
 			}
 		}
 
@@ -257,6 +258,7 @@ public class scene2Manager : MonoBehaviour {
 				//displayeddialogue_Scene2.enabled = false;
 				stageInThisScene[1] = true;
 				Debug.Log("I'm inside of the !stageInThisScene[1]'s else statement");
+				displayInitBlood();
 			}
 		}
 		else if(!stageInThisScene[2]){
