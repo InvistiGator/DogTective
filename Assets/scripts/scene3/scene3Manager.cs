@@ -9,7 +9,7 @@ public class scene3Manager : MonoBehaviour {
 	public SceneHandler scene3ManagerScript;
 	public Text displayedDialogue_Scene3 =  null;
 	public Canvas scene3Canvas;
-	//different dialogue versions in this scenes based on the random killerID generated in sceneHandler
+	public Canvas decisionCanvas;
 	private string [] dialogue_1;
 	private string [] dialogue_2_1;
 	private string [] dialogue_2_2;
@@ -19,7 +19,9 @@ public class scene3Manager : MonoBehaviour {
 	private int dialogue_1Length;
 	private int dialogue_2_1Length;
 	private int dialogue_2_2Length;
-	private int maxDialogueLength = 3;  // defines the length of the dialogue in this scene
+
+	private int section = 1;
+
 	// Use this for initialization
 	// 
 	void Awake(){
@@ -46,41 +48,76 @@ public class scene3Manager : MonoBehaviour {
 		displayDialogue();
 		
 		//disable GUI at beginning 
+
 		scene3Canvas = scene3Canvas.GetComponent<Canvas> (); 
 		scene3Canvas.enabled = true; 
+		decisionCanvas = decisionCanvas.GetComponent<Canvas>();
+		decisionCanvas.enabled = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		//if counter reached the max dialogue length, move onto next scene
-		if(i==maxDialogueLength){
-			//if before this scene something already visited somewhere direct as needed
+		if(section == 1 && i == dialogue_1Length+1){
+			/*if before this scene something already visited somewhere direct as needed
 			if(scene3ManagerScript.userVisited[2]){
 				SceneManager.LoadScene(4);
 				Debug.Log("Current SceneInstance.userVisited[3]:  ");
 				Debug.Log(scene3ManagerScript.userVisited[3]);
 
+			}*/
+			if (scene3ManagerScript.userVisited[4]){
+				section = 21;
+				i = 0;
+				displayDialogue();
 			}
+			else{
+				scene3Canvas.enabled = false;
+				decisionCanvas.enabled = true;
+			}
+		}
+		else if (section == 21 && i == dialogue_2_1Length+1 && !scene3ManagerScript.userVisited[4]){
+			SceneManager.LoadScene(4);
+		}
+		else if (section == 21 && i == dialogue_2_1Length+1 && scene3ManagerScript.userVisited[4]){
+			SceneManager.LoadScene(5);
+		}
+		else if (section == 22 && i == dialogue_2_2Length+1){
+			SceneManager.LoadScene(5);
 		}
 	}
 
-	public void changeDialogue(){
-		//write switch or if/else statements to decide what portion of dialogue need to be changed. 
-		//if(scene3ManagerScript.killerID == 0 )
-		//	dialogue[3] = "hummmm...is Doug the killer?"
+	public void stayHere(){
+		i = 0;
+		section = 22;
+		displayDialogue();
+		decisionCanvas.enabled = false;
+		scene3Canvas.enabled = true;
 	}
+
+	public void goAway(){
+		i = 0;
+		section = 21;
+		displayDialogue();
+		decisionCanvas.enabled = false;
+		scene3Canvas.enabled = true;
+	}
+
 	public void displayDialogue(){
-		if(i==iwithEvidence){
-			scene3ManagerScript.setEvidenceCollected("evidence",3);
-		}
-		if(i<maxDialogueLength){
+		if(section == 1 && i < dialogue_1Length){
 			displayedDialogue_Scene3.text = dialogue_1[i];
 			i++;
 		}
-				
-	}
-
-	public void enableGUI(){
-		scene3Canvas.enabled = true;
+		else if (section == 21 && i < dialogue_2_1Length){
+			displayedDialogue_Scene3.text = dialogue_2_1[i];
+			i++;
+		}
+		else if (section == 22 && i < dialogue_2_2Length){
+			displayedDialogue_Scene3.text = dialogue_2_2[i];
+			i++;
+		}
+		else{
+			i++;
+		}	
 	}
 }

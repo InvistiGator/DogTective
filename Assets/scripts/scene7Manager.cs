@@ -101,6 +101,7 @@ public class scene7Manager : MonoBehaviour {
 				i = 0; 
 				stageInThisScene[0] = true;
 				Debug.Log("I'm inside of the !stageInThisScene[0]'s else statement");
+				displayMid();
 			}
 		}
 		else if(!stageInThisScene[1]){
