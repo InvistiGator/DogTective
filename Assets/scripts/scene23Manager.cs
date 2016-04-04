@@ -59,6 +59,7 @@ public class scene23Manager : MonoBehaviour {
 			decision1Canvas.enabled = true;
 		}
 		else if (section == 21 && i == dialogue_2_1Length+1){
+			sceneManagerScript.setEvidenceCollected("tie", 26);
 			SceneManager.LoadScene(9);
 		}
 		else if (section == 22 && i == dialogue_2_2Length+1){

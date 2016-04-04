@@ -109,6 +109,7 @@ public class scene7Manager : MonoBehaviour {
 				displayMid();
 			}
 			else{
+				scene7ManagerScript.setEvidenceCollected("blood", 0);
 				i = 0; 
 				stageInThisScene[1] = true;
 				Debug.Log("I'm inside of the !stageInThisScene[1]'s else statement");

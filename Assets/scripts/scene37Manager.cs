@@ -60,6 +60,8 @@ public class scene37Manager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(section == 1 && i == dialogue_1Length+1){
+			sceneManagerScript.setEvidenceCollected("NormsClassesWithDoug", 28);
+
 			i = 0;
 
 			if (!sceneManagerScript.userVisited[38]){

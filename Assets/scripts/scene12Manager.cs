@@ -31,6 +31,7 @@ public class scene12Manager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(i==maxDialogueLength+1){
+			scene12ManagerScript.setEvidenceCollected("TomsSecretPassage", 24);
 			SceneManager.LoadScene(9);
 		}
 

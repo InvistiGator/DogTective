@@ -69,6 +69,7 @@ public class scene14Manager : MonoBehaviour {
   			displayDialogue();
 		}
 		else if(section == 3 && i == dialogue_3Length+1){
+			sceneManagerScript.setEvidenceCollected("213", 23);
 			if (sceneManagerScript.userVisited[12]){
 				section = 4;
 				i = 0;

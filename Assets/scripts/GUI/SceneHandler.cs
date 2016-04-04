@@ -413,7 +413,7 @@ public class SceneHandler : MonoBehaviour {
 	}
 
 	public void tomPassage(){
-		evidenceInfo.text = "Tom's Secret Passage\nWe managed to sneak into one of Tom's secret passaged suing his 2-1-3 passcode. How does knocking on a wall open a door, anyway?";
+		evidenceInfo.text = "Tom's Secret Passage\nWe managed to sneak into one of Tom's secret passaged using his 2-1-3 passcode. How does knocking on a wall open a door, anyway?";
 	}
 
 	public void normPassage(){
@@ -451,13 +451,13 @@ public class SceneHandler : MonoBehaviour {
 		//SpriteTemp = Resources.Load <Sprite>(name) as Sprite;
 		//CollectedEvidence[srcScene-1].GetComponent<Image>().sprite = SpriteTemp;
 
-		CollectedEvidenceString[srcScene-1] = name; 
-		Color temp = CollectedEvidence[srcScene-1].color;
+		CollectedEvidenceString[srcScene] = name; 
+		Color temp = CollectedEvidence[srcScene].color;
 		temp.a = 1.0f;
-		CollectedEvidence[srcScene-1].color = temp;
+		CollectedEvidence[srcScene].color = temp;
 
 		Debug.Log("CollectedEvidence string [] : ");
-		Debug.Log(CollectedEvidenceString[srcScene-1]);
+		Debug.Log(CollectedEvidenceString[srcScene]);
 		Debug.Log("Evidence/" + name);
 
 		//Debug.Log(SpriteTemp.ToString());

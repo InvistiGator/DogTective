@@ -42,6 +42,7 @@ public class scene27Manager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(section == 1 && i == dialogue_1Length+1){
+			sceneManagerScript.setEvidenceCollected("NormsClassesWithGoldie", 27);
 			if (!sceneManagerScript.lookForEvidence("tie") && sceneManagerScript.userVisited[25] && sceneManagerScript.userVisited[23]){
 				i = 0;
 				section = 2;

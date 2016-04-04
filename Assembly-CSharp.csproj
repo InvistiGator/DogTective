@@ -53,6 +53,7 @@
      <Compile Include="Assets\scripts\GUI\PickKiller.cs" />
      <Compile Include="Assets\scripts\GUI\SceneHandler.cs" />
      <Compile Include="Assets\scripts\GUI\sceneSelection.cs" />
+     <Compile Include="Assets\scripts\scene1\audio1Script.cs" />
      <Compile Include="Assets\scripts\scene10Manager.cs" />
      <Compile Include="Assets\scripts\scene11Manager.cs" />
      <Compile Include="Assets\scripts\scene12Manager.cs" />
@@ -65,7 +66,6 @@
      <Compile Include="Assets\scripts\scene19Manager.cs" />
      <Compile Include="Assets\scripts\scene1Manager.cs" />
      <Compile Include="Assets\scripts\scene2\AICharacterControl.cs" />
-     <Compile Include="Assets\scripts\scene2\Scene2AudioScript.cs" />
      <Compile Include="Assets\scripts\scene2\ThirdPersonCharacter.cs" />
      <Compile Include="Assets\scripts\scene2\ThirdPersonUserControl.cs" />
      <Compile Include="Assets\scripts\scene2\scene2Manager.cs" />
@@ -79,6 +79,7 @@
      <Compile Include="Assets\scripts\scene27Manager.cs" />
      <Compile Include="Assets\scripts\scene28Manager.cs" />
      <Compile Include="Assets\scripts\scene29Manager.cs" />
+     <Compile Include="Assets\scripts\scene3\audio3Script.cs" />
      <Compile Include="Assets\scripts\scene3\scene3Manager.cs" />
      <Compile Include="Assets\scripts\scene30Manager.cs" />
      <Compile Include="Assets\scripts\scene31Manager.cs" />

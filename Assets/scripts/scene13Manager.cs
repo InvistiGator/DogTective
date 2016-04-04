@@ -48,6 +48,7 @@ public class scene13Manager : MonoBehaviour {
 	void Update () {
 		//if counter reached the max dialogue length, move onto next scene
 		if(section == 1 && i == dialogue_1Length+1){
+			scene13ManagerScript.setEvidenceCollected("Knocking", 22);
 			if (scene13ManagerScript.userVisited[12]){
 				section = 22;
 				i = 0;
