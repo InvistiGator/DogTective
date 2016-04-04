@@ -42,7 +42,6 @@ public class scene5Manager : MonoBehaviour {
 		}
 
 	}
-
 	
 	public void displayDialogue(){
 		if(i<maxDialogueLength){
