@@ -47,12 +47,18 @@
   <ItemGroup>
      <Compile Include="Assets\audio2Script.cs" />
      <Compile Include="Assets\bloodCanvasAudioScript.cs" />
+     <Compile Include="Assets\scripts\DaminaFlavorManager.cs" />
+     <Compile Include="Assets\scripts\DougFlavorManager.cs" />
      <Compile Include="Assets\scripts\Evidence.cs" />
      <Compile Include="Assets\scripts\GUI\AudioScript.cs" />
      <Compile Include="Assets\scripts\GUI\GUIManager.cs" />
      <Compile Include="Assets\scripts\GUI\PickKiller.cs" />
      <Compile Include="Assets\scripts\GUI\SceneHandler.cs" />
      <Compile Include="Assets\scripts\GUI\sceneSelection.cs" />
+     <Compile Include="Assets\scripts\GoldieFlavorManager.cs" />
+     <Compile Include="Assets\scripts\MorganFlavorManager.cs" />
+     <Compile Include="Assets\scripts\NormFlavorManager.cs" />
+     <Compile Include="Assets\scripts\TomFlavorManager.cs" />
      <Compile Include="Assets\scripts\scene1\audio1Script.cs" />
      <Compile Include="Assets\scripts\scene10Manager.cs" />
      <Compile Include="Assets\scripts\scene11Manager.cs" />
