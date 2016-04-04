@@ -12,7 +12,7 @@ public class scene1Manager : MonoBehaviour {
 	private int i= 0; // a counter to iterater thru conversations, and set important convo indexes
 	private int iwithEvidence;
 	private int iwithClockTick = 15;
-	private int iwithDoorOpen = 25;
+	private int iwithDoorOpen = 26;
 	private int iwithDoorClose = 46;
 	private int iwithPhoneVibrating = 48;
 	private int maxDialogueLength;  // defines the length of the dialogue in this scene
@@ -45,7 +45,7 @@ public class scene1Manager : MonoBehaviour {
 		} else if (i==iwithPhoneVibrating) {
 			audioManager.playPhoneVibrating();
 		} else if(i==maxDialogueLength+1){
-		//if(i==2){
+		//else if(i==2){
 			SceneManager.LoadScene(2);
 		}
 	}

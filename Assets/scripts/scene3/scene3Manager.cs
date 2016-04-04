@@ -7,6 +7,7 @@ public class scene3Manager : MonoBehaviour {
 //private scene2Manager: SceneHandler;
 	public GameObject SceneHandlerObj;
 	public SceneHandler scene3ManagerScript;
+	public audio3Script audioManager;
 	public Text displayedDialogue_Scene3 =  null;
 	public Canvas scene3Canvas;
 	public Canvas decisionCanvas;
@@ -29,6 +30,7 @@ public class scene3Manager : MonoBehaviour {
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
 		scene3ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		audioManager = audioManager.GetComponent<audio3Script>();
 	}
 	void Start () {
 		scene3ManagerScript.setUserVisited(3);
@@ -105,14 +107,29 @@ public class scene3Manager : MonoBehaviour {
 
 	public void displayDialogue(){
 		if(section == 1 && i < dialogue_1Length){
+			if (i == 5) {
+				audioManager.playDoorKnock();
+			} else if (i == 8) {
+				audioManager.playDoorOpen();
+			} else if (i == 19) {
+				audioManager.playDecisionPrompt();
+			} else if (i==21) {
+				audioManager.playDecisionResolution();
+			}
 			displayedDialogue_Scene3.text = dialogue_1[i];
 			i++;
 		}
 		else if (section == 21 && i < dialogue_2_1Length){
+			if (i==2) {
+				audioManager.playDoorClose();
+			}
 			displayedDialogue_Scene3.text = dialogue_2_1[i];
 			i++;
 		}
 		else if (section == 22 && i < dialogue_2_2Length){
+			if (i == 11) {
+				audioManager.playDoorClose();
+			}
 			displayedDialogue_Scene3.text = dialogue_2_2[i];
 			i++;
 		}
