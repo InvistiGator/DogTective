@@ -30,9 +30,9 @@ public class scene1Manager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//if(i==maxDialogueLength+1){
-		if(i==2){
-			SceneManager.LoadScene(44);
+		if(i==maxDialogueLength+1){
+		//if(i==2){
+			SceneManager.LoadScene(2);
 		}
 	}
 
