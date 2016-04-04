@@ -11,6 +11,9 @@ public class scene42Manager : MonoBehaviour {
 	private int i= 0; // a counter to iterater thru conversations, and set important convo indexes
 	private int iwithEvidence;
 	private int maxDialogueLength;  // defines the length of the dialogue in this scene
+
+	public Canvas sceneCanvas;
+	public Canvas decision1Canvas;
 	// Use this for initialization
 	// 
 	void Awake(){
@@ -26,12 +29,18 @@ public class scene42Manager : MonoBehaviour {
 		maxDialogueLength = dialogue.Length;
 
 		displayDialogue();
+
+		sceneCanvas = sceneCanvas.GetComponent<Canvas>(); 
+		sceneCanvas.enabled = true; 
+		decision1Canvas = decision1Canvas.GetComponent<Canvas>();
+		decision1Canvas.enabled = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if(i==maxDialogueLength+1){
-			SceneManager.LoadScene(2);
+			sceneCanvas.enabled = false;
+			decision1Canvas.enabled = true;
 		}
 
 	}
@@ -46,6 +55,14 @@ public class scene42Manager : MonoBehaviour {
 			i++;
 		}
 				
+	}
+
+	public void decision1(){
+		SceneManager.LoadScene(45);
+	}
+
+	public void decision2(){
+		SceneManager.LoadScene(46);
 	}
 
 }

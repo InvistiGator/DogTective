@@ -5,47 +5,69 @@ using UnityEngine.SceneManagement;
 
 public class scene25Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
-	public SceneHandler scene25ManagerScript;
-	public Text displayedDialogue_Scene25 =  null;
-	private string [] dialogue; 
-	private int i= 0; // a counter to iterater thru conversations, and set important convo indexes
+	public SceneHandler sceneManagerScript;
+	public Text displayedDialogue =  null;
+	
+	private string [] dialogue_1;
+	private string [] dialogue_2;
+
+	private int dialogue_1Length;
+	private int dialogue_2Length;
+
+	private int section = 1;
+
+	private int i = 0; // a counter to iterater thru conversations, and set important convo indexes
 	private int iwithEvidence;
-	private int maxDialogueLength;  // defines the length of the dialogue in this scene
 	// Use this for initialization
 	// 
 	void Awake(){
 		//finds the empty gameobject associated with sceneHandler
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
-		scene25ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 	}
 	void Start () {
-		scene25ManagerScript.setUserVisited(25);
-		scene25ManagerScript.printCurrentKillerID();
-		dialogue = scene25ManagerScript.readFile("Scene25.txt");
-		maxDialogueLength = dialogue.Length;
+		sceneManagerScript.setUserVisited(25);
+		sceneManagerScript.printCurrentKillerID();
+		
+		dialogue_1 = sceneManagerScript.readFile("Scene25_1.txt");
+		dialogue_1Length = dialogue_1.Length;
+
+		dialogue_2 = sceneManagerScript.readFile("Scene25_2.txt");
+		dialogue_2Length = dialogue_2.Length;
 
 		displayDialogue();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if(i==maxDialogueLength+1){
-			SceneManager.LoadScene(2);
+		if(section == 1 && i == dialogue_1Length+1){
+			if (!sceneManagerScript.lookForEvidence("tie") && sceneManagerScript.userVisited[23]){
+				i = 0;
+				section = 2;
+				displayDialogue();
+			}
+			else{
+				SceneManager.LoadScene(9);
+			}
 		}
-
+		else if (section == 2 && i == dialogue_2Length+1){
+			SceneManager.LoadScene(26);
+		}
 	}
 
 	
 	public void displayDialogue(){
-		if(i<maxDialogueLength){
-			displayedDialogue_Scene25.text = dialogue[i];
+		if(section == 1 && i < dialogue_1Length){
+			displayedDialogue.text = dialogue_1[i];
+			i++;
+		}
+		else if(section == 2 && i < dialogue_2Length){
+			displayedDialogue.text = dialogue_2[i];
 			i++;
 		}
 		else{
 			i++;
-		}
-				
+		}		
 	}
-
 }

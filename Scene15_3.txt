@@ -1,15 +1,8 @@
-﻿Jade: “There was also a patchy trail of red ink leading to the exit near The Sultry Saloon.”
-Jade: “I had thought that the red ink implied the murderer knew Norm from his place of work, but perhaps it was just--”
-Doug: “...a red herring?”
-Jade: “That was a bad joke, but a true statement.”
-Jade: “Things aren't looking very good for Tom, are they?”
-Doug: “I’m not so sure about that, Jade…”
-Jade: “Oh? And why is that?”
-Doug: “I’m not sure if you could tell, since I was barely able to notice it myself, but there was a very distinct smell near the police exit.”
-Doug: “It smelled like…”
-Doug: “...cleaning supplies.”
-Jade: “Hm… I did notice an odd smell around there.”
-Doug: “So I'm thinking that there must have been something there as well that was recently cleaned up. Maybe even another trail of red ink.”
-Jade: “It’s impossible to know for sure, unfortunately.”
-Jade: “There is something we can know with more certainty, however.”
-Jade: “I noticed that both exits appeared to be slightly worn. They’ve likely both been used recently.”
+﻿Doug: “It seems to be harder to find conclusive pieces of evidence than I had imagined, even for I, the Master Commander…”
+Jade: “We did find some astounding evidence, though. It is still difficult to accept that we are actually in a secret subterranean passageway.”
+Doug: “I think you mean it’s super awesome!”
+Doug: “I guess we should leave now, though. It seems like we’ve found all the evidence we can here.”
+Jade: “I agree… and even I’ll admit this exploration has been fun.”
+Doug: “Yeah… Hm…”
+Doug: “I really feel like we’ve almost cracked this case.”
+Doug: “I can't wait for what happens next.”

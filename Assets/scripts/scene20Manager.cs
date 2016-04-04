@@ -31,7 +31,7 @@ public class scene20Manager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(i==maxDialogueLength+1){
-			SceneManager.LoadScene(7);
+			SceneManager.LoadScene(0);
 		}
 
 	}

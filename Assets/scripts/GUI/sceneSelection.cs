@@ -72,7 +72,7 @@ public class sceneSelection : MonoBehaviour {
 		if (!sceneSelectionScript.userVisited[14] && !sceneSelectionScript.userVisited[15] && (sceneSelectionScript.killerID == 3 || sceneSelectionScript.killerID == 4)){
 			SceneManager.LoadScene(14);
 		}
-		else if (sceneSelectionScript.userVisited[15] && !sceneSelectionScript.userVisited[17]){
+		else if (sceneSelectionScript.userVisited[15]){
 			SceneManager.LoadScene(17);
 		}
 		else if ((sceneSelectionScript.userVisited[24] || sceneSelectionScript.userVisited[25]) && !sceneSelectionScript.userVisited[26] && !sceneSelectionScript.userVisited[27]){
@@ -90,7 +90,7 @@ public class sceneSelection : MonoBehaviour {
 		if (!sceneSelectionScript.userVisited[10] && !sceneSelectionScript.userVisited[15] && (sceneSelectionScript.killerID == 3 || sceneSelectionScript.killerID == 4)){
 			SceneManager.LoadScene(10);
 		}
-		else if (!sceneSelectionScript.userVisited[16] && sceneSelectionScript.userVisited[15]){
+		else if (sceneSelectionScript.userVisited[15]){
 			SceneManager.LoadScene(16);
 		}
 		else if (!sceneSelectionScript.userVisited[24] && !sceneSelectionScript.userVisited[27] && !sceneSelectionScript.userVisited[26] && (sceneSelectionScript.userVisited[23] || sceneSelectionScript.userVisited[25]) && lookForEvidence("tie")){
@@ -105,7 +105,7 @@ public class sceneSelection : MonoBehaviour {
 		if (!sceneSelectionScript.userVisited[25] && !sceneSelectionScript.userVisited[26] && !sceneSelectionScript.userVisited[27] && (sceneSelectionScript.killerID == 5 || sceneSelectionScript.killerID == 6)){
 			SceneManager.LoadScene(25);
 		}
-		else if (!sceneSelectionScript.userVisited[29] && sceneSelectionScript.userVisited[30] && sceneSelectionScript.userVisited[27]){
+		else if (!sceneSelectionScript.userVisited[29] && !sceneSelectionScript.userVisited[30] && sceneSelectionScript.userVisited[27]){
 			SceneManager.LoadScene(29);
 		}
 		else if (!sceneSelectionScript.userVisited[39] && (sceneSelectionScript.userVisited[37] || sceneSelectionScript.userVisited[38]) && !sceneSelectionScript.userVisited[40] && !sceneSelectionScript.userVisited[41]){
@@ -122,6 +122,9 @@ public class sceneSelection : MonoBehaviour {
 		}
 		else if (!sceneSelectionScript.userVisited[23] && !sceneSelectionScript.userVisited[24] && sceneSelectionScript.userVisited[25] && (sceneSelectionScript.killerID == 5 || sceneSelectionScript.killerID == 6)){
 			SceneManager.LoadScene(23);
+		}
+		else if (!sceneSelectionScript.userVisited[28] && !sceneSelectionScript.userVisited[30] && sceneSelectionScript.userVisited[27]){
+			SceneManager.LoadScene(28);
 		}
 		else if (!sceneSelectionScript.userVisited[41] && (sceneSelectionScript.userVisited[37] || sceneSelectionScript.userVisited[38]) && sceneSelectionScript.userVisited[39]){
 			SceneManager.LoadScene(41);

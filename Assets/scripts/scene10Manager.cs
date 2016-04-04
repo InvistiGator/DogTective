@@ -23,7 +23,7 @@ public class scene10Manager : MonoBehaviour {
 
 	private int i= 0; // a counter to iterate thru conversations, and set important convo indexes
 	private int iwithEvidence;
-	private int maxDialogueLength;  // defines the length of the dialogue in this scene
+
 	// Use this for initialization
 	// 
 	void Awake(){
@@ -48,6 +48,11 @@ public class scene10Manager : MonoBehaviour {
 		dialogue_2_3 = scene10ManagerScript.readFile("Scene10_2_3.txt");
 		dialogue_2_3Length = dialogue_2_3.Length;
 
+		scene10Canvas = scene10Canvas.GetComponent<Canvas> (); 
+		scene10Canvas.enabled = true; 
+		decisionCanvas = decisionCanvas.GetComponent<Canvas>();
+		decisionCanvas.enabled = false;
+
 		displayDialogue();
 	}
 	
@@ -57,18 +62,62 @@ public class scene10Manager : MonoBehaviour {
 			scene10Canvas.enabled = false;
 			decisionCanvas.enabled = true;
 		}
+		else if (section == 21 && i == dialogue_2_1Length+1){
+			SceneManager.LoadScene(11);
+		}
+		else if (section == 22 && i == dialogue_2_2Length+1){
+			SceneManager.LoadScene(10);
+		}
+		else if (section == 23 && i == dialogue_2_3Length+1){
+			SceneManager.LoadScene(9);
+		}
+	}
 
+	public void choice1(){
+		i = 0;
+		section = 21;
+		displayDialogue();
+		decisionCanvas.enabled = false;
+		scene10Canvas.enabled = true;
+	}
+
+	public void choice2(){
+		i = 0;
+		section = 22;
+		displayDialogue();
+		decisionCanvas.enabled = false;
+		scene10Canvas.enabled = true;
+	}
+
+	public void choice3(){
+		i = 0;
+		section = 23;
+		displayDialogue();
+		decisionCanvas.enabled = false;
+		scene10Canvas.enabled = true;
 	}
 
 	
 	public void displayDialogue(){
-	/*	if(i<maxDialogueLength){
-			displayedDialogue_Scene10.text = dialogue[i];
+		if(section == 1 && i < dialogue_1Length){
+			displayedDialogue_Scene10.text = dialogue_1[i];
+			i++;
+		}
+		else if (section == 21 && i < dialogue_2_1Length){
+			displayedDialogue_Scene10.text = dialogue_2_1[i];
+			i++;
+		}
+		else if (section == 22 && i < dialogue_2_2Length){
+			displayedDialogue_Scene10.text = dialogue_2_2[i];
+			i++;
+		}
+		else if (section == 23 && i < dialogue_2_3Length){
+			displayedDialogue_Scene10.text = dialogue_2_3[i];
 			i++;
 		}
 		else{
 			i++;
-		}*/
+		}
 				
 	}
 

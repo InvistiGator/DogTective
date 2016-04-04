@@ -32,7 +32,7 @@ public class scene1Manager : MonoBehaviour {
 	void Update () {
 		//if(i==maxDialogueLength+1){
 		if(i==2){
-			SceneManager.LoadScene(3);
+			SceneManager.LoadScene(44);
 		}
 	}
 
