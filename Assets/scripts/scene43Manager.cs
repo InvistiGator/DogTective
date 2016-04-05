@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class scene43Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
 	public SceneHandler scene43ManagerScript;
+	public audio43Script audioManager;
 	public Text displayedDialogue_Scene43 =  null;
 	private string [] dialogue; 
 	private int i= 0; // a counter to iterater thru conversations, and set important convo indexes
@@ -21,6 +22,7 @@ public class scene43Manager : MonoBehaviour {
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
 		scene43ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		audioManager = audioManager.GetComponent<audio43Script>();
 	}
 	void Start () {
 		scene43ManagerScript.setUserVisited(43);
@@ -48,6 +50,9 @@ public class scene43Manager : MonoBehaviour {
 	
 	public void displayDialogue(){
 		if(i<maxDialogueLength){
+			if (i==33) {
+				audioManager.playDecisionPrompt();
+			}
 			displayedDialogue_Scene43.text = dialogue[i];
 			i++;
 		}
@@ -58,10 +63,12 @@ public class scene43Manager : MonoBehaviour {
 	}
 
 	public void decision1(){
+		audioManager.playDecisionRes();
 		SceneManager.LoadScene(48);
 	}
 
 	public void decision2(){
+		audioManager.playDecisionRes();
 		SceneManager.LoadScene(47);
 	}
 
