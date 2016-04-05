@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class scene27Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
 	public SceneHandler sceneManagerScript;
+	public audio27Script audioManager;
 	public Text displayedDialogue =  null;
 	
 	private string [] dialogue_1;
@@ -25,6 +26,7 @@ public class scene27Manager : MonoBehaviour {
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
 		sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		audioManager = audioManager.GetComponent<audio27Script>();
 	}
 	void Start () {
 		sceneManagerScript.setUserVisited(27);
@@ -60,6 +62,9 @@ public class scene27Manager : MonoBehaviour {
 	
 	public void displayDialogue(){
 		if(section == 1 && i < dialogue_1Length){
+			if (i==18) {
+				audioManager.playTyping();
+			}
 			displayedDialogue.text = dialogue_1[i];
 			i++;
 		}
