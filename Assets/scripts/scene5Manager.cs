@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class scene5Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
 	public SceneHandler scene5ManagerScript;
+	public audio5Script audioManager;
 	public Text displayedDialogue_Scene5 =  null;
 	private string [] dialogue; 
 	private int i= 0; // a counter to iterater thru conversations, and set important convo indexes
@@ -18,6 +19,7 @@ public class scene5Manager : MonoBehaviour {
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
 		scene5ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		audioManager = audioManager.GetComponent<audio5Script>();
 	}
 	void Start () {
 		scene5ManagerScript.setUserVisited(5);
@@ -40,10 +42,12 @@ public class scene5Manager : MonoBehaviour {
 		}
 
 	}
-
 	
 	public void displayDialogue(){
 		if(i<maxDialogueLength){
+			if (i==31) {
+				audioManager.playDoorClose();
+			}
 			displayedDialogue_Scene5.text = dialogue[i];
 			i++;
 		}

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class scene10Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
 	public SceneHandler scene10ManagerScript;
+	public audio10Script audioManager;
 	public Text displayedDialogue_Scene10 =  null;
 	public Canvas scene10Canvas;
 	public Canvas decisionCanvas;
@@ -31,6 +32,7 @@ public class scene10Manager : MonoBehaviour {
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
 		scene10ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		audioManager = audioManager.GetComponent<audio10Script>();
 	}
 	void Start () {
 		scene10ManagerScript.setUserVisited(10);
@@ -100,18 +102,35 @@ public class scene10Manager : MonoBehaviour {
 	
 	public void displayDialogue(){
 		if(section == 1 && i < dialogue_1Length){
+			if (i==38) {
+				audioManager.playDecisionPrompt();
+			}
 			displayedDialogue_Scene10.text = dialogue_1[i];
 			i++;
 		}
 		else if (section == 21 && i < dialogue_2_1Length){
+			if (i == 0) {
+				audioManager.playDecisionResolution();
+			}
 			displayedDialogue_Scene10.text = dialogue_2_1[i];
 			i++;
 		}
 		else if (section == 22 && i < dialogue_2_2Length){
+			if (i == 0) {
+				audioManager.playDecisionResolution();
+			}
+			if (i==10) {
+				audioManager.playClockTicking();
+			} else if (i==15) {
+				audioManager.playDoorOpen();
+			}
 			displayedDialogue_Scene10.text = dialogue_2_2[i];
 			i++;
 		}
 		else if (section == 23 && i < dialogue_2_3Length){
+			if (i == 0) {
+				audioManager.playDecisionResolution();
+			}
 			displayedDialogue_Scene10.text = dialogue_2_3[i];
 			i++;
 		}

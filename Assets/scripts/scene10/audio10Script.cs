@@ -1,15 +1,14 @@
 using UnityEngine;
 using System.Collections;
 
-public class audio3Script : MonoBehaviour {
+public class audio10Script : MonoBehaviour {
 	//
 	public AudioSource audio;
 
-	public AudioClip doorKnock;
 	public AudioClip doorOpenQuickly;
 	public AudioClip decisionPrompt;
 	public AudioClip decisionRes;
-	public AudioClip doorCloseQuickly;
+	public AudioClip clockTick;
 
 	// Use this for initialization
 	void Awake () {
@@ -17,11 +16,6 @@ public class audio3Script : MonoBehaviour {
 	}
 	void Start(){
 		
-	}
-
-	public void playDoorKnock() {
-		audio.clip = doorKnock;
-		audio.Play();
 	}
 	public void playDoorOpen(){
 		audio.clip = doorOpenQuickly;
@@ -35,10 +29,8 @@ public class audio3Script : MonoBehaviour {
 		audio.clip = decisionRes;
 		audio.Play();	
 	}
-
-	public void playDoorClose(){
-		audio.clip = doorCloseQuickly;
-		audio.Play();	
+	public void playClockTicking() {
+		audio.clip = clockTick;
+		audio.Play();
 	}
-	
 }

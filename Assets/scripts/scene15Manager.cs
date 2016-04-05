@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class scene15Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
 	public SceneHandler sceneManagerScript;
+	public audio15Script audioManager;
 	public Text displayedDialogue =  null;
 	
 	private string [] dialogue_1;
@@ -29,6 +30,7 @@ public class scene15Manager : MonoBehaviour {
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
 		sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		audioManager = audioManager.GetComponent<audio15Script>();
 	}
 	void Start () {
 		sceneManagerScript.setUserVisited(15);
@@ -77,6 +79,13 @@ public class scene15Manager : MonoBehaviour {
 	
 	public void displayDialogue(){
 		if(section == 1 && i < dialogue_1Length){
+			if (i==5) {
+				audioManager.playKnucklesCracking();
+			} else if (i==6) {
+				audioManager.playVar213();
+			} else if (i==14) {
+				audioManager.playClick();
+			}
 			displayedDialogue.text = dialogue_1[i];
 			i++;
 		}
