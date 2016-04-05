@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class scene38Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
 	public SceneHandler sceneManagerScript;
+	public audio38Script audioManager;
 	public Text displayedDialogue =  null;
 	
 	private string [] dialogue_1;
@@ -32,6 +33,7 @@ public class scene38Manager : MonoBehaviour {
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
 		sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		audioManager = audioManager.GetComponent<audio38Script>();
 	}
 	void Start () {
 		sceneManagerScript.setUserVisited(38);
@@ -91,6 +93,9 @@ public class scene38Manager : MonoBehaviour {
 			i++;
 		}
 		else if(section == 2 && i < dialogue_2Length){
+			if (i==0) {
+				audioManager.playDecisionPrompt();
+			}
 			displayedDialogue.text = dialogue_2[i];
 			i++;
 		}
@@ -108,10 +113,12 @@ public class scene38Manager : MonoBehaviour {
 	}
 
 	public void decision1(){
+		audioManager.playDecisionRes();
 		SceneManager.LoadScene(37);
 	}
 
 	public void decision2(){
+		audioManager.playDecisionRes();
 		i = 0;
 		section = 3;
 		sceneCanvas.enabled = true;
