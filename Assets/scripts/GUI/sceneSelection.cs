@@ -52,7 +52,7 @@ public class sceneSelection : MonoBehaviour {
             SceneManager.LoadScene(44);
 		}
 		else{
-			//flavor text
+			SceneManager.LoadScene(51);
 		}
 	}
 
@@ -64,7 +64,7 @@ public class sceneSelection : MonoBehaviour {
 			SceneManager.LoadScene(30);
 		}
 		else{
-			//flavor text
+			SceneManager.LoadScene(52);
 		}
 	}
 
@@ -82,7 +82,7 @@ public class sceneSelection : MonoBehaviour {
 			SceneManager.LoadScene(40);
 		}
 		else{
-			//flavor text
+			SceneManager.LoadScene(53);
 		}
 	}
 
@@ -97,7 +97,7 @@ public class sceneSelection : MonoBehaviour {
 			SceneManager.LoadScene(24);
 		}
 		else{
-			//flavor text
+			SceneManager.LoadScene(54);
 		}
 	}
 
@@ -112,7 +112,7 @@ public class sceneSelection : MonoBehaviour {
 			SceneManager.LoadScene(39);
 		}
 		else{
-			//flavor text
+			SceneManager.LoadScene(55);
 		}
 	}
 
@@ -130,7 +130,7 @@ public class sceneSelection : MonoBehaviour {
 			SceneManager.LoadScene(41);
 		}
 		else{
-			//flavor text
+			SceneManager.LoadScene(56);
 		}
 	}
 
