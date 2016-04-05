@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class scene30Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
 	public SceneHandler sceneManagerScript;
+	public audio30Script audioManager;
 	public Text displayedDialogue =  null;
 	
 	private string [] dialogue_1;
@@ -37,6 +38,7 @@ public class scene30Manager : MonoBehaviour {
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
 		sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		audioManager = audioManager.GetComponent<audio30Script>();
 	}
 	void Start () {
 		sceneManagerScript.setUserVisited(30);
@@ -104,26 +106,44 @@ public class scene30Manager : MonoBehaviour {
 	
 	public void displayDialogue(){
 		if(section == 1 && i < dialogue_1Length){
+			if (i==4) {
+				audioManager.playDecisionPrompt();
+			}
 			displayedDialogue.text = dialogue_1[i];
 			i++;
 		}
 		else if(section == 21 && i < dialogue_2_1Length){
+			if (i==0) {
+				audioManager.playDecisionRes();
+			}
 			displayedDialogue.text = dialogue_2_1[i];
 			i++;
 		}
 		else if(section == 22 && i < dialogue_2_2Length){
+			if (i==0) {
+				audioManager.playDecisionRes();
+			}
 			displayedDialogue.text = dialogue_2_2[i];
 			i++;
 		}
 		else if(section == 3 && i < dialogue_3Length){
+			if (i==6) {
+				audioManager.playDecisionPrompt();
+			}
 			displayedDialogue.text = dialogue_3[i];
 			i++;
 		}
 		else if(section == 41 && i < dialogue_4_1Length){
+			if (i==0) {
+				audioManager.playDecisionRes();
+			}
 			displayedDialogue.text = dialogue_4_1[i];
 			i++;
 		}
 		else if(section == 42 && i < dialogue_4_2Length){
+			if (i==0) {
+				audioManager.playDecisionRes();
+			}
 			displayedDialogue.text = dialogue_4_2[i];
 			i++;
 		}
