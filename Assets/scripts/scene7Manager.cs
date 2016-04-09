@@ -52,6 +52,8 @@ public class scene7Manager : MonoBehaviour {
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
 		scene7ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+
+		scene7ManagerScript.fader = false;
 	}
 	// Use this for initialization
 	void Start () {
@@ -88,6 +90,7 @@ public class scene7Manager : MonoBehaviour {
 			Time.timeScale = 0;
 		}
 		if(stageInThisScene[2] == true){
+			scene7ManagerScript.fader = true;
 			SceneManager.LoadScene(8);
 			Debug.Log("loading Scene 8");
 		}

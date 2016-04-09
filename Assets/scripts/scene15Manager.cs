@@ -72,7 +72,7 @@ public class scene15Manager : MonoBehaviour {
 		}
 		else if (section == 3 && i == dialogue_3Length+1){
 			sceneManagerScript.setEvidenceCollected("NormsSecretPassage", 25);
-			SceneManager.LoadScene(9);
+			SceneManager.LoadScene(57);
 		}
 	}
 

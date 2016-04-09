@@ -43,13 +43,13 @@ public class sceneSelection : MonoBehaviour {
 			SceneManager.LoadScene(36);
 		}
 		else if (sceneSelectionScript.killerID == 2 && (sceneSelectionScript.userVisited[40] || sceneSelectionScript.userVisited[41])){
-            SceneManager.LoadScene(42);
+            SceneManager.LoadScene(57);
 		}
 		else if (sceneSelectionScript.killerID == 1 && (sceneSelectionScript.userVisited[40] || sceneSelectionScript.userVisited[41])){
-            SceneManager.LoadScene(43);
+            SceneManager.LoadScene(57);
 		}
 		else if (sceneSelectionScript.killerID == 0 && (sceneSelectionScript.userVisited[40] || sceneSelectionScript.userVisited[41])){
-            SceneManager.LoadScene(44);
+            SceneManager.LoadScene(57);
 		}
 		else{
 			SceneManager.LoadScene(51);
@@ -61,7 +61,7 @@ public class sceneSelection : MonoBehaviour {
 			SceneManager.LoadScene(15);
 		}
 		else if (!sceneSelectionScript.userVisited[30] && (sceneSelectionScript.userVisited[28] || sceneSelectionScript.userVisited[29])){
-			SceneManager.LoadScene(30);
+			SceneManager.LoadScene(57);
 		}
 		else{
 			SceneManager.LoadScene(52);

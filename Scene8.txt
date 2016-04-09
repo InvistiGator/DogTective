@@ -32,7 +32,7 @@ Jade: “Are you saying that even the police don’t  have a top suspect?”
 Chief Punctum: “That’s exactly right, Jade. I’m hoping that the two of you will be able to see this case from an angle that we haven’t yet.”
 Chief Punctum: “Maybe you’ll be able to crack a case that even we can’t.”
 Doug: “Ah… That would be awesome…”
-Jade:  “We’ll do our best to figure things out, chief?”
+Jade:  “We’ll do our best to figure things out, chief!”
 Chief Punctum: “That’s the spirit, you two.”
 Chief Punctum: “So, what’s your next move?”
 Doug: “I was thinking that we could go talk to the suspects some more. I wasn’t able to get very much from them the first time around…”

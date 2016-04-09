@@ -32,6 +32,9 @@ public class SceneHandler : MonoBehaviour {
 	public Button quitGameText;
 	public Button backToInfoText;
 
+	public Text characterBack;
+	public Text evidenceBack;
+
 	public Image[] CharacterImages;
 
 	public Canvas infoMainMenuCavas;
@@ -55,6 +58,13 @@ public class SceneHandler : MonoBehaviour {
 	//public PickKiller pickKillerObj;
 	//public int killerID;
 
+	public Texture2D fadeTexture;
+	public float fadeSpeed = 0.001f;
+	public int fadeDrawDepth = -1000;
+	public float fadeAlpha = 1.0f;
+	public int fadeDirection = -1;
+	public bool fader = true;
+
 
 	void Awake(){
 		if(SceneInstance != null){
@@ -69,7 +79,7 @@ public class SceneHandler : MonoBehaviour {
 
 	}
 	void Start () {
-		userVisited = new bool [50]; 
+		userVisited = new bool [56]; 
 		for(int i = 0; i< userVisited.Length; i++){
 			userVisited[i] = false;
 		}
@@ -108,6 +118,9 @@ public class SceneHandler : MonoBehaviour {
 		backToGameText = backToGameText.GetComponent<Button>();
 		quitGameText = quitGameText.GetComponent<Button>();
 		backToInfoText = backToInfoText.GetComponent<Button>();
+
+		characterBack = characterBack.GetComponent<Text>();
+		evidenceBack = evidenceBack.GetComponent<Text>();
 
 		queCharactersText.enabled = false;
 		//pickKillerObj = GameObject.Find("PickKillerEmpty").gameObject.GetComponent<PickKiller>();
@@ -229,10 +242,24 @@ public class SceneHandler : MonoBehaviour {
 	public void loadInitScene(string sceneIdentifier){
 		//call pickKiller function before loading any game play scene
 		//killerID = pickKiller.pickKillerRand();
-		SceneManager.LoadScene(sceneIdentifier);
+
+		StartCoroutine(FadeStuff(sceneIdentifier));
 		Debug.Log ("randomized Killer Init: ");
 		Debug.Log(killerID);	
 	}
+
+	public IEnumerator FadeStuff(string sceneIdentifier){
+		StartFade(1);
+		yield return new WaitForSeconds(2f);
+		SceneManager.LoadScene(1);
+	}
+
+	public IEnumerator FadeStuff(int place){
+		StartFade(1);
+		yield return new WaitForSeconds(2f);
+		SceneManager.LoadScene(place);
+	}
+
 	public void optionsClicked(){
 
 	}
@@ -253,7 +280,7 @@ public class SceneHandler : MonoBehaviour {
 
 	//=================Methods specifically related to Characters GUI ========================//
 	public void characterBio_Doug(){
-		characterName.text = "Doug “Ace” Ventose \nThe Hapless Deceased";
+		characterName.text = "Doug “Ace” Ventose \nThe Baffling Detective";
 		characterBio.text = "Doug has always dreamt of being a detective. Not just any detective, but a cool, classy sleuth - one from all of those movies and books he would fawn over as a pup. Though he has managed to become a (semi)legitimate private eye, and his penchant for pipes and trenchcoats might make him look a bit like Sherlock Holmes, anybody who actually interacts with Doug quickly realizes that he behaves nothing like his dramatic heroes. The detached facade he shows to others consistently gives way to his true nature as a goofy, naive dreamer. With those close to him, he is more likely to crack a joke than talk about his detective work. \nHe currently runs a private eye business where he receives occasional, but much-needed, help from his close friend Jade. Up until now, he has only gotten small cases of missing dogs and cat burglary, but when an old acquaintance of his dies, he takes it upon himself to solve the murder, and boost his career in the process." ;
 		for (int i = 0; i < 7; i++){
 			CharacterImages[i].enabled = false;
@@ -381,7 +408,7 @@ public class SceneHandler : MonoBehaviour {
 	}
 
 	public void newspaperClipping(){
-		evidenceInfo.text = "Newspaper Clipping\nHey, look! That's me! I remember catching that cat burgler red-handed! I only caught him because he bumbed into me on the street while running from the cops, but that still counts!";
+		evidenceInfo.text = "Newspaper Clipping\nHey, look! That's me! I remember catching that cat burgler red-handed! I only caught him because he bumped into me on the street while running from the cops, but that still counts!";
 	}
 
 	public void letterOpener(){
@@ -579,5 +606,62 @@ public class SceneHandler : MonoBehaviour {
 		return allLines;
 	}
 
+	public string[] readEmotion(string fileName){
+			string currentLine;
 
+			int lineCount = File.ReadAllLines("Scene"+fileName).Length;
+
+			string[] allLines = new string[lineCount];
+			StreamReader reader = new StreamReader(fileName, Encoding.Default);
+			int i = 0;
+			int currentEmotion = 0;
+
+			for (int j = 0; j < lineCount; j++){
+				allLines[j] = "z";
+			}
+
+			using (reader){
+				do{
+					currentLine = reader.ReadLine();
+
+					if (currentLine != null){
+						currentEmotion = allLines[i][0];
+						allLines[currentEmotion] = currentLine.Substring(1);
+						i++;
+					}
+				}
+				while (currentLine != null);
+				reader.Close();
+			}
+
+		return allLines;
+	}
+
+	public void checkEmotion(char who, char emotion){
+		//if (who == "z"){
+		//}
+		//else if (char == {
+
+		//}
+	}
+
+	void OnGUI(){
+		if (fader) {
+			fadeAlpha += 0.35f*(fadeDirection*fadeSpeed*Time.deltaTime);
+			fadeAlpha = Mathf.Clamp01(fadeAlpha);
+
+			GUI.color = new Color (GUI.color.r, GUI.color.g, GUI.color.b, fadeAlpha);
+			GUI.depth = fadeDrawDepth;
+			GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), fadeTexture);
+		}
+	}	
+	public float StartFade (int direction){
+		fadeDirection = direction;
+		return (fadeSpeed);
+	}
+
+	void OnLevelWasLoaded(){
+		fadeAlpha = 1;
+		StartFade(-1);
+	}
 }

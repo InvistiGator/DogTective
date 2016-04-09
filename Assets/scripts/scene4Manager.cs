@@ -37,6 +37,9 @@ public class scene4Manager : MonoBehaviour {
 			else if (scene4ManagerScript.userVisited[3] && scene4ManagerScript.userVisited[5]){
 				SceneManager.LoadScene(6);
 			}
+			else{
+				SceneManager.LoadScene(3);
+			}
 		}
 
 	}

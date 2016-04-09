@@ -69,6 +69,8 @@ public class scene2Manager : MonoBehaviour {
 		//finds the script that is attached to the above gameobject
 		scene2ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 
+		scene2ManagerScript.fader = false;
+
 		audioManager = audioManager.GetComponent<audio2Script>();
 		//bodyObject = GameObject.FindGameObject("Body").gameObject.GetComponent<GameObject> as GameObject;
 
@@ -124,10 +126,12 @@ public class scene2Manager : MonoBehaviour {
 		//if counter reached the max dialogueInit length, move onto next scene
 		
 		if(stageInThisScene[5] && lookForEvidence("blood")){
+			scene2ManagerScript.fader = true;
 			SceneManager.LoadScene(3);
 			Debug.Log("loading scene3 bc blood touched");
 		}
 		else if(stageInThisScene[5]){
+			scene2ManagerScript.fader = true;
 			SceneManager.LoadScene(4);
 			Debug.Log("loading scene4 bc blood not Touched");
 		}
@@ -323,6 +327,7 @@ public class scene2Manager : MonoBehaviour {
 				//displayGUI=false;
 				//displayeddialogue_Scene2.enabled = false;
 				stageInThisScene[4] = true;
+				displaydialogueEnd();
 				Debug.Log("I'm inside of the !stageInThisScene[4]'s else statement");
 			}
 		}
