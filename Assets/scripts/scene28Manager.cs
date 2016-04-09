@@ -68,10 +68,10 @@ public class scene28Manager : MonoBehaviour {
 			decision1Canvas.enabled = true;
 		}
 		else if (section == 2 && i == dialogue_2Length+1){
-			SceneManager.LoadScene(9);
+			StartCoroutine(sceneManagerScript.FadeStuff(9));
 		}
 		else if (section == 3 && i == dialogue_3Length+1){
-			SceneManager.LoadScene(9);
+			StartCoroutine(sceneManagerScript.FadeStuff(9));
 		}
 	}
 
@@ -111,6 +111,6 @@ public class scene28Manager : MonoBehaviour {
 	public void decision2(){
 		i = 0;
 		audioManager.playDecisionRes();
-		SceneManager.LoadScene(9);
+		StartCoroutine(sceneManagerScript.FadeStuff(9));
 	}
 }

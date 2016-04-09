@@ -50,11 +50,11 @@ public class scene25Manager : MonoBehaviour {
 				displayDialogue();
 			}
 			else{
-				SceneManager.LoadScene(9);
+				StartCoroutine(sceneManagerScript.FadeStuff(9));
 			}
 		}
 		else if (section == 2 && i == dialogue_2Length+1){
-			SceneManager.LoadScene(26);
+			StartCoroutine(sceneManagerScript.FadeStuff(26));
 		}
 	}
 

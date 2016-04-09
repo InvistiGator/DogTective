@@ -64,12 +64,12 @@ public class scene43Manager : MonoBehaviour {
 
 	public void decision1(){
 		audioManager.playDecisionRes();
-		SceneManager.LoadScene(48);
+		StartCoroutine(scene43ManagerScript.FadeStuff(48));
 	}
 
 	public void decision2(){
 		audioManager.playDecisionRes();
-		SceneManager.LoadScene(47);
+		StartCoroutine(scene43ManagerScript.FadeStuff(47));
 	}
 
 }

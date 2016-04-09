@@ -31,7 +31,7 @@ public class scene45Manager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(i==maxDialogueLength+1){
-			SceneManager.LoadScene(0);
+			StartCoroutine(scene45ManagerScript.FadeStuff(0));
 		}
 
 	}

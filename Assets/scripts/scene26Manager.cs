@@ -43,7 +43,7 @@ public class scene26Manager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(section == 1 && i == dialogue_1Length+1){
-			SceneManager.LoadScene(9);
+			StartCoroutine(sceneManagerScript.FadeStuff(9));
 		}
 	}
 

@@ -32,13 +32,13 @@ public class scene4Manager : MonoBehaviour {
 	void Update () {
 		if(i==maxDialogueLength+1){
 			if (sceneManagerScript.userVisited[3] && !sceneManagerScript.userVisited[5]){
-			    SceneManager.LoadScene(5);
+			    StartCoroutine(sceneManagerScript.FadeStuff(5));
 			}
 			else if (sceneManagerScript.userVisited[3] && sceneManagerScript.userVisited[5]){
-				SceneManager.LoadScene(6);
+				StartCoroutine(sceneManagerScript.FadeStuff(6));
 			}
 			else{
-				SceneManager.LoadScene(3);
+				StartCoroutine(sceneManagerScript.FadeStuff(3));
 			}
 		}
 

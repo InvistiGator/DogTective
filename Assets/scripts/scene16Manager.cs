@@ -85,19 +85,19 @@ public class scene16Manager : MonoBehaviour {
 			}
 		}
 		else if (section == 21 && i == dialogue_2_1Length+1){
-			SceneManager.LoadScene(9);
+			StartCoroutine(sceneManagerScript.FadeStuff(9));
 		}
 		else if (section == 22 && i == dialogue_2_2Length+1){
-			SceneManager.LoadScene(16);
+			StartCoroutine(sceneManagerScript.FadeStuff(16));
 		}
 		else if (section == 31 && i == dialogue_3_1Length+1){
-			SceneManager.LoadScene(19);
+			StartCoroutine(sceneManagerScript.FadeStuff(19));
 		}
 		else if (section == 32 && i == dialogue_3_2Length+1){
-			SceneManager.LoadScene(20);
+			StartCoroutine(sceneManagerScript.FadeStuff(20));
 		}
 		else if (section == 4 && i == dialogue_4Length+1){
-			SceneManager.LoadScene(21);
+			StartCoroutine(sceneManagerScript.FadeStuff(21));
 		}
 	}
 

@@ -31,7 +31,7 @@ public class scene19Manager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(i==maxDialogueLength+1){
-			SceneManager.LoadScene(0);
+			StartCoroutine(scene19ManagerScript.FadeStuff(0));
 		}
 
 	}

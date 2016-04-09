@@ -65,13 +65,13 @@ public class scene10Manager : MonoBehaviour {
 			decisionCanvas.enabled = true;
 		}
 		else if (section == 21 && i == dialogue_2_1Length+1){
-			SceneManager.LoadScene(11);
+			StartCoroutine(sceneManagerScript.FadeStuff(11));
 		}
 		else if (section == 22 && i == dialogue_2_2Length+1){
-			SceneManager.LoadScene(10);
+			StartCoroutine(sceneManagerScript.FadeStuff(10));
 		}
 		else if (section == 23 && i == dialogue_2_3Length+1){
-			SceneManager.LoadScene(9);
+			StartCoroutine(sceneManagerScript.FadeStuff(9));
 		}
 	}
 

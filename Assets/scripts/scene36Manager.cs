@@ -97,11 +97,11 @@ public class scene36Manager : MonoBehaviour {
 	}
 
 	public void decision1(){
-		SceneManager.LoadScene(37);
+		StartCoroutine(sceneManagerScript.FadeStuff(37));
 	}
 
 	public void decision2(){
-		SceneManager.LoadScene(38);
+		StartCoroutine(sceneManagerScript.FadeStuff(38));
 	}
 
 }

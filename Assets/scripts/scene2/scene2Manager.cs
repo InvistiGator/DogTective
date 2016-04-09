@@ -127,12 +127,12 @@ public class scene2Manager : MonoBehaviour {
 		
 		if(stageInThisScene[5] && lookForEvidence("blood")){
 			sceneManagerScript.fader = true;
-			SceneManager.LoadScene(3);
+			StartCoroutine(sceneManagerScript.FadeStuff(3));
 			Debug.Log("loading scene3 bc blood touched");
 		}
 		else if(stageInThisScene[5]){
 			sceneManagerScript.fader = true;
-			SceneManager.LoadScene(4);
+			StartCoroutine(sceneManagerScript.FadeStuff(4));
 			Debug.Log("loading scene4 bc blood not Touched");
 		}
 		

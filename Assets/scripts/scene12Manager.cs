@@ -34,7 +34,7 @@ public class scene12Manager : MonoBehaviour {
 	void Update () {
 		if(i==maxDialogueLength+1){
 			sceneManagerScript.setEvidenceCollected("TomsSecretPassage", 24);
-			SceneManager.LoadScene(9);
+			StartCoroutine(sceneManagerScript.FadeStuff(9));
 		}
 
 	}

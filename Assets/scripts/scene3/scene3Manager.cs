@@ -63,7 +63,7 @@ public class scene3Manager : MonoBehaviour {
 		if(section == 1 && i == dialogue_1Length+1){
 			/*if before this scene something already visited somewhere direct as needed
 			if(sceneManagerScript.userVisited[2]){
-				SceneManager.LoadScene(4);
+				StartCoroutine(sceneManagerScript.FadeStuff(4));
 				Debug.Log("Current SceneInstance.userVisited[3]:  ");
 				Debug.Log(sceneManagerScript.userVisited[3]);
 
@@ -79,13 +79,13 @@ public class scene3Manager : MonoBehaviour {
 			}
 		}
 		else if (section == 21 && i == dialogue_2_1Length+1 && !sceneManagerScript.userVisited[4]){
-			SceneManager.LoadScene(4);
+			StartCoroutine(sceneManagerScript.FadeStuff(4));
 		}
 		else if (section == 21 && i == dialogue_2_1Length+1 && sceneManagerScript.userVisited[4]){
-			SceneManager.LoadScene(5);
+			StartCoroutine(sceneManagerScript.FadeStuff(5));
 		}
 		else if (section == 22 && i == dialogue_2_2Length+1){
-			SceneManager.LoadScene(5);
+			StartCoroutine(sceneManagerScript.FadeStuff(5));
 		}
 	}
 

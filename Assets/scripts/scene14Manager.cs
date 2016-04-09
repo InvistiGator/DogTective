@@ -76,11 +76,11 @@ public class scene14Manager : MonoBehaviour {
 				displayDialogue();
 			}
 			else{
-				SceneManager.LoadScene(9);
+				StartCoroutine(sceneManagerScript.FadeStuff(9));
 			}
 		}
 		else if (section == 4 && i == dialogue_4Length+1){
-			SceneManager.LoadScene(9);
+			StartCoroutine(sceneManagerScript.FadeStuff(9));
 		}
 	}
 

@@ -33,7 +33,7 @@ public class GoldieFlavorManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(i == dialogue_1Length+1){
-			SceneManager.LoadScene(9);
+			StartCoroutine(sceneManagerScript.FadeStuff(9));
 		}
 	}
 

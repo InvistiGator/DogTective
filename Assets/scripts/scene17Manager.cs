@@ -92,24 +92,24 @@ public class scene17Manager : MonoBehaviour {
 			}
 		}
 		else if (section == 2 && i == dialogue_2Length+1){
-			SceneManager.LoadScene(9);
+			StartCoroutine(sceneManagerScript.FadeStuff(9));
 		}
 		else if (section == 3 && i == dialogue_3Length+1){
 			sceneCanvas.enabled = false;
 			decision1Canvas.enabled = true;
 		}
 		else if (section == 41 && i == dialogue_4_1Length+1){
-			SceneManager.LoadScene(9);
+			StartCoroutine(sceneManagerScript.FadeStuff(9));
 		}
 		else if (section == 42 && i == dialogue_4_2Length+1){
 			sceneCanvas.enabled = false;
 			decision2Canvas.enabled = true;
 		}
 		else if (section == 51 && i == dialogue_5_1Length+1){
-			SceneManager.LoadScene(21);
+			StartCoroutine(sceneManagerScript.FadeStuff(21));
 		}
 		else if (section == 52 && i == dialogue_5_2Length+1){
-			SceneManager.LoadScene(18);
+			StartCoroutine(sceneManagerScript.FadeStuff(18));
 		}
 	}
 

@@ -91,7 +91,7 @@ public class scene7Manager : MonoBehaviour {
 		}
 		if(stageInThisScene[2] == true){
 			sceneManagerScript.fader = true;
-			SceneManager.LoadScene(8);
+			StartCoroutine(sceneManagerScript.FadeStuff(8));
 			Debug.Log("loading Scene 8");
 		}
 	}

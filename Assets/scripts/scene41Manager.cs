@@ -94,7 +94,7 @@ public class scene41Manager : MonoBehaviour {
 		}
 		else if (section == 4 && i == dialogue_4Length+1){
 			if (sceneManagerScript.killerID == 1){
-				SceneManager.LoadScene(48);
+				StartCoroutine(sceneManagerScript.FadeStuff(48));
 			}
 			else{
 				i = 0;
@@ -103,10 +103,10 @@ public class scene41Manager : MonoBehaviour {
 			}
 		}
 		else if (section == 5 && i == dialogue_5Length+1){
-			SceneManager.LoadScene(41);
+			StartCoroutine(sceneManagerScript.FadeStuff(41));
 		}
 		else if (section == 6 && i == dialogue_6Length+1){
-			SceneManager.LoadScene(9);
+			StartCoroutine(sceneManagerScript.FadeStuff(9));
 		}
 	}
 

@@ -61,10 +61,10 @@ public class scene31Manager : MonoBehaviour {
 			decision1Canvas.enabled = true;
 		}
 		else if (section == 21 && i == dialogue_2_1Length+1){
-			SceneManager.LoadScene(32);
+			StartCoroutine(sceneManagerScript.FadeStuff(32));
 		}
 		else if (section == 22 && i == dialogue_2_2Length+1){
-			SceneManager.LoadScene(33);
+			StartCoroutine(sceneManagerScript.FadeStuff(33));
 		}
 	}
 

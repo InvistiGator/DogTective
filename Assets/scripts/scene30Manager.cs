@@ -86,20 +86,20 @@ public class scene30Manager : MonoBehaviour {
 			decision1Canvas.enabled = true;
 		}
 		else if (section == 21 && i == dialogue_2_1Length+1){
-			SceneManager.LoadScene(30);
+			StartCoroutine(sceneManagerScript.FadeStuff(30));
 		}
 		else if (section == 22 && i == dialogue_2_2Length+1){
-			SceneManager.LoadScene(31);
+			StartCoroutine(sceneManagerScript.FadeStuff(31));
 		}
 		else if (section == 3 && i == dialogue_3Length+1){
 			sceneCanvas.enabled = false;
 			decision2Canvas.enabled = true;
 		}
 		else if (section == 41 && i == dialogue_4_1Length+1){
-			SceneManager.LoadScene(34);
+			StartCoroutine(sceneManagerScript.FadeStuff(34));
 		}
 		else if (section == 42 && i == dialogue_4_2Length+1){
-			SceneManager.LoadScene(35);
+			StartCoroutine(sceneManagerScript.FadeStuff(35));
 		}
 	}
 
