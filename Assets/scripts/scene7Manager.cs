@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class scene7Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
-	public SceneHandler scene7ManagerScript;
+	public SceneHandler sceneManagerScript;
 	public audio7Script audioManager;
 
 	//various Evidence GameObjects in scene, will load base on killer
@@ -51,14 +51,14 @@ public class scene7Manager : MonoBehaviour {
 		//finds the empty gameobject associated with sceneHandler
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
-		scene7ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 
-		scene7ManagerScript.fader = false;
+		sceneManagerScript.fader = false;
 	}
 	// Use this for initialization
 	void Start () {
-		scene7ManagerScript.setUserVisited(7);
-		scene7ManagerScript.printCurrentKillerID();
+		sceneManagerScript.setUserVisited(7);
+		sceneManagerScript.printCurrentKillerID();
 		displayGUI = true;
 
 		loadEvidencesBaseOnKiller();
@@ -90,7 +90,7 @@ public class scene7Manager : MonoBehaviour {
 			Time.timeScale = 0;
 		}
 		if(stageInThisScene[2] == true){
-			scene7ManagerScript.fader = true;
+			sceneManagerScript.fader = true;
 			SceneManager.LoadScene(8);
 			Debug.Log("loading Scene 8");
 		}
@@ -112,7 +112,7 @@ public class scene7Manager : MonoBehaviour {
 				displayMid();
 			}
 			else{
-				scene7ManagerScript.setEvidenceCollected("blood", 0);
+				sceneManagerScript.setEvidenceCollected("blood", 0);
 				i = 0; 
 				stageInThisScene[1] = true;
 				Debug.Log("I'm inside of the !stageInThisScene[1]'s else statement");
@@ -182,47 +182,47 @@ public class scene7Manager : MonoBehaviour {
 		whiteFur.SetActive(false);
 		pipe.SetActive(false);
 
-		if(scene7ManagerScript.killerID == 0){//if Doug is killer
+		if(sceneManagerScript.killerID == 0){//if Doug is killer
 			//light brown hair
 			schoolYearbook.SetActive(true);
 			pipe.SetActive(true); 
 			//maxEvidenceNum = 4;//Blood = inclusive, Body is exclusive in the calculation of maxEvidenceNum per scene
 			maxEvidenceNum = 2;
 		}
-		else if(scene7ManagerScript.killerID == 1){//if Jade is killer
+		else if(sceneManagerScript.killerID == 1){//if Jade is killer
 			//enable money
 			schoolYearbook.SetActive(true);
 			whiteFur.SetActive(true);
 			maxEvidenceNum = 2;
 			//maxEvidenceNum = 4;
 		}
-		else if(scene7ManagerScript.killerID == 2){//if Norm is killer
+		else if(sceneManagerScript.killerID == 2){//if Norm is killer
 			newspaperClipping.SetActive(true);
 			letterOpener.SetActive(true);
 			maxEvidenceNum = 2;
 			//maxEvidenceNum = 3;
 		}
-		else if(scene7ManagerScript.killerID == 3){//if Damina is killer
+		else if(sceneManagerScript.killerID == 3){//if Damina is killer
 			//no body and long white fur
 			reBody.SetActive(true);
 			paperSmearedWithChocolate.SetActive(true);
 			maxEvidenceNum = 2;
 			//maxEvidenceNum = 4;
 		}
-		else if(scene7ManagerScript.killerID == 4){//if Tom is killer
+		else if(sceneManagerScript.killerID == 4){//if Tom is killer
 			scuffMarks.SetActive(true);
 			paperCoveredWithRedInk.SetActive(true);
 			maxEvidenceNum = 2;
 			//maxEvidenceNum = 4;
 		}
-		else if(scene7ManagerScript.killerID == 5){//if Goldie is killer
+		else if(sceneManagerScript.killerID == 5){//if Goldie is killer
 			//enable money
 			veryCleanDesk.SetActive(true);
 			grayFur.SetActive(true);
 			maxEvidenceNum = 2;
 			//maxEvidenceNum = 4;
 		}
-		else if(scene7ManagerScript.killerID == 6){//if Morgan is killer
+		else if(sceneManagerScript.killerID == 6){//if Morgan is killer
 			//enable papers from work
 			blackFur.SetActive(true);
 			pinkSlip.SetActive(true);
@@ -233,8 +233,8 @@ public class scene7Manager : MonoBehaviour {
 
 	public void setUpInitConvo(){
 		//if norm is the Culprit 
-		if(scene7ManagerScript.killerID == 2){
-			initConvo =  scene7ManagerScript.readFile("Assets/Dialogue/Scene7/Scene7_1_1.txt");
+		if(sceneManagerScript.killerID == 2){
+			initConvo =  sceneManagerScript.readFile("Assets/Dialogue/Scene7/Scene7_1_1.txt");
 			initConvoLength = initConvo.Length;
 			for(int i=0;i<initConvoLength;i++){
 				Debug.Log(initConvo[i]);
@@ -242,8 +242,8 @@ public class scene7Manager : MonoBehaviour {
 			
 		}
 		//if Damina is the Culprit 
-		else if(scene7ManagerScript.killerID == 3){
-			initConvo =  scene7ManagerScript.readFile("Assets/Dialogue/Scene7/Scene7_1_2.txt");
+		else if(sceneManagerScript.killerID == 3){
+			initConvo =  sceneManagerScript.readFile("Assets/Dialogue/Scene7/Scene7_1_2.txt");
 			initConvoLength = initConvo.Length;
 			for(int i=0;i<initConvoLength;i++){
 				Debug.Log(initConvo[i]);
@@ -269,14 +269,14 @@ public class scene7Manager : MonoBehaviour {
 	}
 
 	public void setUpMidConvo(){
-		if(scene7ManagerScript.lookForEvidence("blood")){
-			midConvo = scene7ManagerScript.readFile("Assets/Dialogue/Scene7/Scene7_2_1.txt");
+		if(sceneManagerScript.lookForEvidence("blood")){
+			midConvo = sceneManagerScript.readFile("Assets/Dialogue/Scene7/Scene7_2_1.txt");
 			midConvoLength = midConvo.Length;
 			Debug.Log(midConvo);
 
 		}
 		else{
-			midConvo = scene7ManagerScript.readFile("Assets/Dialogue/Scene7/Scene7_2_2.txt");
+			midConvo = sceneManagerScript.readFile("Assets/Dialogue/Scene7/Scene7_2_2.txt");
 			midConvoLength = midConvo.Length;
 		}
 	}
@@ -287,7 +287,7 @@ public class scene7Manager : MonoBehaviour {
 		}
 	}
 	public void setUpEndConvo(){
-		endConvo = scene7ManagerScript.readFile("Assets/Dialogue/Scene7/Scene7_3.txt");
+		endConvo = sceneManagerScript.readFile("Assets/Dialogue/Scene7/Scene7_3.txt");
 		endConvoLength = endConvo.Length;
 		Debug.Log(endConvo);
 	}

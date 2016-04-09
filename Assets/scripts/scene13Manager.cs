@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class scene13Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
-	public SceneHandler scene13ManagerScript;
+	public SceneHandler sceneManagerScript;
 	public Text displayedDialogue =  null;
 
 	private string [] dialogue_1;
@@ -26,19 +26,19 @@ public class scene13Manager : MonoBehaviour {
 		//finds the empty gameobject associated with sceneHandler
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
-		scene13ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 	}
 	void Start () {
-		scene13ManagerScript.setUserVisited(13);
-		scene13ManagerScript.printCurrentKillerID();
+		sceneManagerScript.setUserVisited(13);
+		sceneManagerScript.printCurrentKillerID();
 
-		dialogue_1 = scene13ManagerScript.readFile("Scene13_1.txt");
+		dialogue_1 = sceneManagerScript.readFile("Scene13_1.txt");
 		dialogue_1Length = dialogue_1.Length;
 
-		dialogue_2_1 = scene13ManagerScript.readFile("Scene13_2_1.txt");
+		dialogue_2_1 = sceneManagerScript.readFile("Scene13_2_1.txt");
 		dialogue_2_1Length = dialogue_2_1.Length;
 
-		dialogue_2_2 = scene13ManagerScript.readFile("Scene13_2_2.txt");
+		dialogue_2_2 = sceneManagerScript.readFile("Scene13_2_2.txt");
 		dialogue_2_2Length = dialogue_2_2.Length;
 
 		displayDialogue();
@@ -48,8 +48,8 @@ public class scene13Manager : MonoBehaviour {
 	void Update () {
 		//if counter reached the max dialogue length, move onto next scene
 		if(section == 1 && i == dialogue_1Length+1){
-			scene13ManagerScript.setEvidenceCollected("Knocking", 22);
-			if (scene13ManagerScript.userVisited[12]){
+			sceneManagerScript.setEvidenceCollected("Knocking", 22);
+			if (sceneManagerScript.userVisited[12]){
 				section = 22;
 				i = 0;
 				displayDialogue();

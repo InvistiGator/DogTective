@@ -608,13 +608,13 @@ public class SceneHandler : MonoBehaviour {
 
 	public string[] readEmotion(string fileName){
 			string currentLine;
+			int position;
+			string currentEmotion;
 
 			int lineCount = File.ReadAllLines("Scene"+fileName).Length;
 
 			string[] allLines = new string[lineCount];
 			StreamReader reader = new StreamReader(fileName, Encoding.Default);
-			int i = 0;
-			int currentEmotion = 0;
 
 			for (int j = 0; j < lineCount; j++){
 				allLines[j] = "z";
@@ -623,11 +623,12 @@ public class SceneHandler : MonoBehaviour {
 			using (reader){
 				do{
 					currentLine = reader.ReadLine();
+					currentEmotion = reader.ReadLine();
+
+					position = 0;//Int.Parse(currentLine);
 
 					if (currentLine != null){
-						currentEmotion = allLines[i][0];
-						allLines[currentEmotion] = currentLine.Substring(1);
-						i++;
+						allLines[position] = currentEmotion;
 					}
 				}
 				while (currentLine != null);

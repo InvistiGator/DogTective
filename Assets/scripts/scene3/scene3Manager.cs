@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class scene3Manager : MonoBehaviour {
 //private scene2Manager: SceneHandler;
 	public GameObject SceneHandlerObj;
-	public SceneHandler scene3ManagerScript;
+	public SceneHandler sceneManagerScript;
 	public audio3Script audioManager;
 	public Text displayedDialogue_Scene3 =  null;
 	public Canvas scene3Canvas;
@@ -29,22 +29,22 @@ public class scene3Manager : MonoBehaviour {
 		//finds the empty gameobject associated with sceneHandler
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
-		scene3ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 		audioManager = audioManager.GetComponent<audio3Script>();
 	}
 	void Start () {
-		scene3ManagerScript.setUserVisited(3);
-		scene3ManagerScript.printCurrentKillerID();
+		sceneManagerScript.setUserVisited(3);
+		sceneManagerScript.printCurrentKillerID();
 		iwithEvidence = 0;		
 		//set up dialogue needed for this scene
 		
-		dialogue_1 = scene3ManagerScript.readFile("Scene3_1.txt");
+		dialogue_1 = sceneManagerScript.readFile("Scene3_1.txt");
 		dialogue_1Length = dialogue_1.Length;
 
-		dialogue_2_1 = scene3ManagerScript.readFile("Scene3_2_1.txt");
+		dialogue_2_1 = sceneManagerScript.readFile("Scene3_2_1.txt");
 		dialogue_2_1Length = dialogue_2_1.Length;
 
-		dialogue_2_2 = scene3ManagerScript.readFile("Scene3_2_2.txt");
+		dialogue_2_2 = sceneManagerScript.readFile("Scene3_2_2.txt");
 		dialogue_2_2Length = dialogue_2_2.Length;
 
 		displayDialogue();
@@ -62,13 +62,13 @@ public class scene3Manager : MonoBehaviour {
 		//if counter reached the max dialogue length, move onto next scene
 		if(section == 1 && i == dialogue_1Length+1){
 			/*if before this scene something already visited somewhere direct as needed
-			if(scene3ManagerScript.userVisited[2]){
+			if(sceneManagerScript.userVisited[2]){
 				SceneManager.LoadScene(4);
 				Debug.Log("Current SceneInstance.userVisited[3]:  ");
-				Debug.Log(scene3ManagerScript.userVisited[3]);
+				Debug.Log(sceneManagerScript.userVisited[3]);
 
 			}*/
-			if (scene3ManagerScript.userVisited[4]){
+			if (sceneManagerScript.userVisited[4]){
 				section = 21;
 				i = 0;
 				displayDialogue();
@@ -78,10 +78,10 @@ public class scene3Manager : MonoBehaviour {
 				decisionCanvas.enabled = true;
 			}
 		}
-		else if (section == 21 && i == dialogue_2_1Length+1 && !scene3ManagerScript.userVisited[4]){
+		else if (section == 21 && i == dialogue_2_1Length+1 && !sceneManagerScript.userVisited[4]){
 			SceneManager.LoadScene(4);
 		}
-		else if (section == 21 && i == dialogue_2_1Length+1 && scene3ManagerScript.userVisited[4]){
+		else if (section == 21 && i == dialogue_2_1Length+1 && sceneManagerScript.userVisited[4]){
 			SceneManager.LoadScene(5);
 		}
 		else if (section == 22 && i == dialogue_2_2Length+1){

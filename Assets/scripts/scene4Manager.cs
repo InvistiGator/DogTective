@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class scene4Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
-	public SceneHandler scene4ManagerScript;
+	public SceneHandler sceneManagerScript;
 	public Text displayedDialogue_Scene4 =  null;
 	private string [] dialogue; 
 	private int i= 0; // a counter to iterater thru conversations, and set important convo indexes
@@ -17,12 +17,12 @@ public class scene4Manager : MonoBehaviour {
 		//finds the empty gameobject associated with sceneHandler
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
-		scene4ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 	}
 	void Start () {
-		scene4ManagerScript.setUserVisited(4);
-		scene4ManagerScript.printCurrentKillerID();
-		dialogue = scene4ManagerScript.readFile("Scene4.txt");
+		sceneManagerScript.setUserVisited(4);
+		sceneManagerScript.printCurrentKillerID();
+		dialogue = sceneManagerScript.readFile("Scene4.txt");
 		maxDialogueLength = dialogue.Length;
 
 		displayDialogue();
@@ -31,10 +31,10 @@ public class scene4Manager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(i==maxDialogueLength+1){
-			if (scene4ManagerScript.userVisited[3] && !scene4ManagerScript.userVisited[5]){
+			if (sceneManagerScript.userVisited[3] && !sceneManagerScript.userVisited[5]){
 			    SceneManager.LoadScene(5);
 			}
-			else if (scene4ManagerScript.userVisited[3] && scene4ManagerScript.userVisited[5]){
+			else if (sceneManagerScript.userVisited[3] && sceneManagerScript.userVisited[5]){
 				SceneManager.LoadScene(6);
 			}
 			else{

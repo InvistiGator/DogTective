@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class scene10Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
-	public SceneHandler scene10ManagerScript;
+	public SceneHandler sceneManagerScript;
 	public audio10Script audioManager;
 	public Text displayedDialogue_Scene10 =  null;
 	public Canvas scene10Canvas;
@@ -31,23 +31,23 @@ public class scene10Manager : MonoBehaviour {
 		//finds the empty gameobject associated with sceneHandler
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
-		scene10ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 		audioManager = audioManager.GetComponent<audio10Script>();
 	}
 	void Start () {
-		scene10ManagerScript.setUserVisited(10);
-		scene10ManagerScript.printCurrentKillerID();
+		sceneManagerScript.setUserVisited(10);
+		sceneManagerScript.printCurrentKillerID();
 
-		dialogue_1 = scene10ManagerScript.readFile("Scene10_1.txt");
+		dialogue_1 = sceneManagerScript.readFile("Scene10_1.txt");
 		dialogue_1Length = dialogue_1.Length;
 
-		dialogue_2_1 = scene10ManagerScript.readFile("Scene10_2_1.txt");
+		dialogue_2_1 = sceneManagerScript.readFile("Scene10_2_1.txt");
 		dialogue_2_1Length = dialogue_2_1.Length;
 
-		dialogue_2_2 = scene10ManagerScript.readFile("Scene10_2_2.txt");
+		dialogue_2_2 = sceneManagerScript.readFile("Scene10_2_2.txt");
 		dialogue_2_2Length = dialogue_2_2.Length;
 
-		dialogue_2_3 = scene10ManagerScript.readFile("Scene10_2_3.txt");
+		dialogue_2_3 = sceneManagerScript.readFile("Scene10_2_3.txt");
 		dialogue_2_3Length = dialogue_2_3.Length;
 
 		scene10Canvas = scene10Canvas.GetComponent<Canvas> (); 

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class scene11Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
-	public SceneHandler scene11ManagerScript;
+	public SceneHandler sceneManagerScript;
 	public audio11Script audioManager;
 	public Text displayedDialogue_Scene11 =  null;
 	private string [] dialogue; 
@@ -18,13 +18,13 @@ public class scene11Manager : MonoBehaviour {
 		//finds the empty gameobject associated with sceneHandler
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
-		scene11ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 		audioManager = audioManager.GetComponent<audio11Script>();
 	}
 	void Start () {
-		scene11ManagerScript.setUserVisited(11);
-		scene11ManagerScript.printCurrentKillerID();
-		dialogue = scene11ManagerScript.readFile("Scene11.txt");
+		sceneManagerScript.setUserVisited(11);
+		sceneManagerScript.printCurrentKillerID();
+		dialogue = sceneManagerScript.readFile("Scene11.txt");
 		maxDialogueLength = dialogue.Length;
 
 		displayDialogue();

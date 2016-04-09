@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class scene6Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
-	public SceneHandler scene6ManagerScript;
+	public SceneHandler sceneManagerScript;
 	public Text displayedDialogue_Scene6 =  null;
 	private string [] dialogue; 
 	private int i= 0; // a counter to iterater thru conversations, and set important convo indexes
@@ -17,12 +17,12 @@ public class scene6Manager : MonoBehaviour {
 		//finds the empty gameobject associated with sceneHandler
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
-		scene6ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 	}
 	void Start () {
-		scene6ManagerScript.setUserVisited(6);
-		scene6ManagerScript.printCurrentKillerID();
-		dialogue = scene6ManagerScript.readFile("Scene6.txt");
+		sceneManagerScript.setUserVisited(6);
+		sceneManagerScript.printCurrentKillerID();
+		dialogue = sceneManagerScript.readFile("Scene6.txt");
 		maxDialogueLength = dialogue.Length;
 
 		displayDialogue();

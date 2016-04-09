@@ -38,7 +38,7 @@ public class whodunnitManager : MonoBehaviour {
 		continueCanvas.enabled = false;
 
 		sceneManagerScript.characterName.text = "";
-		sceneManagerScript.setEvidenceCollected("pipe", 21);
+		//sceneManagerScript.setEvidenceCollected("pipe", 21);
 	}
 	
 	// Update is called once per frame

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class scene5Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
-	public SceneHandler scene5ManagerScript;
+	public SceneHandler sceneManagerScript;
 	public audio5Script audioManager;
 	public Text displayedDialogue_Scene5 =  null;
 	private string [] dialogue; 
@@ -18,13 +18,13 @@ public class scene5Manager : MonoBehaviour {
 		//finds the empty gameobject associated with sceneHandler
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
-		scene5ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 		audioManager = audioManager.GetComponent<audio5Script>();
 	}
 	void Start () {
-		scene5ManagerScript.setUserVisited(5);
-		scene5ManagerScript.printCurrentKillerID();
-		dialogue = scene5ManagerScript.readFile("Scene5.txt");
+		sceneManagerScript.setUserVisited(5);
+		sceneManagerScript.printCurrentKillerID();
+		dialogue = sceneManagerScript.readFile("Scene5.txt");
 		maxDialogueLength = dialogue.Length;
 
 		displayDialogue();
@@ -33,10 +33,10 @@ public class scene5Manager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(i==maxDialogueLength+1){
-			if (scene5ManagerScript.userVisited[3] && !scene5ManagerScript.userVisited[4]){
+			if (sceneManagerScript.userVisited[3] && !sceneManagerScript.userVisited[4]){
 				SceneManager.LoadScene(4);
 			}
-			else if (scene5ManagerScript.userVisited[3] && scene5ManagerScript.userVisited[4]){
+			else{
 				SceneManager.LoadScene(6);
 			}
 		}

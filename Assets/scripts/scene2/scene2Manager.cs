@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class scene2Manager : MonoBehaviour {
 //private scene2Manager: SceneHandler;
 	public GameObject SceneHandlerObj;
-	public SceneHandler scene2ManagerScript;
+	public SceneHandler sceneManagerScript;
 	public audio2Script audioManager;
 
 	//various Evidence GameObjects in scene, will load base on killer
@@ -67,9 +67,9 @@ public class scene2Manager : MonoBehaviour {
 		//finds the empty gameobject associated with sceneHandler
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
-		scene2ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 
-		scene2ManagerScript.fader = false;
+		sceneManagerScript.fader = false;
 
 		audioManager = audioManager.GetComponent<audio2Script>();
 		//bodyObject = GameObject.FindGameObject("Body").gameObject.GetComponent<GameObject> as GameObject;
@@ -77,8 +77,8 @@ public class scene2Manager : MonoBehaviour {
 	}
 	void Start () {
 		displayGUI = true;
-		scene2ManagerScript.setUserVisited(2);
-		scene2ManagerScript.printCurrentKillerID();
+		sceneManagerScript.setUserVisited(2);
+		sceneManagerScript.printCurrentKillerID();
 
 		loadEvidencesBaseOnKiller();
 
@@ -126,12 +126,12 @@ public class scene2Manager : MonoBehaviour {
 		//if counter reached the max dialogueInit length, move onto next scene
 		
 		if(stageInThisScene[5] && lookForEvidence("blood")){
-			scene2ManagerScript.fader = true;
+			sceneManagerScript.fader = true;
 			SceneManager.LoadScene(3);
 			Debug.Log("loading scene3 bc blood touched");
 		}
 		else if(stageInThisScene[5]){
-			scene2ManagerScript.fader = true;
+			sceneManagerScript.fader = true;
 			SceneManager.LoadScene(4);
 			Debug.Log("loading scene4 bc blood not Touched");
 		}
@@ -168,42 +168,42 @@ public class scene2Manager : MonoBehaviour {
 		papersFromWork.SetActive(false);
 		lightBrownFur.SetActive(false);
 
-		if(scene2ManagerScript.killerID == 0){//if Doug is killer
+		if(sceneManagerScript.killerID == 0){//if Doug is killer
 			//light brown hair
 			lightBrownFur.SetActive(true); 
 			//maxEvidenceNum = 4;//Blood = inclusive, Body is exclusive in the calculation of maxEvidenceNum per scene
 			maxEvidenceNum = 3;
 		}
-		else if(scene2ManagerScript.killerID == 1){//if Jade is killer
+		else if(sceneManagerScript.killerID == 1){//if Jade is killer
 			//enable money
 			money.SetActive(true);
 			maxEvidenceNum = 3;
 			//maxEvidenceNum = 4;
 		}
-		else if(scene2ManagerScript.killerID == 2){//if Norm is killer
+		else if(sceneManagerScript.killerID == 2){//if Norm is killer
 			//no additional other than the body
 			maxEvidenceNum = 2;
 			//maxEvidenceNum = 3;
 		}
-		else if(scene2ManagerScript.killerID == 3){//if Damina is killer
+		else if(sceneManagerScript.killerID == 3){//if Damina is killer
 			//no body and long white fur
 			longWhiteFur.SetActive(true);
 			maxEvidenceNum = 3;
 			//maxEvidenceNum = 4;
 		}
-		else if(scene2ManagerScript.killerID == 4){//if Tom is killer
+		else if(sceneManagerScript.killerID == 4){//if Tom is killer
 			//enable white fur
 			shortWhiteFur.SetActive(true);
 			maxEvidenceNum = 3;
 			//maxEvidenceNum = 4;
 		}
-		else if(scene2ManagerScript.killerID == 5){//if Goldie is killer
+		else if(sceneManagerScript.killerID == 5){//if Goldie is killer
 			//enable money
 			money.SetActive(true);
 			maxEvidenceNum = 3;
 			//maxEvidenceNum = 4;
 		}
-		else if(scene2ManagerScript.killerID == 6){//if Morgan is killer
+		else if(sceneManagerScript.killerID == 6){//if Morgan is killer
 			//enable papers from work
 			papersFromWork.SetActive(true);
 			maxEvidenceNum = 3;
@@ -211,10 +211,10 @@ public class scene2Manager : MonoBehaviour {
 		}
 	}
 	public void showBodyOrNah(){
-		if(scene2ManagerScript.killerID == 2 || scene2ManagerScript.killerID == 3 ){
+		if(sceneManagerScript.killerID == 2 || sceneManagerScript.killerID == 3 ){
 			bodyObject.SetActive(false);
 			//No body, set no body as an evidence
-			scene2ManagerScript.setEvidenceCollected3D("noBody");
+			sceneManagerScript.setEvidenceCollected3D("noBody");
 		}
 		else{
 			bodyObject.SetActive(true);
@@ -222,8 +222,8 @@ public class scene2Manager : MonoBehaviour {
 	}
 
 	public bool lookForEvidence(string evidence_){
-		for(int i=0; i< scene2ManagerScript.CollectedEvidenceString.Length; i++){
-			if(scene2ManagerScript.CollectedEvidenceString[i] == evidence_){
+		for(int i=0; i< sceneManagerScript.CollectedEvidenceString.Length; i++){
+			if(sceneManagerScript.CollectedEvidenceString[i] == evidence_){
 				return true;
 			}
 		}
@@ -372,40 +372,40 @@ public class scene2Manager : MonoBehaviour {
 	///===============Set Up different variations of GUI ========================///
 
 	public void setUpInitScript(){
-		dialogueInit = scene2ManagerScript.readFile("Scene2_1.txt");
+		dialogueInit = sceneManagerScript.readFile("Scene2_1.txt");
 		displayeddialogue_Scene2.text = dialogueInit[i];
 		i++;
 	}
 
 	public void setUpMidScript(){
-		if(!(scene2ManagerScript.killerID == 2 || scene2ManagerScript.killerID == 3) ){
+		if(!(sceneManagerScript.killerID == 2 || sceneManagerScript.killerID == 3) ){
 			maxMidDialogueLength = 5;
-			dialogue2_1 = scene2ManagerScript.readFile("Scene2_2_1.txt");
+			dialogue2_1 = sceneManagerScript.readFile("Scene2_2_1.txt");
 
 		}
 		else{
 			maxMidDialogueLength = 9;
-			dialogue2_1 = scene2ManagerScript.readFile("Scene2_2_2.txt");
+			dialogue2_1 = sceneManagerScript.readFile("Scene2_2_2.txt");
 		}
 	}
 	public void setUpBloodInitScript(){
 		maxInitBloodLength = 9;
-		dialogue3_1 = scene2ManagerScript.readFile("Scene2_3_1.txt");
+		dialogue3_1 = sceneManagerScript.readFile("Scene2_3_1.txt");
 
 	}
 	public void setUpEvidenceScript(){
 		if(lookForEvidence("blood")){
 			maxEvidenceDialogue = 20;
-			dialogue4_1 = scene2ManagerScript.readFile("Scene2_4_1.txt");
+			dialogue4_1 = sceneManagerScript.readFile("Scene2_4_1.txt");
 		}
 		else{
 			maxEvidenceDialogue = 18;
-			dialogue4_1 = scene2ManagerScript.readFile("Scene2_4_2.txt");
+			dialogue4_1 = sceneManagerScript.readFile("Scene2_4_2.txt");
 		}
 	}
 	public void setUpEndScript(){
 		maxEndDialogueLength = 12;
-		dialogueEnd = scene2ManagerScript.readFile("Scene2_5.txt");
+		dialogueEnd = sceneManagerScript.readFile("Scene2_5.txt");
 
 	}
 
@@ -458,14 +458,14 @@ public class scene2Manager : MonoBehaviour {
 		//the button associated with touching blood
 		//set up everything
 		//person decided to touch blood. Add this to their evidence inventory. 
-		scene2ManagerScript.setEvidenceCollected3D("blood");
+		sceneManagerScript.setEvidenceCollected3D("blood");
 		//[Audio: Blood's event sound]
 	/*			
 	//Randomization: If Norm or Damina is the culprit:
 	Doug:  But with no blood and no body… was there even a murder at all?
 
  */
-		if(scene2ManagerScript.killerID==2||scene2ManagerScript.killerID==3){
+		if(sceneManagerScript.killerID==2||sceneManagerScript.killerID==3){
 			maxBloodDialogueLength = 29;
 			setUpTouchBlood();
 
@@ -489,7 +489,7 @@ public class scene2Manager : MonoBehaviour {
 	}
 
 	public void setUpTouchBlood(){
-		dialogue3_2 = scene2ManagerScript.readFile("Scene2_3_2.txt");
+		dialogue3_2 = sceneManagerScript.readFile("Scene2_3_2.txt");
 	}
 	public void notToTouchBlood(){
 		//button associated with NOT touching blood
@@ -500,7 +500,7 @@ public class scene2Manager : MonoBehaviour {
 		noTouchBloodButt.enabled = false;
 
 		maxBloodDialogueLength = 3;
-		dialogue3_2 = scene2ManagerScript.readFile("Scene2_3_3.txt");
+		dialogue3_2 = sceneManagerScript.readFile("Scene2_3_3.txt");
 
 		int i=0;//reset i to 0 just incase, counter has some random memory stored in it. 
 		if(i<maxBloodDialogueLength){

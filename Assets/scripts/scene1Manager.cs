@@ -5,12 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class scene1Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
-	public SceneHandler scene1ManagerScript;
+	public SceneHandler sceneManagerScript;
 	public audio1Script audioManager;
 	//public EmotionController emoCtr1;
 
 	public Text displayedDialogue_Scene1 =  null;
 	private string [] dialogue; 
+	private string [] emotion;
 	public int i= 0; // a counter to iterater thru conversations, and set important convo indexes
 	public int iwithEvidence;
 	public int iwithClockTick = 15;
@@ -24,14 +25,15 @@ public class scene1Manager : MonoBehaviour {
 		//finds the empty gameobject associated with sceneHandler
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
-		scene1ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 		audioManager = audioManager.GetComponent<audio1Script>();
 		//emoCtr1 = emoCtr1.GetComponent<EmotionController>();
 	}
 	void Start () {
-		scene1ManagerScript.setUserVisited(1);
-		scene1ManagerScript.printCurrentKillerID();
-		dialogue = scene1ManagerScript.readFile("Scene1.txt");
+		sceneManagerScript.setUserVisited(1);
+		sceneManagerScript.printCurrentKillerID();
+		dialogue = sceneManagerScript.readFile("Scene1.txt");
+		emotion = sceneManagerScript.readEmotion("1.txt");
 		maxDialogueLength = dialogue.Length;
 
 		displayDialogue();
@@ -52,13 +54,22 @@ public class scene1Manager : MonoBehaviour {
 			//emoCtr1.triggerIdle();
 		} else if(i==maxDialogueLength+1){
 		//else if(i==2){
-			StartCoroutine(scene1ManagerScript.FadeStuff(2));
+			StartCoroutine(sceneManagerScript.FadeStuff(2));
 		}
 	}
 
 	
 	public void displayDialogue(){
+
 		if(i<maxDialogueLength){
+			if (!emotion[i].Equals("z")){
+				if (emotion[i][0].Equals('d')){
+					//doug
+					Debug.Log("7 - my name is");
+				}
+			//else 
+			}
+
 			displayedDialogue_Scene1.text = dialogue[i];
 			i++;
 		}

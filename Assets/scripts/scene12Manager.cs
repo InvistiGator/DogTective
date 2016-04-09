@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class scene12Manager : MonoBehaviour {
 	public GameObject SceneHandlerObj;
-	public SceneHandler scene12ManagerScript;
+	public SceneHandler sceneManagerScript;
 	public audio12Script audioManager;
 	public Text displayedDialogue_Scene12 =  null;
 	private string [] dialogue; 
@@ -18,13 +18,13 @@ public class scene12Manager : MonoBehaviour {
 		//finds the empty gameobject associated with sceneHandler
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
 		//finds the script that is attached to the above gameobject
-		scene12ManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
+		sceneManagerScript = SceneHandlerObj.GetComponent<SceneHandler>();
 		audioManager = audioManager.GetComponent<audio12Script>();
 	}
 	void Start () {
-		scene12ManagerScript.setUserVisited(12);
-		scene12ManagerScript.printCurrentKillerID();
-		dialogue = scene12ManagerScript.readFile("Scene12.txt");
+		sceneManagerScript.setUserVisited(12);
+		sceneManagerScript.printCurrentKillerID();
+		dialogue = sceneManagerScript.readFile("Scene12.txt");
 		maxDialogueLength = dialogue.Length;
 
 		displayDialogue();
@@ -33,7 +33,7 @@ public class scene12Manager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(i==maxDialogueLength+1){
-			scene12ManagerScript.setEvidenceCollected("TomsSecretPassage", 24);
+			sceneManagerScript.setEvidenceCollected("TomsSecretPassage", 24);
 			SceneManager.LoadScene(9);
 		}
 
