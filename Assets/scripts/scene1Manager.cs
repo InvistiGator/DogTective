@@ -52,9 +52,9 @@ public class scene1Manager : MonoBehaviour {
 		} else if (i==iwithPhoneVibrating) {
 			audioManager.playPhoneVibrating();
 			//emoCtr1.triggerIdle();
-		} else if(i==maxDialogueLength+1){
-		//else if(i==2){
-			StartCoroutine(sceneManagerScript.FadeStuff(2));
+		} //else if(i==maxDialogueLength+1){
+		else if(i==2){
+			StartCoroutine(sceneManagerScript.FadeStuff(3));
 		}
 	}
 
@@ -65,9 +65,10 @@ public class scene1Manager : MonoBehaviour {
 			if (!emotion[i].Equals("z")){
 				if (emotion[i][0].Equals('d')){
 					//doug
-					Debug.Log("7 - my name is");
 				}
-			//else 
+				else if (emotion[i][0].Equals('c')){
+					//damina
+				}
 			}
 
 			displayedDialogue_Scene1.text = dialogue[i];
@@ -75,8 +76,7 @@ public class scene1Manager : MonoBehaviour {
 		}
 		else{
 			i++;
-		}
-				
+		}			
 	}
 
 }

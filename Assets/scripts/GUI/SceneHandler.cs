@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 using System.Text;
 using System.IO; 
 
+using System;
+using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
+
 public class SceneHandler : MonoBehaviour {
 
 	public static SceneHandler SceneInstance; 
@@ -625,9 +630,8 @@ public class SceneHandler : MonoBehaviour {
 					currentLine = reader.ReadLine();
 					currentEmotion = reader.ReadLine();
 
-					position = 0;//Int.Parse(currentLine);
-
 					if (currentLine != null){
+						position = Int32.Parse(currentLine);
 						allLines[position] = currentEmotion;
 					}
 				}
