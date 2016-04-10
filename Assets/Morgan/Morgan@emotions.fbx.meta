@@ -268,7 +268,13 @@ ModelImporter:
     400258: nurbsCircle8
     400260: pCube36
     4300000: pCube36
-    7400000: Take 001
+    7400000: idle
+    7400002: happy
+    7400004: sad
+    7400006: angry
+    7400008: awk
+    7400010: surprised
+    7400012: annoyed
     9500000: //RootNode
     13700000: pCube36
   materials:
@@ -291,7 +297,2037 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint60
+        weight: 1
+      - path: joint60/joint2
+        weight: 1
+      - path: joint60/joint2/joint3
+        weight: 1
+      - path: joint60/joint2/joint3/joint4
+        weight: 1
+      - path: joint60/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint60/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint60/joint7
+        weight: 1
+      - path: joint60/joint7/joint8
+        weight: 1
+      - path: joint60/joint7/joint8/joint9
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint23
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint24
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint25
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint28
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint28/joint29
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint36
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint36/joint27
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint37
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint37/joint26
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint54
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint54/joint55
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint57
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint58
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint59
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint73
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint74
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint75
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint76
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint77
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint77/joint78
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint79
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint79/joint80
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint17
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint17/joint18
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint19
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint19/joint20
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint21
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint21/joint22
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint65/joint66
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint67
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint67/joint68
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint69
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint69/joint70
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint71
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint71/joint72
+        weight: 1
+      - path: joint60/joint31
+        weight: 1
+      - path: joint60/joint31/joint32
+        weight: 1
+      - path: joint60/joint31/joint32/joint33
+        weight: 1
+      - path: joint60/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint60/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint60/joint38
+        weight: 1
+      - path: joint60/joint38/joint39
+        weight: 1
+      - path: joint60/joint38/joint39/joint40
+        weight: 1
+      - path: joint60/joint38/joint39/joint40/joint41
+        weight: 1
+      - path: joint60/joint38/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: main
+        weight: 1
+      - path: main/nurbsCircle1
+        weight: 1
+      - path: main/nurbsCircle1/group20
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group6
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group6/nurbsCircle24
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group7
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group7/nurbsCircle16
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group8
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group8/nurbsCircle15
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group9
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group9/nurbsCircle14
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group10
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group10/nurbsCircle12
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group11
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group11/nurbsCircle11
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group12
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group12/nurbsCircle27
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group13
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group13/nurbsCircle26
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group14
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group14/nurbsCircle25
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group15
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group15/nurbsCircle13
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group43
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group43/nurbsCircle37
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group44
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group44/nurbsCircle38
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group45
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group45/nurbsCircle35
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group46
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group46/nurbsCircle36
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group47
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group47/nurbsCircle34
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group48
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group48/nurbsCircle40
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group27
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group27/nurbsCircle29
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group28
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group28/nurbsCircle30
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8/group34
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8/group34/nurbsCircle32
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19/group33
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19/group33/nurbsCircle33
+        weight: 1
+      - path: main/nurbsCircle1/group26
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4/group3
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4/group3/nurbsCircle5
+        weight: 1
+      - path: pCube36
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: happy
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint60
+        weight: 1
+      - path: joint60/joint2
+        weight: 1
+      - path: joint60/joint2/joint3
+        weight: 1
+      - path: joint60/joint2/joint3/joint4
+        weight: 1
+      - path: joint60/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint60/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint60/joint7
+        weight: 1
+      - path: joint60/joint7/joint8
+        weight: 1
+      - path: joint60/joint7/joint8/joint9
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint23
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint24
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint25
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint28
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint28/joint29
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint36
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint36/joint27
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint37
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint37/joint26
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint54
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint54/joint55
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint57
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint58
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint59
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint73
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint74
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint75
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint76
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint77
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint77/joint78
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint79
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint79/joint80
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint17
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint17/joint18
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint19
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint19/joint20
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint21
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint21/joint22
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint65/joint66
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint67
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint67/joint68
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint69
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint69/joint70
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint71
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint71/joint72
+        weight: 1
+      - path: joint60/joint31
+        weight: 1
+      - path: joint60/joint31/joint32
+        weight: 1
+      - path: joint60/joint31/joint32/joint33
+        weight: 1
+      - path: joint60/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint60/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint60/joint38
+        weight: 1
+      - path: joint60/joint38/joint39
+        weight: 1
+      - path: joint60/joint38/joint39/joint40
+        weight: 1
+      - path: joint60/joint38/joint39/joint40/joint41
+        weight: 1
+      - path: joint60/joint38/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: main
+        weight: 1
+      - path: main/nurbsCircle1
+        weight: 1
+      - path: main/nurbsCircle1/group20
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group6
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group6/nurbsCircle24
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group7
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group7/nurbsCircle16
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group8
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group8/nurbsCircle15
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group9
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group9/nurbsCircle14
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group10
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group10/nurbsCircle12
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group11
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group11/nurbsCircle11
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group12
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group12/nurbsCircle27
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group13
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group13/nurbsCircle26
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group14
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group14/nurbsCircle25
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group15
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group15/nurbsCircle13
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group43
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group43/nurbsCircle37
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group44
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group44/nurbsCircle38
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group45
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group45/nurbsCircle35
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group46
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group46/nurbsCircle36
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group47
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group47/nurbsCircle34
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group48
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group48/nurbsCircle40
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group27
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group27/nurbsCircle29
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group28
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group28/nurbsCircle30
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8/group34
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8/group34/nurbsCircle32
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19/group33
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19/group33/nurbsCircle33
+        weight: 1
+      - path: main/nurbsCircle1/group26
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4/group3
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4/group3/nurbsCircle5
+        weight: 1
+      - path: pCube36
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: sad
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint60
+        weight: 1
+      - path: joint60/joint2
+        weight: 1
+      - path: joint60/joint2/joint3
+        weight: 1
+      - path: joint60/joint2/joint3/joint4
+        weight: 1
+      - path: joint60/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint60/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint60/joint7
+        weight: 1
+      - path: joint60/joint7/joint8
+        weight: 1
+      - path: joint60/joint7/joint8/joint9
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint23
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint24
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint25
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint28
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint28/joint29
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint36
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint36/joint27
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint37
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint37/joint26
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint54
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint54/joint55
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint57
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint58
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint59
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint73
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint74
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint75
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint76
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint77
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint77/joint78
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint79
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint79/joint80
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint17
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint17/joint18
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint19
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint19/joint20
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint21
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint21/joint22
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint65/joint66
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint67
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint67/joint68
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint69
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint69/joint70
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint71
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint71/joint72
+        weight: 1
+      - path: joint60/joint31
+        weight: 1
+      - path: joint60/joint31/joint32
+        weight: 1
+      - path: joint60/joint31/joint32/joint33
+        weight: 1
+      - path: joint60/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint60/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint60/joint38
+        weight: 1
+      - path: joint60/joint38/joint39
+        weight: 1
+      - path: joint60/joint38/joint39/joint40
+        weight: 1
+      - path: joint60/joint38/joint39/joint40/joint41
+        weight: 1
+      - path: joint60/joint38/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: main
+        weight: 1
+      - path: main/nurbsCircle1
+        weight: 1
+      - path: main/nurbsCircle1/group20
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group6
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group6/nurbsCircle24
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group7
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group7/nurbsCircle16
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group8
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group8/nurbsCircle15
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group9
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group9/nurbsCircle14
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group10
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group10/nurbsCircle12
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group11
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group11/nurbsCircle11
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group12
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group12/nurbsCircle27
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group13
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group13/nurbsCircle26
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group14
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group14/nurbsCircle25
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group15
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group15/nurbsCircle13
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group43
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group43/nurbsCircle37
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group44
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group44/nurbsCircle38
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group45
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group45/nurbsCircle35
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group46
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group46/nurbsCircle36
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group47
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group47/nurbsCircle34
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group48
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group48/nurbsCircle40
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group27
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group27/nurbsCircle29
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group28
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group28/nurbsCircle30
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8/group34
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8/group34/nurbsCircle32
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19/group33
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19/group33/nurbsCircle33
+        weight: 1
+      - path: main/nurbsCircle1/group26
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4/group3
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4/group3/nurbsCircle5
+        weight: 1
+      - path: pCube36
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: angry
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint60
+        weight: 1
+      - path: joint60/joint2
+        weight: 1
+      - path: joint60/joint2/joint3
+        weight: 1
+      - path: joint60/joint2/joint3/joint4
+        weight: 1
+      - path: joint60/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint60/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint60/joint7
+        weight: 1
+      - path: joint60/joint7/joint8
+        weight: 1
+      - path: joint60/joint7/joint8/joint9
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint23
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint24
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint25
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint28
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint28/joint29
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint36
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint36/joint27
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint37
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint37/joint26
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint54
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint54/joint55
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint57
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint58
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint59
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint73
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint74
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint75
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint76
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint77
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint77/joint78
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint79
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint79/joint80
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint17
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint17/joint18
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint19
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint19/joint20
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint21
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint21/joint22
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint65/joint66
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint67
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint67/joint68
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint69
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint69/joint70
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint71
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint71/joint72
+        weight: 1
+      - path: joint60/joint31
+        weight: 1
+      - path: joint60/joint31/joint32
+        weight: 1
+      - path: joint60/joint31/joint32/joint33
+        weight: 1
+      - path: joint60/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint60/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint60/joint38
+        weight: 1
+      - path: joint60/joint38/joint39
+        weight: 1
+      - path: joint60/joint38/joint39/joint40
+        weight: 1
+      - path: joint60/joint38/joint39/joint40/joint41
+        weight: 1
+      - path: joint60/joint38/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: main
+        weight: 1
+      - path: main/nurbsCircle1
+        weight: 1
+      - path: main/nurbsCircle1/group20
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group6
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group6/nurbsCircle24
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group7
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group7/nurbsCircle16
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group8
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group8/nurbsCircle15
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group9
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group9/nurbsCircle14
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group10
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group10/nurbsCircle12
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group11
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group11/nurbsCircle11
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group12
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group12/nurbsCircle27
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group13
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group13/nurbsCircle26
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group14
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group14/nurbsCircle25
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group15
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group15/nurbsCircle13
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group43
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group43/nurbsCircle37
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group44
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group44/nurbsCircle38
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group45
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group45/nurbsCircle35
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group46
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group46/nurbsCircle36
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group47
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group47/nurbsCircle34
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group48
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group48/nurbsCircle40
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group27
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group27/nurbsCircle29
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group28
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group28/nurbsCircle30
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8/group34
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8/group34/nurbsCircle32
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19/group33
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19/group33/nurbsCircle33
+        weight: 1
+      - path: main/nurbsCircle1/group26
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4/group3
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4/group3/nurbsCircle5
+        weight: 1
+      - path: pCube36
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: awk
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint60
+        weight: 1
+      - path: joint60/joint2
+        weight: 1
+      - path: joint60/joint2/joint3
+        weight: 1
+      - path: joint60/joint2/joint3/joint4
+        weight: 1
+      - path: joint60/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint60/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint60/joint7
+        weight: 1
+      - path: joint60/joint7/joint8
+        weight: 1
+      - path: joint60/joint7/joint8/joint9
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint23
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint24
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint25
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint28
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint28/joint29
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint36
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint36/joint27
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint37
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint37/joint26
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint54
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint54/joint55
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint57
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint58
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint59
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint73
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint74
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint75
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint76
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint77
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint77/joint78
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint79
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint79/joint80
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint17
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint17/joint18
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint19
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint19/joint20
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint21
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint21/joint22
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint65/joint66
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint67
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint67/joint68
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint69
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint69/joint70
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint71
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint71/joint72
+        weight: 1
+      - path: joint60/joint31
+        weight: 1
+      - path: joint60/joint31/joint32
+        weight: 1
+      - path: joint60/joint31/joint32/joint33
+        weight: 1
+      - path: joint60/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint60/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint60/joint38
+        weight: 1
+      - path: joint60/joint38/joint39
+        weight: 1
+      - path: joint60/joint38/joint39/joint40
+        weight: 1
+      - path: joint60/joint38/joint39/joint40/joint41
+        weight: 1
+      - path: joint60/joint38/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: main
+        weight: 1
+      - path: main/nurbsCircle1
+        weight: 1
+      - path: main/nurbsCircle1/group20
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group6
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group6/nurbsCircle24
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group7
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group7/nurbsCircle16
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group8
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group8/nurbsCircle15
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group9
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group9/nurbsCircle14
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group10
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group10/nurbsCircle12
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group11
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group11/nurbsCircle11
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group12
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group12/nurbsCircle27
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group13
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group13/nurbsCircle26
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group14
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group14/nurbsCircle25
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group15
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group15/nurbsCircle13
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group43
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group43/nurbsCircle37
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group44
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group44/nurbsCircle38
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group45
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group45/nurbsCircle35
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group46
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group46/nurbsCircle36
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group47
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group47/nurbsCircle34
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group48
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group48/nurbsCircle40
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group27
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group27/nurbsCircle29
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group28
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group28/nurbsCircle30
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8/group34
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8/group34/nurbsCircle32
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19/group33
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19/group33/nurbsCircle33
+        weight: 1
+      - path: main/nurbsCircle1/group26
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4/group3
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4/group3/nurbsCircle5
+        weight: 1
+      - path: pCube36
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: surprised
+      takeName: Take 001
+      firstFrame: 140
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint60
+        weight: 1
+      - path: joint60/joint2
+        weight: 1
+      - path: joint60/joint2/joint3
+        weight: 1
+      - path: joint60/joint2/joint3/joint4
+        weight: 1
+      - path: joint60/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint60/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint60/joint7
+        weight: 1
+      - path: joint60/joint7/joint8
+        weight: 1
+      - path: joint60/joint7/joint8/joint9
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint23
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint24
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint25
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint28
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint28/joint29
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint36
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint36/joint27
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint37
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint37/joint26
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint54
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint54/joint55
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint57
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint58
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint59
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint73
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint74
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint75
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint76
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint77
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint77/joint78
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint79
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint79/joint80
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint17
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint17/joint18
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint19
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint19/joint20
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint21
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint21/joint22
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint65/joint66
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint67
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint67/joint68
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint69
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint69/joint70
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint71
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint71/joint72
+        weight: 1
+      - path: joint60/joint31
+        weight: 1
+      - path: joint60/joint31/joint32
+        weight: 1
+      - path: joint60/joint31/joint32/joint33
+        weight: 1
+      - path: joint60/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint60/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint60/joint38
+        weight: 1
+      - path: joint60/joint38/joint39
+        weight: 1
+      - path: joint60/joint38/joint39/joint40
+        weight: 1
+      - path: joint60/joint38/joint39/joint40/joint41
+        weight: 1
+      - path: joint60/joint38/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: main
+        weight: 1
+      - path: main/nurbsCircle1
+        weight: 1
+      - path: main/nurbsCircle1/group20
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group6
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group6/nurbsCircle24
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group7
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group7/nurbsCircle16
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group8
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group8/nurbsCircle15
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group9
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group9/nurbsCircle14
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group10
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group10/nurbsCircle12
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group11
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group11/nurbsCircle11
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group12
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group12/nurbsCircle27
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group13
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group13/nurbsCircle26
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group14
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group14/nurbsCircle25
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group15
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group15/nurbsCircle13
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group43
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group43/nurbsCircle37
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group44
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group44/nurbsCircle38
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group45
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group45/nurbsCircle35
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group46
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group46/nurbsCircle36
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group47
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group47/nurbsCircle34
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group48
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group48/nurbsCircle40
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group27
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group27/nurbsCircle29
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group28
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group28/nurbsCircle30
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8/group34
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8/group34/nurbsCircle32
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19/group33
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19/group33/nurbsCircle33
+        weight: 1
+      - path: main/nurbsCircle1/group26
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4/group3
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4/group3/nurbsCircle5
+        weight: 1
+      - path: pCube36
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: annoyed
+      takeName: Take 001
+      firstFrame: 170
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint60
+        weight: 1
+      - path: joint60/joint2
+        weight: 1
+      - path: joint60/joint2/joint3
+        weight: 1
+      - path: joint60/joint2/joint3/joint4
+        weight: 1
+      - path: joint60/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint60/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint60/joint7
+        weight: 1
+      - path: joint60/joint7/joint8
+        weight: 1
+      - path: joint60/joint7/joint8/joint9
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint23
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint24
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint25
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint28
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint28/joint29
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint36
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint36/joint27
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint37
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint37/joint26
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint54
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint54/joint55
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint57
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint58
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint59
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint73
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint74
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint75
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint76
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint77
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint77/joint78
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint79
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint10/joint11/joint79/joint80
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint17
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint17/joint18
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint19
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint19/joint20
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint21
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint12/joint13/joint14/joint21/joint22
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint65
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint65/joint66
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint67
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint67/joint68
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint69
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint69/joint70
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint71
+        weight: 1
+      - path: joint60/joint7/joint8/joint9/joint62/joint63/joint64/joint71/joint72
+        weight: 1
+      - path: joint60/joint31
+        weight: 1
+      - path: joint60/joint31/joint32
+        weight: 1
+      - path: joint60/joint31/joint32/joint33
+        weight: 1
+      - path: joint60/joint31/joint32/joint33/joint34
+        weight: 1
+      - path: joint60/joint31/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: joint60/joint38
+        weight: 1
+      - path: joint60/joint38/joint39
+        weight: 1
+      - path: joint60/joint38/joint39/joint40
+        weight: 1
+      - path: joint60/joint38/joint39/joint40/joint41
+        weight: 1
+      - path: joint60/joint38/joint39/joint40/joint41/joint42
+        weight: 1
+      - path: main
+        weight: 1
+      - path: main/nurbsCircle1
+        weight: 1
+      - path: main/nurbsCircle1/group20
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group6
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group6/nurbsCircle24
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group7
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group7/nurbsCircle16
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group8
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group8/nurbsCircle15
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group9
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group9/nurbsCircle14
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group10
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group10/nurbsCircle12
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group11
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group11/nurbsCircle11
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group12
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group12/nurbsCircle27
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group13
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group13/nurbsCircle26
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group14
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group14/nurbsCircle25
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group15
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group15/nurbsCircle13
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group43
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group43/nurbsCircle37
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group44
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group44/nurbsCircle38
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group45
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group45/nurbsCircle35
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group46
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group46/nurbsCircle36
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group47
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group47/nurbsCircle34
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group48
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group17/nurbsCircle22/group16/nurbsCircle23/group48/nurbsCircle40
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group27
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group27/nurbsCircle29
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group28
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group28/nurbsCircle30
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8/group34
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group30/nurbsCircle8/group34/nurbsCircle32
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19/group33
+        weight: 1
+      - path: main/nurbsCircle1/group20/nurbsCircle7/group19/nurbsCircle10/group18/nurbsCircle28/group32/nurbsCircle19/group33/nurbsCircle33
+        weight: 1
+      - path: main/nurbsCircle1/group26
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4/group3
+        weight: 1
+      - path: main/nurbsCircle1/group26/nurbsCircle6/group5/nurbsCircle3/group4/nurbsCircle4/group3/nurbsCircle5
+        weight: 1
+      - path: pCube36
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []
