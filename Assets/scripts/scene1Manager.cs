@@ -19,6 +19,9 @@ public class scene1Manager : MonoBehaviour {
 	public int iwithDoorClose = 46;
 	public int iwithPhoneVibrating = 48;
 	public int maxDialogueLength;  // defines the length of the dialogue in this scene
+	
+	public DougEmotionController DougEmo;
+	public DaminaEmotionController DaminaEmo;
 	// Use this for initialization
 	// 
 	void Awake(){
@@ -52,8 +55,8 @@ public class scene1Manager : MonoBehaviour {
 		} else if (i==iwithPhoneVibrating) {
 			audioManager.playPhoneVibrating();
 			//emoCtr1.triggerIdle();
-		} //else if(i==maxDialogueLength+1){
-		else if(i==2){
+		} else if(i==maxDialogueLength+1){
+		//else if(i==2){
 			StartCoroutine(sceneManagerScript.FadeStuff(2));
 		}
 	}
@@ -65,9 +68,11 @@ public class scene1Manager : MonoBehaviour {
 			if (!emotion[i].Equals("z")){
 				if (emotion[i][0].Equals('d')){
 					//doug
+					DougEmo.isHappy();
 				}
 				else if (emotion[i][0].Equals('c')){
 					//damina
+					DaminaEmo.triggerLaugh();
 				}
 			}
 
