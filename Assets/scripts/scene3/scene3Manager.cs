@@ -147,6 +147,8 @@ public class scene3Manager : MonoBehaviour {
 			i++;
 		}
 		else if (section == 22 && i < dialogue_2_2Length){
+			Debug.Log(i);
+			Debug.Log(emotion_2_2[i]);
 			if (!emotion_2_2[i].Equals("z")){
 				emotionCheck(emotion_2_2[i][0], emotion_2_2[i][1]);
 			}

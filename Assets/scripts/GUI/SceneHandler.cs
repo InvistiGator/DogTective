@@ -84,7 +84,7 @@ public class SceneHandler : MonoBehaviour {
 
 	}
 	void Start () {
-		userVisited = new bool [56]; 
+		userVisited = new bool [57]; 
 		for(int i = 0; i< userVisited.Length; i++){
 			userVisited[i] = false;
 		}

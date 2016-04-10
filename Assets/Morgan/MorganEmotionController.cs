@@ -24,8 +24,8 @@ public class MorganEmotionController : MonoBehaviour {
 	public void isIdle(){
 		anim.SetTrigger("isIdle"); 
 	}
-	public void isSuprised(){
-		anim.SetTrigger("isSuprised");
+	public void isSurprised(){
+		anim.SetTrigger("isSurprised");
 	}
 	public void isSad(){
 		anim.SetTrigger("isSad");

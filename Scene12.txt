@@ -10,7 +10,7 @@ Jade: “As do I, but, for now, we ought to focus on the task at hand.”
 Doug: “Right! Let’s see if there’s anything in here that can link Tom to Norm’s murder, or any other nefarious schemes.”
 Jade: “Don’t get too excited, though. We shouldn’t stray too far from the entrance, as I have no idea where this tunnel might lead to.”
 Doug: “Aw, I guess you’re right…”
-*You and Jade look around for any clues.”
+*You and Jade look around for any clues.*
 Doug: “Hey, I think I found something.”
 Jade: “What is it?”
 Doug: “Hm… There’s a paper that’s been nailed to the wall. It seems to be some sort of list.”
@@ -34,7 +34,7 @@ Jade: “Shh!”
 *Footsteps and voices echo in the distance.*
 Jade: “We have to go. Now!”
 Doug: “Yeah, I know!”
-*You leave the secret passage in a hurry and run a short distance away.”
+*You leave the secret passage in a hurry and run a short distance away.*
 Doug: “*pant* *pant* Whew, that was close.” 
 Jade: “No arguments here, but I don’t think we can go back in there any more.”
 Jade: “We’re lucky we managed to escape unharmed, so we really shouldn’t go back.”

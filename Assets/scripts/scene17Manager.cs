@@ -17,6 +17,14 @@ public class scene17Manager : MonoBehaviour {
 	private string [] dialogue_5_1;
 	private string [] dialogue_5_2;
 
+	private string [] emotion_1;
+	private string [] emotion_2;
+	private string [] emotion_3;
+	private string [] emotion_4_1;
+	private string [] emotion_4_2;
+	private string [] emotion_5_1;
+	private string [] emotion_5_2;
+
 	private int dialogue_1Length;
 	private int dialogue_2Length;
 	private int dialogue_3Length;
@@ -26,6 +34,10 @@ public class scene17Manager : MonoBehaviour {
 	private int dialogue_5_2Length;
 
 	private int section = 1;
+
+	public DougEmotionController DougEmo;
+	public JadeEmotionController JadeEmo;
+	public DaminaEmotionController DaminaEmo;
 
 	public Canvas sceneCanvas;
 	public Canvas decision1Canvas;
@@ -47,24 +59,31 @@ public class scene17Manager : MonoBehaviour {
 		sceneManagerScript.printCurrentKillerID();
 		
 		dialogue_1 = sceneManagerScript.readFile("Scene17_1.txt");
+		emotion_1 = sceneManagerScript.readEmotion("17_1.txt");
 		dialogue_1Length = dialogue_1.Length;
 
 		dialogue_2 = sceneManagerScript.readFile("Scene17_2.txt");
+		emotion_2 = sceneManagerScript.readEmotion("17_2.txt");
 		dialogue_2Length = dialogue_2.Length;
 
 		dialogue_3 = sceneManagerScript.readFile("Scene17_3.txt");
+		emotion_3 = sceneManagerScript.readEmotion("17_3.txt");
 		dialogue_3Length = dialogue_3.Length;
 
 		dialogue_4_1 = sceneManagerScript.readFile("Scene17_4_1.txt");
+		emotion_4_1 = sceneManagerScript.readEmotion("17_4_1.txt");
 		dialogue_4_1Length = dialogue_4_1.Length;
 
 		dialogue_4_2 = sceneManagerScript.readFile("Scene17_4_2.txt");
+		emotion_4_2 = sceneManagerScript.readEmotion("17_4_2.txt");
 		dialogue_4_2Length = dialogue_4_2.Length;
 
 		dialogue_5_1 = sceneManagerScript.readFile("Scene17_5_1.txt");
+		emotion_5_1 = sceneManagerScript.readEmotion("17_5_1.txt");
 		dialogue_5_1Length = dialogue_5_1.Length;
 
 		dialogue_5_2 = sceneManagerScript.readFile("Scene17_5_2.txt");
+		emotion_5_2 = sceneManagerScript.readEmotion("17_5_2.txt");
 		dialogue_5_2Length = dialogue_5_2.Length;
 
 		displayDialogue();

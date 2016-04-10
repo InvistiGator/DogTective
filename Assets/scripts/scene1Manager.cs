@@ -59,9 +59,9 @@ public class scene1Manager : MonoBehaviour {
 		} else if (i==iwithPhoneVibrating) {
 			audioManager.playPhoneVibrating();
 			//emoCtr1.triggerIdle();
-		} //else if(i==maxDialogueLength+1){
-		else if(i==2){
-			StartCoroutine(sceneManagerScript.FadeStuff(8));
+		} else if(i==maxDialogueLength+1){
+		//else if(i==2){
+			StartCoroutine(sceneManagerScript.FadeStuff(2));
 		}
 	}
 
@@ -245,7 +245,7 @@ public class scene1Manager : MonoBehaviour {
 				MorganEmo.isAnnoyed();
 			}
 			else if (what == 'e'){
-				MorganEmo.enter()
+				MorganEmo.enter();
 			}
 			else if (what == 'x'){
 				MorganEmo.exit();
