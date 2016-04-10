@@ -12,7 +12,8 @@ public class scene6Manager : MonoBehaviour {
 	private int iwithEvidence;
 	private int maxDialogueLength;  // defines the length of the dialogue in this scene
 	// Use this for initialization
-	// 
+	public JadeEmotionController DougEmo;
+
 	void Awake(){
 		//finds the empty gameobject associated with sceneHandler
 		SceneHandlerObj = GameObject.FindGameObjectWithTag("SceneHandlerM") as GameObject;
