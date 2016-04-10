@@ -13,9 +13,6 @@ public class DaminaEmotionController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator>();
-
-		Damina.SetActive(false);
-
 	}
 	void Update(){
 

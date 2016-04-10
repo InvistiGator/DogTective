@@ -40,6 +40,9 @@ public class scene1Manager : MonoBehaviour {
 		emotion = sceneManagerScript.readEmotion("1.txt");
 		maxDialogueLength = dialogue.Length;
 
+		DaminaEmo.exit();
+
+
 		displayDialogue();
 	}
 	
@@ -56,35 +59,11 @@ public class scene1Manager : MonoBehaviour {
 		} else if (i==iwithPhoneVibrating) {
 			audioManager.playPhoneVibrating();
 			//emoCtr1.triggerIdle();
-		} else if(i==maxDialogueLength+1){
-		//else if(i==2){
-			StartCoroutine(sceneManagerScript.FadeStuff(2));
+		} //else if(i==maxDialogueLength+1){
+		else if(i==2){
+			StartCoroutine(sceneManagerScript.FadeStuff(3));
 		}
 	}
-
-	
-	/*public void displayDialogue(){
-
-		if(i<maxDialogueLength){
-			if (!emotion[i].Equals("z")){
-				if (emotion[i][0].Equals('d')){
-					//doug
-					DougEmo.enter();
-					DougEmo.isHappy();
-				}
-				else if (emotion[i][0].Equals('c')){
-					//damina
-					DaminaEmo.triggerLaugh();
-				}
-			}
-
-			displayedDialogue_Scene1.text = dialogue[i];
-			i++;
-		}
-		else{
-			i++;
-		}			
-	}*/
 
 	public void displayDialogue(){
 		if(i<maxDialogueLength){
@@ -103,180 +82,187 @@ public class scene1Manager : MonoBehaviour {
 	public void emotionCheck(char who, char what){
 		if (who.Equals('c')){
 			if (what == 'h'){
-
+				DaminaEmo.isHappy();
 			}
 			else if (what == 'g'){
-				
+				DaminaEmo.isAngry();
 			}
 			else if (what == 's'){
-				
+				DaminaEmo.isSad();
 			}
 			else if (what == 'a'){
-				
+				DaminaEmo.isAwk();
 			}
 			else if (what == 'u'){
-				
+				DaminaEmo.isSuprised();
 			}
 			else if (what == 'o'){
-				
+				DaminaEmo.isAnnoyed();
 			}
 			else if (what == 'e'){
-				
+				DaminaEmo.enter();
 			}
 			else if (what == 'x'){
-				
+				DaminaEmo.exit();
 			}
 			else{
-				//neutral
+				DaminaEmo.isIdle();
 			}
 		}
-		else if (who.Equals('j')){
+		/*else if (who.Equals('j')){
 			if (what == 'h'){
-
+				JadeEmo.isHappy();
 			}
 			else if (what == 'g'){
-				
+				JadeEmo.isAngry();
 			}
 			else if (what == 's'){
-				
+				JadeEmo.isSad();
 			}
 			else if (what == 'a'){
-				
+				JadeEmo.isAwk();
 			}
 			else if (what == 'u'){
-				
+				JadeEmo.isSuprised();
 			}
 			else if (what == 'o'){
-				
+				JadeEmo.isAnnoyed();
 			}
 			else if (what == 'e'){
-				
+				JadeEmo.enter();
 			}
 			else if (what == 'x'){
-				
+				JadeEmo.exit();
 			}
 			else{
-				//neutral
+				JadeEmo.isIdle();
 			}
 		}
 		else if (who.Equals('n')){
 			if (what == 'h'){
-
+				NormEmo.isHappy();
 			}
 			else if (what == 'g'){
-				
+				NormEmo.isAngry();
 			}
 			else if (what == 's'){
-				
+				NormEmo.isSad();
 			}
 			else if (what == 'a'){
-				
+				NormEmo.isAwk();
 			}
 			else if (what == 'u'){
-				
+				NormEmo.isSuprised();
 			}
 			else if (what == 'o'){
-				
+				NormEmo.isAnnoyed();
 			}
 			else if (what == 'e'){
-				
+				NormEmo.enter();
 			}
 			else if (what == 'x'){
-				
+				NormEmo.exit();
 			}
 			else{
-				//neutral
+				NormEmo.isIdle();
 			}
 		}
 		else if (who.Equals('t')){
 			if (what == 'h'){
-
+				TomEmo.isHappy();
 			}
 			else if (what == 'g'){
-				
+				TomEmo.isAngry();
 			}
 			else if (what == 's'){
-				
+				TomEmo.isSad();
 			}
 			else if (what == 'a'){
-				
+				TomEmo.isAwk();
 			}
 			else if (what == 'u'){
-				
+				TomEmo.isSuprised();
 			}
 			else if (what == 'o'){
-				
+				TomEmo.isAnnoyed();
 			}
 			else if (what == 'e'){
-				
+				TomEmo.enter();
 			}
 			else if (what == 'x'){
-				
+				TomEmo.exit();
 			}
 			else{
-				//neutral
+				TomEmo.isIdle();
 			}
 		}
 		else if (who.Equals('g')){
 			if (what == 'h'){
-
+				GoldieEmo.isHappy();
 			}
 			else if (what == 'g'){
-				
+				GoldieEmo.isAngry();
 			}
 			else if (what == 's'){
-				
+				GoldieEmo.isSad();
 			}
 			else if (what == 'a'){
-				
+				GoldieEmo.isAwk();
 			}
 			else if (what == 'u'){
-				
+				GoldieEmo.isSuprised();
 			}
 			else if (what == 'o'){
-				
+				GoldieEmo.isAnnoyed();
 			}
 			else if (what == 'e'){
-				
+				GoldieEmo.enter();
 			}
 			else if (what == 'x'){
-				
+				GoldieEmo.exit();
 			}
 			else{
-				//neutral
+				GoldieEmo.isIdle();
 			}
 		}
 		else if (who.Equals('m')){
 			if (what == 'h'){
-
+				MorganEmo.isHappy();
 			}
 			else if (what == 'g'){
-				
+				MorganEmo.isAngry();
 			}
 			else if (what == 's'){
-				
+				MorganEmo.isSad();
 			}
 			else if (what == 'a'){
-				
+				MorganEmo.isAwk();
 			}
 			else if (what == 'u'){
-				
+				MorganEmo.isSuprised();
 			}
 			else if (what == 'o'){
-				
+				MorganEmo.isAnnoyed();
 			}
 			else if (what == 'e'){
-				
+				MorganEmo.enter()
 			}
 			else if (what == 'x'){
-				
+				MorganEmo.exit();
 			}
 			else{
-				//neutral
+				MorganEmo.isIdle();
 			}
 		}
 		else if (who.Equals('a')){
-		}
+			DougEmo.exit();
+			JadeEmo.exit();
+			NormEmo.exit();
+			DaminaEmo.exit();
+			TomEmo.exit();
+			GoldieEmo.exit();
+			MorganEmo.exit();
+		}*/
 		else{
 			//doug
 			if (what == 'h'){
@@ -298,10 +284,10 @@ public class scene1Manager : MonoBehaviour {
 				DougEmo.isAnnoyed();
 			}
 			else if (what == 'e'){
-
+				DougEmo.enter();
 			}
 			else if (what == 'x'){
-
+				DougEmo.exit();
 			}
 			else{
 				DougEmo.isIdle();
