@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Damina\DaminaEmotionController.cs" />
+     <Compile Include="Assets\Goldie\GoldieEmotionController.cs" />
      <Compile Include="Assets\TESTThirdPersonUserControl.cs" />
      <Compile Include="Assets\audio2Script.cs" />
      <Compile Include="Assets\bloodCanvasAudioScript.cs" />

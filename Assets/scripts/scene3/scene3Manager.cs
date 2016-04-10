@@ -23,6 +23,9 @@ public class scene3Manager : MonoBehaviour {
 
 	private int section = 1;
 
+	public DougEmotionController DougEmo;
+	public GoldieEmotionController DGoldieEmo;
+
 	// Use this for initialization
 	// 
 	void Awake(){
