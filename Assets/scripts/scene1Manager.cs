@@ -22,6 +22,7 @@ public class scene1Manager : MonoBehaviour {
 	
 	public DougEmotionController DougEmo;
 	public DaminaEmotionController DaminaEmo;
+
 	// Use this for initialization
 	// 
 	void Awake(){
@@ -68,6 +69,7 @@ public class scene1Manager : MonoBehaviour {
 			if (!emotion[i].Equals("z")){
 				if (emotion[i][0].Equals('d')){
 					//doug
+					DougEmo.enter();
 					DougEmo.isHappy();
 				}
 				else if (emotion[i][0].Equals('c')){

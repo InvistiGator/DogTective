@@ -8,9 +8,14 @@ using UnityStandardAssets.CrossPlatformInput;
 public class DougEmotionController : MonoBehaviour {
 
 	static Animator anim;
+	public GameObject Doug;
+
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator>();
+
+		Doug.SetActive(true);
+
 	}
 	void Update(){
 
@@ -35,5 +40,11 @@ public class DougEmotionController : MonoBehaviour {
 	}
 	public void isAngry(){
 		anim.SetTrigger("isAngry");
+	}
+	public void enter(){
+		Doug.SetActive(true);
+	}
+	public void exit(){
+		Doug.SetActive(false);
 	}
 }
