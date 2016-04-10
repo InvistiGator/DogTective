@@ -61,7 +61,7 @@ public class scene1Manager : MonoBehaviour {
 			//emoCtr1.triggerIdle();
 		} //else if(i==maxDialogueLength+1){
 		else if(i==2){
-			StartCoroutine(sceneManagerScript.FadeStuff(3));
+			StartCoroutine(sceneManagerScript.FadeStuff(8));
 		}
 	}
 
@@ -94,7 +94,7 @@ public class scene1Manager : MonoBehaviour {
 				DaminaEmo.isAwk();
 			}
 			else if (what == 'u'){
-				DaminaEmo.isSuprised();
+				DaminaEmo.isSurprised();
 			}
 			else if (what == 'o'){
 				DaminaEmo.isAnnoyed();
@@ -123,7 +123,7 @@ public class scene1Manager : MonoBehaviour {
 				JadeEmo.isAwk();
 			}
 			else if (what == 'u'){
-				JadeEmo.isSuprised();
+				JadeEmo.isSurprised();
 			}
 			else if (what == 'o'){
 				JadeEmo.isAnnoyed();
@@ -152,7 +152,7 @@ public class scene1Manager : MonoBehaviour {
 				NormEmo.isAwk();
 			}
 			else if (what == 'u'){
-				NormEmo.isSuprised();
+				NormEmo.isSurprised();
 			}
 			else if (what == 'o'){
 				NormEmo.isAnnoyed();
@@ -181,7 +181,7 @@ public class scene1Manager : MonoBehaviour {
 				TomEmo.isAwk();
 			}
 			else if (what == 'u'){
-				TomEmo.isSuprised();
+				TomEmo.isSurprised();
 			}
 			else if (what == 'o'){
 				TomEmo.isAnnoyed();
@@ -210,7 +210,7 @@ public class scene1Manager : MonoBehaviour {
 				GoldieEmo.isAwk();
 			}
 			else if (what == 'u'){
-				GoldieEmo.isSuprised();
+				GoldieEmo.isSurprised();
 			}
 			else if (what == 'o'){
 				GoldieEmo.isAnnoyed();
@@ -239,7 +239,7 @@ public class scene1Manager : MonoBehaviour {
 				MorganEmo.isAwk();
 			}
 			else if (what == 'u'){
-				MorganEmo.isSuprised();
+				MorganEmo.isSurprised();
 			}
 			else if (what == 'o'){
 				MorganEmo.isAnnoyed();
@@ -278,7 +278,7 @@ public class scene1Manager : MonoBehaviour {
 				DougEmo.isAwk();
 			}
 			else if (what == 'u'){
-				DougEmo.isSuprised();
+				DougEmo.isSurprised();
 			}
 			else if (what == 'o'){
 				DougEmo.isAnnoyed();

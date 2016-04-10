@@ -20,7 +20,7 @@ public class DaminaEmotionController : MonoBehaviour {
 	public void isIdle(){
 		anim.SetTrigger("isIdle"); 
 	}
-	public void isSuprised(){
+	public void isSurprised(){
 		anim.SetTrigger("isSuprised");
 	}
 	public void isSad(){

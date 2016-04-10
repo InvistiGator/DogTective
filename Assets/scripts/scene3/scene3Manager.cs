@@ -177,7 +177,7 @@ public class scene3Manager : MonoBehaviour {
 				GoldieEmo.isAwk();
 			}
 			else if (what == 'u'){
-				GoldieEmo.isSuprised();
+				GoldieEmo.isSurprised();
 			}
 			else if (what == 'o'){
 				GoldieEmo.isAnnoyed();
@@ -207,7 +207,7 @@ public class scene3Manager : MonoBehaviour {
 				DougEmo.isAwk();
 			}
 			else if (what == 'u'){
-				DougEmo.isSuprised();
+				DougEmo.isSurprised();
 			}
 			else if (what == 'o'){
 				DougEmo.isAnnoyed();
