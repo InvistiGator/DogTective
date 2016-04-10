@@ -63,7 +63,7 @@ public class scene1Manager : MonoBehaviour {
 	}
 
 	
-	public void displayDialogue(){
+	/*public void displayDialogue(){
 
 		if(i<maxDialogueLength){
 			if (!emotion[i].Equals("z")){
@@ -84,6 +84,229 @@ public class scene1Manager : MonoBehaviour {
 		else{
 			i++;
 		}			
+	}*/
+
+	public void displayDialogue(){
+		if(i<maxDialogueLength){
+			if (!emotion[i].Equals("z")){
+				emotionCheck(emotion[i][0], emotion[i][1]);
+			}
+
+			displayedDialogue_Scene1.text = dialogue[i];
+			i++;
+		}
+		else{
+			i++;
+		}			
+	}
+
+	public void emotionCheck(char who, char what){
+		if (who.Equals('c')){
+			if (what == 'h'){
+
+			}
+			else if (what == 'g'){
+				
+			}
+			else if (what == 's'){
+				
+			}
+			else if (what == 'a'){
+				
+			}
+			else if (what == 'u'){
+				
+			}
+			else if (what == 'o'){
+				
+			}
+			else if (what == 'e'){
+				
+			}
+			else if (what == 'x'){
+				
+			}
+			else{
+				//neutral
+			}
+		}
+		else if (who.Equals('j')){
+			if (what == 'h'){
+
+			}
+			else if (what == 'g'){
+				
+			}
+			else if (what == 's'){
+				
+			}
+			else if (what == 'a'){
+				
+			}
+			else if (what == 'u'){
+				
+			}
+			else if (what == 'o'){
+				
+			}
+			else if (what == 'e'){
+				
+			}
+			else if (what == 'x'){
+				
+			}
+			else{
+				//neutral
+			}
+		}
+		else if (who.Equals('n')){
+			if (what == 'h'){
+
+			}
+			else if (what == 'g'){
+				
+			}
+			else if (what == 's'){
+				
+			}
+			else if (what == 'a'){
+				
+			}
+			else if (what == 'u'){
+				
+			}
+			else if (what == 'o'){
+				
+			}
+			else if (what == 'e'){
+				
+			}
+			else if (what == 'x'){
+				
+			}
+			else{
+				//neutral
+			}
+		}
+		else if (who.Equals('t')){
+			if (what == 'h'){
+
+			}
+			else if (what == 'g'){
+				
+			}
+			else if (what == 's'){
+				
+			}
+			else if (what == 'a'){
+				
+			}
+			else if (what == 'u'){
+				
+			}
+			else if (what == 'o'){
+				
+			}
+			else if (what == 'e'){
+				
+			}
+			else if (what == 'x'){
+				
+			}
+			else{
+				//neutral
+			}
+		}
+		else if (who.Equals('g')){
+			if (what == 'h'){
+
+			}
+			else if (what == 'g'){
+				
+			}
+			else if (what == 's'){
+				
+			}
+			else if (what == 'a'){
+				
+			}
+			else if (what == 'u'){
+				
+			}
+			else if (what == 'o'){
+				
+			}
+			else if (what == 'e'){
+				
+			}
+			else if (what == 'x'){
+				
+			}
+			else{
+				//neutral
+			}
+		}
+		else if (who.Equals('m')){
+			if (what == 'h'){
+
+			}
+			else if (what == 'g'){
+				
+			}
+			else if (what == 's'){
+				
+			}
+			else if (what == 'a'){
+				
+			}
+			else if (what == 'u'){
+				
+			}
+			else if (what == 'o'){
+				
+			}
+			else if (what == 'e'){
+				
+			}
+			else if (what == 'x'){
+				
+			}
+			else{
+				//neutral
+			}
+		}
+		else if (who.Equals('a')){
+		}
+		else{
+			//doug
+			if (what == 'h'){
+				DougEmo.isHappy();
+			}
+			else if (what == 'g'){
+				DougEmo.isAngry();
+			}
+			else if (what == 's'){
+				DougEmo.isSad();
+			}
+			else if (what == 'a'){
+				DougEmo.isAwk();
+			}
+			else if (what == 'u'){
+				DougEmo.isSuprised();
+			}
+			else if (what == 'o'){
+				DougEmo.isAnnoyed();
+			}
+			else if (what == 'e'){
+
+			}
+			else if (what == 'x'){
+
+			}
+			else{
+				DougEmo.isIdle();
+			}
+		}
 	}
 
 }
