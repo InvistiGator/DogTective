@@ -90,14 +90,26 @@ public class scene36Manager : MonoBehaviour {
 	
 	public void displayDialogue(){
 		if(section == 1 && i < dialogue_1Length){
+			if (!emotion_1[i].Equals("z")){
+				emotionCheck(emotion_1[i][0], emotion_1[i][1]);
+			}
+
 			displayedDialogue.text = dialogue_1[i];
 			i++;
 		}
 		else if(section == 2 && i < dialogue_2Length){
+			if (!emotion_2[i].Equals("z")){
+				emotionCheck(emotion_2[i][0], emotion_2[i][1]);
+			}
+
 			displayedDialogue.text = dialogue_2[i];
 			i++;
 		}
 		else if(section == 3 && i < dialogue_3Length){
+			if (!emotion_3[i].Equals("z")){
+				emotionCheck(emotion_3[i][0], emotion_3[i][1]);
+			}
+
 			displayedDialogue.text = dialogue_3[i];
 			i++;
 		}
@@ -112,6 +124,68 @@ public class scene36Manager : MonoBehaviour {
 
 	public void decision2(){
 		StartCoroutine(sceneManagerScript.FadeStuff(38));
+	}
+
+	public void emotionCheck(char who, char what){
+		if (who.Equals('j')){
+			if (what == 'h'){
+				JadeEmo.isHappy();
+			}
+			else if (what == 'g'){
+				JadeEmo.isAngry();
+			}
+			else if (what == 's'){
+				JadeEmo.isSad();
+			}
+			else if (what == 'a'){
+				JadeEmo.isAwk();
+			}
+			else if (what == 'u'){
+				JadeEmo.isSurprised();
+			}
+			else if (what == 'o'){
+				JadeEmo.isAnnoyed();
+			}
+			else if (what == 'e'){
+				JadeEmo.enter();
+			}
+			else if (what == 'x'){
+				JadeEmo.exit();
+			}
+			else{
+				JadeEmo.isIdle();
+			}
+		}
+		else{
+			//doug
+			if (what == 'h'){
+				DougEmo.isHappy();
+			}
+			else if (what == 'g'){
+				DougEmo.isAngry();
+			}
+			else if (what == 's'){
+				DougEmo.isSad();
+			}
+			else if (what == 'a'){
+				DougEmo.isAwk();
+			}
+			else if (what == 'u'){
+				DougEmo.isSurprised();
+			}
+			else if (what == 'o'){
+				DougEmo.isAnnoyed();
+			}
+			else if (what == 'e'){
+				DougEmo.enter();
+			}
+			else if (what == 'x'){
+				DougEmo.exit();
+			}
+			else{
+				DougEmo.isIdle();
+			}
+		}
 	}
 
 }

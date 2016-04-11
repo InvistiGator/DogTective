@@ -9,9 +9,13 @@ public class scene43Manager : MonoBehaviour {
 	public audio43Script audioManager;
 	public Text displayedDialogue_Scene43 =  null;
 	private string [] dialogue; 
+	private string [] emotion;
 	private int i= 0; // a counter to iterater thru conversations, and set important convo indexes
 	private int iwithEvidence;
 	private int maxDialogueLength;  // defines the length of the dialogue in this scene
+
+	public DougEmotionController DougEmo;
+	public JadeEmotionController JadeEmo;
 
 	public Canvas sceneCanvas;
 	public Canvas decision1Canvas;
@@ -28,6 +32,7 @@ public class scene43Manager : MonoBehaviour {
 		scene43ManagerScript.setUserVisited(43);
 		scene43ManagerScript.printCurrentKillerID();
 		dialogue = scene43ManagerScript.readFile("Scene43.txt");
+		emotion = scene43ManagerScript.readEmotion("43.txt");
 		maxDialogueLength = dialogue.Length;
 
 		displayDialogue();
@@ -50,6 +55,10 @@ public class scene43Manager : MonoBehaviour {
 	
 	public void displayDialogue(){
 		if(i<maxDialogueLength){
+			if (!emotion[i].Equals("z")){
+				emotionCheck(emotion[i][0], emotion[i][1]);
+			}
+
 			if (i==33) {
 				audioManager.playDecisionPrompt();
 			}
@@ -70,6 +79,68 @@ public class scene43Manager : MonoBehaviour {
 	public void decision2(){
 		audioManager.playDecisionRes();
 		StartCoroutine(scene43ManagerScript.FadeStuff(47));
+	}
+
+	public void emotionCheck(char who, char what){
+		if (who.Equals('j')){
+			if (what == 'h'){
+				JadeEmo.isHappy();
+			}
+			else if (what == 'g'){
+				JadeEmo.isAngry();
+			}
+			else if (what == 's'){
+				JadeEmo.isSad();
+			}
+			else if (what == 'a'){
+				JadeEmo.isAwk();
+			}
+			else if (what == 'u'){
+				JadeEmo.isSurprised();
+			}
+			else if (what == 'o'){
+				JadeEmo.isAnnoyed();
+			}
+			else if (what == 'e'){
+				JadeEmo.enter();
+			}
+			else if (what == 'x'){
+				JadeEmo.exit();
+			}
+			else{
+				JadeEmo.isIdle();
+			}
+		}
+		else{
+			//doug
+			if (what == 'h'){
+				DougEmo.isHappy();
+			}
+			else if (what == 'g'){
+				DougEmo.isAngry();
+			}
+			else if (what == 's'){
+				DougEmo.isSad();
+			}
+			else if (what == 'a'){
+				DougEmo.isAwk();
+			}
+			else if (what == 'u'){
+				DougEmo.isSurprised();
+			}
+			else if (what == 'o'){
+				DougEmo.isAnnoyed();
+			}
+			else if (what == 'e'){
+				DougEmo.enter();
+			}
+			else if (what == 'x'){
+				DougEmo.exit();
+			}
+			else{
+				DougEmo.isIdle();
+			}
+		}
 	}
 
 }
