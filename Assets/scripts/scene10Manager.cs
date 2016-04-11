@@ -10,7 +10,9 @@ public class scene10Manager : MonoBehaviour {
 	public Text displayedDialogue_Scene10 =  null;
 	public Canvas scene10Canvas;
 	public Canvas decisionCanvas;
+
 	public SpriteRenderer bar5;
+	
 	private string [] dialogue_1;
 	private string [] dialogue_2_1;
 	private string [] dialogue_2_2;

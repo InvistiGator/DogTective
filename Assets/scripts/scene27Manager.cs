@@ -12,10 +12,17 @@ public class scene27Manager : MonoBehaviour {
 	private string [] dialogue_1;
 	private string [] dialogue_2;
 
+	private string [] emotion_1;
+	private string [] emotion_2;
+
 	private int dialogue_1Length;
 	private int dialogue_2Length;
 
 	private int section = 1;
+
+	public DougEmotionController DougEmo;
+	public JadeEmotionController JadeEmo;
+
 
 	private int i = 0; // a counter to iterater thru conversations, and set important convo indexes
 	private int iwithEvidence;
@@ -33,9 +40,11 @@ public class scene27Manager : MonoBehaviour {
 		sceneManagerScript.printCurrentKillerID();
 		
 		dialogue_1 = sceneManagerScript.readFile("Scene27_1.txt");
+		emotion_1 = sceneManagerScript.readEmotion("27_1.txt");
 		dialogue_1Length = dialogue_1.Length;
 
 		dialogue_2 = sceneManagerScript.readFile("Scene27_2.txt");
+		emotion_2 = sceneManagerScript.readEmotion("27_2.txt");
 		dialogue_2Length = dialogue_2.Length;
 
 		displayDialogue();
@@ -62,6 +71,10 @@ public class scene27Manager : MonoBehaviour {
 	
 	public void displayDialogue(){
 		if(section == 1 && i < dialogue_1Length){
+			if (!emotion_1[i].Equals("z")){
+				emotionCheck(emotion_1[i][0], emotion_1[i][1]);
+			}
+
 			if (i==18) {
 				audioManager.playTyping();
 			}
@@ -69,11 +82,77 @@ public class scene27Manager : MonoBehaviour {
 			i++;
 		}
 		else if(section == 2 && i < dialogue_2Length){
+			if (!emotion_2[i].Equals("z")){
+				emotionCheck(emotion_2[i][0], emotion_2[i][1]);
+			}
+
 			displayedDialogue.text = dialogue_2[i];
 			i++;
 		}
 		else{
 			i++;
 		}		
+	}
+
+		public void emotionCheck(char who, char what){
+		if (who.Equals('j')){
+			if (what == 'h'){
+				JadeEmo.isHappy();
+			}
+			else if (what == 'g'){
+				JadeEmo.isAngry();
+			}
+			else if (what == 's'){
+				JadeEmo.isSad();
+			}
+			else if (what == 'a'){
+				JadeEmo.isAwk();
+			}
+			else if (what == 'u'){
+				JadeEmo.isSurprised();
+			}
+			else if (what == 'o'){
+				JadeEmo.isAnnoyed();
+			}
+			else if (what == 'e'){
+				JadeEmo.enter();
+			}
+			else if (what == 'x'){
+				JadeEmo.exit();
+			}
+			else{
+				JadeEmo.isIdle();
+			}
+		}
+		else{
+			//doug
+			if (what == 'h'){
+				DougEmo.isHappy();
+			}
+			else if (what == 'g'){
+				DougEmo.isAngry();
+			}
+			else if (what == 's'){
+				DougEmo.isSad();
+			}
+			else if (what == 'a'){
+				DougEmo.isAwk();
+			}
+			else if (what == 'u'){
+				DougEmo.isSurprised();
+			}
+			else if (what == 'o'){
+				DougEmo.isAnnoyed();
+			}
+			else if (what == 'e'){
+				DougEmo.enter();
+			}
+			else if (what == 'x'){
+				DougEmo.exit();
+			}
+			else{
+				DougEmo.isIdle();
+			}
+		}
 	}
 }
