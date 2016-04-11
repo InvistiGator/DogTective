@@ -74,7 +74,9 @@
     <Compile Include="Assets\Goldie\GoldieEmotionController.cs" />
     <Compile Include="Assets\Jade\JadeEmotionController.cs" />
     <Compile Include="Assets\Morgan\MorganEmotionController.cs" />
+    <Compile Include="Assets\Norm\NormEmotionController.cs" />
     <Compile Include="Assets\TESTThirdPersonUserControl.cs" />
+    <Compile Include="Assets\Tom\TomEmotionController.cs" />
     <Compile Include="Assets\audio2Script.cs" />
     <Compile Include="Assets\bloodCanvasAudioScript.cs" />
     <Compile Include="Assets\scripts\DaminaFlavorManager.cs" />
