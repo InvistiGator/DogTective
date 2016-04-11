@@ -23,6 +23,8 @@ public class scene7Manager : MonoBehaviour {
 	public GameObject whiteFur;
 	public GameObject pipe;
 
+	public GameObject NormBody;
+
 	public bool [] stageInThisScene;
 
 	public int initConvoLength;
@@ -197,6 +199,7 @@ public class scene7Manager : MonoBehaviour {
 			//maxEvidenceNum = 4;
 		}
 		else if(sceneManagerScript.killerID == 2){//if Norm is killer
+			NormBody.SetActive(false);
 			newspaperClipping.SetActive(true);
 			letterOpener.SetActive(true);
 			maxEvidenceNum = 2;
@@ -204,6 +207,7 @@ public class scene7Manager : MonoBehaviour {
 		}
 		else if(sceneManagerScript.killerID == 3){//if Damina is killer
 			//no body and long white fur
+			sceneManagerScript.setEvidenceCollected3D("reBody");
 			reBody.SetActive(true);
 			paperSmearedWithChocolate.SetActive(true);
 			maxEvidenceNum = 2;
@@ -234,7 +238,7 @@ public class scene7Manager : MonoBehaviour {
 	public void setUpInitConvo(){
 		//if norm is the Culprit 
 		if(sceneManagerScript.killerID == 2){
-			initConvo =  sceneManagerScript.readFile("Assets/Dialogue/Scene7/Scene7_1_1.txt");
+			initConvo =  sceneManagerScript.readFile("Scene7_1_1.txt");
 			initConvoLength = initConvo.Length;
 			for(int i=0;i<initConvoLength;i++){
 				Debug.Log(initConvo[i]);
@@ -243,7 +247,7 @@ public class scene7Manager : MonoBehaviour {
 		}
 		//if Damina is the Culprit 
 		else if(sceneManagerScript.killerID == 3){
-			initConvo =  sceneManagerScript.readFile("Assets/Dialogue/Scene7/Scene7_1_2.txt");
+			initConvo =  sceneManagerScript.readFile("Scene7_1_2.txt");
 			initConvoLength = initConvo.Length;
 			for(int i=0;i<initConvoLength;i++){
 				Debug.Log(initConvo[i]);
@@ -270,13 +274,13 @@ public class scene7Manager : MonoBehaviour {
 
 	public void setUpMidConvo(){
 		if(sceneManagerScript.lookForEvidence("blood")){
-			midConvo = sceneManagerScript.readFile("Assets/Dialogue/Scene7/Scene7_2_1.txt");
+			midConvo = sceneManagerScript.readFile("Scene7_2_1.txt");
 			midConvoLength = midConvo.Length;
 			Debug.Log(midConvo);
 
 		}
 		else{
-			midConvo = sceneManagerScript.readFile("Assets/Dialogue/Scene7/Scene7_2_2.txt");
+			midConvo = sceneManagerScript.readFile("Scene7_2_2.txt");
 			midConvoLength = midConvo.Length;
 		}
 	}
@@ -287,7 +291,7 @@ public class scene7Manager : MonoBehaviour {
 		}
 	}
 	public void setUpEndConvo(){
-		endConvo = sceneManagerScript.readFile("Assets/Dialogue/Scene7/Scene7_3.txt");
+		endConvo = sceneManagerScript.readFile("Scene7_3.txt");
 		endConvoLength = endConvo.Length;
 		Debug.Log(endConvo);
 	}
