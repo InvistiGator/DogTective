@@ -101,19 +101,20 @@ public class DougControls : MonoBehaviour {
                     
                     scene2ManagerObj.walkedUpToCount++;
                    
+                   /*
                     if(evidence.gameObject.name == "blood" && scene2ManagerObj.allEvidenceCollectd() ){
                         scene2ManagerObj.turnOffCongratsGUI();
                         scene2ManagerObj.displayGUI = true; 
                         scene2ManagerObj.displayDialogue();
                     }
-
+                    
                     else if(evidence.gameObject.name == "blood"){
                         //pull up GUI for blood
                         scene2ManagerObj.turnOffCongratsGUI();
                         scene2ManagerObj.displayGUI = true; 
                         scene2ManagerObj.displayDialogue();
                     }
-                    
+                    */
                     if(scene2ManagerObj.allEvidenceCollectd()){
                         scene2ManagerObj.turnOffCongratsGUI();
                         scene2ManagerObj.displayDialogue();
