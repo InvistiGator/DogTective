@@ -208,9 +208,10 @@ public class scene7Manager : MonoBehaviour {
 		else if(sceneManagerScript.killerID == 3){//if Damina is killer
 			//no body and long white fur
 			sceneManagerScript.setEvidenceCollected3D("reBody");
+
 			reBody.SetActive(true);
 			paperSmearedWithChocolate.SetActive(true);
-			maxEvidenceNum = 2;
+			maxEvidenceNum = 1;
 			//maxEvidenceNum = 4;
 		}
 		else if(sceneManagerScript.killerID == 4){//if Tom is killer
