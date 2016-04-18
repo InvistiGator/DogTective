@@ -61,7 +61,7 @@ public class scene1Manager : MonoBehaviour {
 			//emoCtr1.triggerIdle();
 		} else if(i==maxDialogueLength+1){
 		//else if(i==2){
-			StartCoroutine(sceneManagerScript.FadeStuff(7));
+			StartCoroutine(sceneManagerScript.FadeStuff(2));
 		}
 	}
 
